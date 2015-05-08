@@ -1,0 +1,35 @@
+#
+# First Encounter (Version 04.10-p003_1)
+#
+# DESIGN:      FIR
+# DATE:        Fri Dec 13 14:17:56 2013
+#
+#
+
+
+
+#
+# RouteTypeName Section
+#
+RouteTypeName		CK1
+TopPreferredLayer      5
+BottomPreferredLayer   4
+PreferredExtraSpace    1
+End
+
+
+#
+#Clock Section
+#
+ClockNetName   CLK
+DetailReport   NO
+PadBufAfterGate     NO
+LevelNumber    3
+LevelSpec      1 2 CLKBUFX1
+LevelSpec      2 3 CLKBUFX4
+LevelSpec      3 20 CLKBUFX8
+END
+
+
+
+

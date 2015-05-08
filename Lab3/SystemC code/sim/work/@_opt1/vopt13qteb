@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/isa4/Desktop/lab3/sim
+T_opt
+Z1 VIMoCG?:FKh5RDb[<CXic;0
+Z2 04 7 0 work tb_acs4 0
+Z3 =1-000c29c28412-52d8fd78-b077f-1f92
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 V0IT>?WJY9_9g?]QK6Mg5z0
+R2
+Z8 =1-000c29c28412-52d9c4b6-3686d-601b
+R4
+Z9 n@_opt1
+R6
+vacs
+Z10 I^<Zo6OD;GOXgN08QQ=V6P2
+Z11 VizREf1<cj8H`FnmMmTi;I2
+Z12 w1387061866
+Z13 8../ctos/acs.v
+Z14 F../ctos/acs.v
+L0 3
+Z15 OL;L;6.5c;42
+r1
+31
+Z16 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z17 !s100 YFo:`3]TV<k03SzX`5jA`1
+!s85 0
+vacs4
+Z18 IO[HG]cH<>ZfnIWLkbkJF@3
+Z19 V>b60fWNWmWVC1Fd0P4X[60
+Z20 w1326795966
+Z21 8../ctos/acs4.v
+Z22 F../ctos/acs4.v
+L0 3
+R15
+r1
+31
+R16
+Z23 !s100 ^RX=;C_T=U4iLYb7EjkJ>3
+!s85 0
+stb_acs4

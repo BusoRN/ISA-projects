@@ -1,0 +1,122 @@
+/home/isa4/Desktop/Lab1/src/mult.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/mult.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity mult
+-- Compiling architecture behavior of mult
+
+} {} {}} /home/isa4/Desktop/Lab1/src/ShiftIN_bit.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/ShiftIN_bit.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity shiftin_bit
+-- Compiling architecture a of shiftin_bit
+-- Loading package numeric_std
+-- Compiling entity reg_bit
+-- Compiling architecture behavior of reg_bit
+
+} {} {}} /home/isa4/Desktop/Lab1/tb/data_sink.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/tb/data_sink.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity data_sink
+-- Compiling architecture beh of data_sink
+
+} {} {}} /home/isa4/Desktop/Lab1/src/ShiftIN.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/ShiftIN.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package package_vett_reg
+-- Compiling entity shiftin
+-- Compiling architecture a of shiftin
+-- Compiling entity reg
+-- Compiling architecture behavior of reg
+
+} {} {}} /home/isa4/Desktop/Lab1/src/SHIFT.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/SHIFT.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package package_vett_reg
+-- Compiling entity shift
+-- Compiling architecture a of shift
+
+} {} {}} /home/isa4/Desktop/Lab1/tb/tb_fir.v {0 {vlog -work work -vopt /home/isa4/Desktop/Lab1/tb/tb_fir.v
+Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+-- Compiling module tb_fir
+** Error: /home/isa4/Desktop/Lab1/tb/tb_fir.v(71): near "end": syntax error, unexpected "end"
+
+} {4.0 5.0} {}} /home/isa4/Desktop/Lab1/src/mux.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/mux.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity mux
+-- Compiling architecture behavior of mux
+
+} {} {}} /home/isa4/Desktop/Lab1/src/package_vett_reg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/package_vett_reg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling package package_vett_reg
+-- Compiling package body package_vett_reg
+-- Loading package package_vett_reg
+
+} {} {}} /home/isa4/Desktop/Lab1/src/reg_pipe.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/reg_pipe.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity reg_pipe
+-- Compiling architecture behavior of reg_pipe
+
+} {} {}} /home/isa4/Desktop/Lab1/tb/data_maker.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/tb/data_maker.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package math_real
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity data_maker
+-- Compiling architecture beh of data_maker
+
+} {} {}} /home/isa4/Desktop/Lab1/src/adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/adder.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity adder
+-- Compiling architecture behavior of adder
+
+} {} {}} /home/isa4/Desktop/Lab1/tb/clk_gen.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/tb/clk_gen.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity clk_gen
+-- Compiling architecture beh of clk_gen
+
+} {} {}} /home/isa4/Desktop/Lab1/src/FIR.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa4/Desktop/Lab1/src/FIR.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package package_vett_reg
+-- Compiling entity fir
+-- Compiling architecture a of fir
+
+} {} {}}

@@ -1,0 +1,25 @@
+analyze -f vhdl -lib WORK ../src/adder.vhd
+analyze -f vhdl -lib WORK ../src/mult.vhd
+analyze -f vhdl -lib WORK ../src/mux.vhd
+analyze -f vhdl -lib WORK ../src/package_vett_reg.vhd
+analyze -f vhdl -lib WORK ../src/reg_pipe.vhd
+analyze -f vhdl -lib WORK ../src/ShiftIN_bit.vhd
+analyze -f vhdl -lib WORK ../src/ShiftIN.vhd
+analyze -f vhdl -lib WORK ../src/SHIFT.vhd
+analyze -f vhdl -lib WORK ../src/FIR.vhd
+set_ultra_optimization true
+set power_preserve_rtl_hier_names true
+elaborate FIR -lib WORK > ./elaborate.txt
+uniquify
+link
+create_clock -name MYCLK -period 10.0 CLK
+set_dont_touch_network MYCLK
+set_clock_uncertainty 0.07 [get_clocks MYCLK]
+set_input_delay 0.5 -max -clock MYCLK [remove_from_collection [all_inputs] CLK]
+set OLOAD [load_of fast/BUFX4/A]
+set_load $OLOAD [all_outputs]
+set_wire_load_model -name tsmc090_wl40
+compile_ultra
+report_timing > rep_timing10ns.txt
+report_area > rep_area1.txt
+

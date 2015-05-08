@@ -1,0 +1,112 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : toplevel
+Version: Z-2007.03-SP1
+Date   : Mon Jan  6 11:42:17 2014
+****************************************
+
+Operating Conditions: fast   Library: fast
+Wire Load Model Mode: top
+
+  Startpoint: fu_ALU/opc1reg_reg[1]
+              (rising edge-triggered flip-flop clocked by MYCLK)
+  Endpoint: fu_LIFTING/reg_out_reg[31]
+            (rising edge-triggered flip-flop clocked by MYCLK)
+  Path Group: MYCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  toplevel           tsmc090_wl40          fast
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MYCLK (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  fu_ALU/opc1reg_reg[1]/CK (DFFRHQX8)                     0.00       0.00 r
+  fu_ALU/opc1reg_reg[1]/Q (DFFRHQX8)                      0.20       0.20 r
+  U2139/Y (INVX4)                                         0.14       0.35 f
+  U2206/Y (OR3X2)                                         0.18       0.53 f
+  U1972/Y (NOR2X2)                                        0.19       0.72 r
+  U1339/Y (CLKBUFX6)                                      0.26       0.98 r
+  fu_ALU/fu_arch/U653/Y (CLKNAND2X12)                     0.29       1.27 f
+  fu_ALU/fu_arch/U652/Y (INVX6)                           0.22       1.49 r
+  fu_ALU/fu_arch/U651/Y (NAND2X5)                         0.20       1.69 f
+  U1505/Y (INVX10)                                        0.29       1.98 r
+  fu_ALU/fu_arch/U135/Y (AOI22X2)                         0.13       2.11 f
+  fu_ALU/fu_arch/U134/Y (OAI21X1)                         0.17       2.28 r
+  fu_ALU/fu_arch/U133/Y (AOI211X4)                        0.04       2.32 f
+  fu_ALU/fu_arch/U124/Y (OAI211X2)                        0.13       2.45 r
+  U700/Y (AOI221X4)                                       0.07       2.52 f
+  U1496/Y (AND4X2)                                        0.12       2.64 f
+  U1457/Y (INVX8)                                         0.23       2.86 r
+  fu_LIFTING/in1[2] (lifting_busw32)                      0.00       2.86 r
+  fu_LIFTING/U115/Y (MX2X8)                               0.23       3.09 r
+  fu_LIFTING/U73/Y (INVX4)                                0.15       3.24 f
+  fu_LIFTING/U31/Y (AND2X2)                               0.13       3.36 f
+  fu_LIFTING/U172/Y (NAND2X2)                             0.11       3.47 r
+  fu_LIFTING/U365/Y (NAND2X2)                             0.18       3.65 f
+  fu_LIFTING/U437/Y (AOI222X4)                            0.25       3.91 r
+  fu_LIFTING/U438/Y (AOI222X4)                            0.13       4.03 f
+  fu_LIFTING/U324/Y (OAI21X1)                             0.26       4.30 r
+  fu_LIFTING/U439/Y (OAI2BB1X4)                           0.06       4.36 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U25/CO (ADDFX1)     0.18       4.54 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U24/CO (ADDFX1)     0.19       4.73 f
+  fu_LIFTING/U444/CO (ADDFX1)                             0.19       4.92 f
+  fu_LIFTING/U443/CO (ADDFX1)                             0.19       5.11 f
+  fu_LIFTING/U142/CO (ADDFX2)                             0.15       5.27 f
+  fu_LIFTING/U101/CO (ADDFX2)                             0.14       5.40 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U19/CO (ADDFX1)     0.18       5.58 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U18/CO (ADDFX1)     0.19       5.77 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U17/CO (ADDFX1)     0.19       5.96 f
+  fu_LIFTING/U95/CO (ADDFX2)                              0.15       6.11 f
+  fu_LIFTING/U94/CO (ADDFX2)                              0.14       6.25 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U14/CO (ADDFX1)     0.18       6.42 f
+  fu_LIFTING/U442/CO (ADDFX1)                             0.19       6.61 f
+  fu_LIFTING/U441/CO (ADDFX1)                             0.19       6.80 f
+  fu_LIFTING/U440/CO (ADDFX1)                             0.19       6.99 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U10/CO (ADDFX1)     0.19       7.18 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U9/CO (ADDFX1)      0.19       7.37 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U8/CO (ADDFX2)      0.15       7.52 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U7/CO (ADDFX2)      0.14       7.66 f
+  fu_LIFTING/U195/CO (ADDFX4)                             0.12       7.78 f
+  fu_LIFTING/U18/CO (ADDFX2)                              0.13       7.92 f
+  fu_LIFTING/mult_96_DP_OP_281_6650_6/U4/CO (ADDFX4)      0.12       8.04 f
+  fu_LIFTING/U20/CO (ADDFX2)                              0.13       8.17 f
+  fu_LIFTING/U42/Y (CLKXOR2X4)                            0.10       8.27 f
+  fu_LIFTING/U436/Y (XOR3X4)                              0.13       8.40 f
+  fu_LIFTING/U590/Y (AOI222X4)                            0.12       8.52 r
+  fu_LIFTING/U446/Y (NAND2X8)                             0.20       8.72 f
+  fu_LIFTING/U384/Y (XOR2X8)                              0.09       8.81 f
+  fu_LIFTING/U383/CO (ADDFHX4)                            0.12       8.92 f
+  fu_LIFTING/U364/CO (ADDFX4)                             0.11       9.04 f
+  fu_LIFTING/U190/CO (ADDFX4)                             0.12       9.15 f
+  fu_LIFTING/sub_98_DP_OP_282_1544_7/U7/CO (ADDFX4)       0.12       9.27 f
+  fu_LIFTING/sub_98_DP_OP_282_1544_7/U6/CO (ADDFX4)       0.12       9.39 f
+  fu_LIFTING/sub_98_DP_OP_282_1544_7/U5/CO (ADDFX4)       0.12       9.51 f
+  fu_LIFTING/sub_98_DP_OP_282_1544_7/U4/CO (ADDFX4)       0.12       9.63 f
+  fu_LIFTING/U382/CO (ADDFHX4)                            0.09       9.71 f
+  fu_LIFTING/U381/Y (XOR2X8)                              0.06       9.78 f
+  fu_LIFTING/U451/Y (AOI222X4)                            0.11       9.89 r
+  fu_LIFTING/reg_out_reg[31]/D (DFFSX2)                   0.00       9.89 r
+  data arrival time                                                  9.89
+
+  clock MYCLK (rise edge)                                10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.07       9.93
+  fu_LIFTING/reg_out_reg[31]/CK (DFFSX2)                  0.00       9.93 r
+  library setup time                                     -0.03       9.90
+  data required time                                                 9.90
+  --------------------------------------------------------------------------
+  data required time                                                 9.90
+  data arrival time                                                 -9.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1

@@ -1,0 +1,18596 @@
+$date
+     Jan 18, 2014       09:49:38
+$end
+
+$version
+              SystemC 2.2.0 --- May 18 2011 22:30:02
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    1  aaa  CLK       $end
+$var wire    1  aab  RST_n_tb       $end
+$var wire    1  aac  CLEAR_tb       $end
+$var wire    5  aad  C0_tb [4:0]  $end
+$var wire    5  aae  C1_tb [4:0]  $end
+$var wire    8  aaf  A0_tb [7:0]  $end
+$var wire    8  aag  A1_tb [7:0]  $end
+$var wire    8  aah  A2_tb [7:0]  $end
+$var wire    8  aai  A3_tb [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaa
+0aab
+0aac
+b0 aad
+b0 aae
+b0 aaf
+b0 aag
+b0 aah
+b0 aai
+$end
+
+#10
+0aaa
+
+#20
+1aaa
+
+#22
+1aab
+
+#30
+0aaa
+
+#40
+1aaa
+
+#42
+1aac
+
+#50
+0aaa
+
+#60
+1aaa
+
+#62
+0aac
+b1100 aad
+b11100 aae
+
+#65
+b1000 aaf
+b1000 aag
+b1100 aah
+b1100 aai
+
+#70
+0aaa
+
+#80
+1aaa
+
+#82
+b1101 aad
+b11101 aae
+b10100 aaf
+b10000 aag
+b10100 aah
+b11000 aai
+
+#85
+b10110 aaf
+b10010 aag
+b10101 aah
+b11001 aai
+
+#90
+0aaa
+
+#100
+1aaa
+
+#102
+b1110 aad
+b11110 aae
+b11111 aaf
+b100000 aag
+b11111 aah
+b100110 aai
+
+#105
+b100001 aaf
+b100010 aag
+b100000 aah
+b100111 aai
+
+#110
+0aaa
+
+#120
+1aaa
+
+#122
+b1111 aad
+b11111 aae
+b101100 aaf
+b101101 aag
+b110000 aah
+b110101 aai
+
+#125
+b101110 aaf
+b101111 aag
+b110001 aah
+b110110 aai
+
+#130
+0aaa
+
+#140
+1aaa
+
+#142
+b10000 aad
+b0 aae
+b111111 aaf
+b111100 aag
+b111110 aah
+b1000101 aai
+
+#145
+b101110 aaf
+b110001 aag
+b110110 aah
+b101111 aai
+
+#150
+0aaa
+
+#160
+1aaa
+
+#162
+b10001 aad
+b1 aae
+b110110 aag
+b101111 aah
+b110001 aai
+
+#165
+b110000 aah
+b110010 aai
+
+#170
+0aaa
+
+#180
+1aaa
+
+#182
+b10010 aad
+b10 aae
+b110000 aag
+b110011 aah
+b110111 aai
+
+#185
+b110100 aah
+b111000 aai
+
+#190
+0aaa
+
+#200
+1aaa
+
+#202
+b10011 aad
+b11 aae
+b110100 aag
+b111010 aah
+b110010 aai
+
+#205
+b111011 aah
+b110011 aai
+
+#210
+0aaa
+
+#220
+1aaa
+
+#222
+b10100 aad
+b100 aae
+b110001 aaf
+b111011 aag
+b110110 aah
+b110111 aai
+
+#225
+b110011 aaf
+b110111 aah
+b111000 aai
+
+#230
+0aaa
+
+#240
+1aaa
+
+#242
+b10101 aad
+b101 aae
+b110111 aag
+b111100 aah
+b111111 aai
+
+#245
+b111101 aah
+b1000000 aai
+
+#250
+0aaa
+
+#260
+1aaa
+
+#262
+b10110 aad
+b110 aae
+b110111 aaf
+b111101 aag
+b1000101 aah
+b111100 aai
+
+#265
+b111001 aaf
+b1000110 aah
+b111101 aai
+
+#270
+0aaa
+
+#280
+1aaa
+
+#282
+b10111 aad
+b111 aae
+b1000010 aaf
+b1000110 aag
+b1000011 aah
+b1000011 aai
+
+#285
+b1000100 aaf
+b1000100 aah
+b1000100 aai
+
+#290
+0aaa
+
+#300
+1aaa
+
+#302
+b11000 aad
+b1000 aae
+b1000100 aag
+b1001011 aah
+b1001101 aai
+
+#305
+b1001100 aah
+b1001110 aai
+
+#310
+0aaa
+
+#320
+1aaa
+
+#322
+b11001 aad
+b1001 aae
+b1001100 aaf
+b1001100 aag
+b1010110 aah
+b1001100 aai
+
+#325
+b1001110 aaf
+b1010111 aah
+b1001101 aai
+
+#330
+0aaa
+
+#340
+1aaa
+
+#342
+b11010 aad
+b1010 aae
+b1011001 aaf
+b1010111 aag
+b1010110 aah
+b1010101 aai
+
+#345
+b1011011 aaf
+b1010111 aah
+b1010110 aai
+
+#350
+0aaa
+
+#360
+1aaa
+
+#362
+b11011 aad
+b1011 aae
+b1011111 aag
+b1100000 aah
+b1100001 aai
+
+#365
+b1011101 aaf
+b1100001 aag
+b1100001 aah
+b1100010 aai
+
+#370
+0aaa
+
+#380
+1aaa
+
+#382
+b11100 aad
+b1100 aae
+b1100111 aaf
+b1100011 aag
+b1101101 aah
+b1101100 aai
+
+#385
+b1101001 aaf
+b1100101 aag
+b1101110 aah
+b1101101 aai
+
+#390
+0aaa
+
+#400
+1aaa
+
+#402
+b11101 aad
+b1101 aae
+b1110110 aaf
+b1110001 aag
+b1111001 aah
+b1110001 aai
+
+#405
+b1111000 aaf
+b1110011 aag
+b1111010 aah
+b1110010 aai
+
+#410
+0aaa
+
+#420
+1aaa
+
+#422
+b11110 aad
+b1110 aae
+b10000100 aaf
+b10000010 aag
+b1111111 aah
+b10000000 aai
+
+#425
+b10000110 aaf
+b10000100 aag
+b10000000 aah
+b10000001 aai
+
+#430
+0aaa
+
+#440
+1aaa
+
+#442
+b11111 aad
+b1111 aae
+b10001100 aaf
+b10010010 aag
+b10001111 aah
+b10010010 aai
+
+#445
+b10001110 aaf
+b10010100 aag
+b10010000 aah
+b10010011 aai
+
+#450
+0aaa
+
+#460
+1aaa
+
+#462
+b0 aad
+b10000 aae
+b10011110 aaf
+b10011100 aag
+b10100010 aah
+b10100011 aai
+
+#465
+b10001110 aaf
+b10010000 aag
+b10010100 aah
+b10010011 aai
+
+#470
+0aaa
+
+#480
+1aaa
+
+#482
+b1 aad
+b10001 aae
+b10010100 aag
+b10010000 aah
+
+#485
+b10010001 aah
+b10010100 aai
+
+#490
+0aaa
+
+#500
+1aaa
+
+#502
+b10 aad
+b10010 aae
+b10010001 aag
+b10010101 aah
+b10010101 aai
+
+#505
+b10010110 aah
+b10010110 aai
+
+#510
+0aaa
+
+#520
+1aaa
+
+#522
+b11 aad
+b10011 aae
+b10010110 aag
+b10010011 aah
+b10011000 aai
+
+#525
+b10010100 aah
+b10011001 aai
+
+#530
+0aaa
+
+#540
+1aaa
+
+#542
+b100 aad
+b10100 aae
+b10010100 aag
+b10011001 aah
+b10011100 aai
+
+#545
+b10011010 aah
+b10011101 aai
+
+#550
+0aaa
+
+#560
+1aaa
+
+#562
+b101 aad
+b10101 aae
+b10010010 aaf
+b10011010 aag
+b10011000 aah
+b10100001 aai
+
+#565
+b10010100 aaf
+b10011001 aah
+b10100010 aai
+
+#570
+0aaa
+
+#580
+1aaa
+
+#582
+b110 aad
+b10110 aae
+b10011001 aag
+b10011111 aah
+b10100111 aai
+
+#585
+b10010101 aaf
+b10100000 aah
+b10101000 aai
+
+#590
+0aaa
+
+#600
+1aaa
+
+#602
+b111 aad
+b10111 aae
+b10011100 aaf
+b10100000 aag
+b10011111 aah
+b10101110 aai
+
+#605
+b10011110 aaf
+b10100000 aah
+b10101111 aai
+
+#610
+0aaa
+
+#620
+1aaa
+
+#622
+b1000 aad
+b11000 aae
+b10100111 aah
+b10110110 aai
+
+#625
+b10100000 aaf
+b10101000 aah
+b10110111 aai
+
+#630
+0aaa
+
+#640
+1aaa
+
+#642
+b1001 aad
+b11001 aae
+b10101000 aaf
+b10101000 aag
+b10101111 aah
+b10111111 aai
+
+#645
+b10101010 aaf
+b10110000 aah
+b11000000 aai
+
+#650
+0aaa
+
+#660
+1aaa
+
+#662
+b1010 aad
+b11010 aae
+b10110010 aaf
+b10110000 aag
+b10111001 aah
+b11001001 aai
+
+#665
+b10110100 aaf
+b10111010 aah
+b11001010 aai
+
+#670
+0aaa
+
+#680
+1aaa
+
+#682
+b1011 aad
+b11011 aae
+b10111110 aaf
+b10111010 aag
+b11000100 aah
+b11010100 aai
+
+#685
+b11000000 aaf
+b11000101 aah
+b11010101 aai
+
+#690
+0aaa
+
+#700
+1aaa
+
+#702
+b1100 aad
+b11100 aae
+b11001011 aaf
+b11000110 aag
+b11010000 aah
+b11100000 aai
+
+#705
+b11001101 aaf
+b11001000 aag
+b11010001 aah
+b11100001 aai
+
+#710
+0aaa
+
+#720
+1aaa
+
+#722
+b1101 aad
+b11101 aae
+b11011001 aaf
+b11010101 aag
+b11011101 aah
+b11101101 aai
+
+#725
+b11011011 aaf
+b11010111 aag
+b11011110 aah
+b11101110 aai
+
+#730
+0aaa
+
+#740
+1aaa
+
+#742
+b1110 aad
+b11110 aae
+b11101000 aaf
+b11100101 aag
+b11101011 aah
+b11111011 aai
+
+#745
+b11101010 aaf
+b11100111 aag
+b11101100 aah
+b11111100 aai
+
+#750
+0aaa
+
+#760
+1aaa
+
+#762
+b1111 aad
+b11111 aae
+b11111000 aaf
+b11110110 aag
+b11111010 aah
+b1010 aai
+
+#765
+b11111010 aaf
+b11111000 aag
+b11111011 aah
+b1011 aai
+
+#770
+0aaa
+
+#780
+1aaa
+
+#782
+b10000 aad
+b0 aae
+b1001 aaf
+b1000 aag
+b1010 aah
+b11010 aai
+
+#785
+b11111010 aaf
+b11111011 aag
+b1011 aah
+b11111011 aai
+
+#790
+0aaa
+
+#800
+1aaa
+
+#802
+b10001 aad
+b1 aae
+b11111011 aaf
+b1011 aag
+b11111011 aah
+
+#805
+b11111101 aaf
+b11111100 aah
+b11111100 aai
+
+#810
+0aaa
+
+#820
+1aaa
+
+#822
+b10010 aad
+b10 aae
+b11111100 aag
+b11111101 aah
+b1100 aai
+
+#825
+b11111110 aah
+b1101 aai
+
+#830
+0aaa
+
+#840
+1aaa
+
+#842
+b10011 aad
+b11 aae
+b11111110 aag
+b1111 aah
+b11111111 aai
+
+#845
+b10000 aah
+b0 aai
+
+#850
+0aaa
+
+#860
+1aaa
+
+#862
+b10100 aad
+b100 aae
+b110 aaf
+b10000 aag
+b11 aah
+b1 aai
+
+#865
+b1000 aaf
+b100 aah
+b10 aai
+
+#870
+0aaa
+
+#880
+1aaa
+
+#882
+b10101 aad
+b101 aae
+b100 aag
+b110 aah
+b10100 aai
+
+#885
+b111 aah
+b10101 aai
+
+#890
+0aaa
+
+#900
+1aaa
+
+#902
+b10110 aad
+b110 aae
+b111 aag
+b11010 aah
+b1010 aai
+
+#905
+b11011 aah
+b1011 aai
+
+#910
+0aaa
+
+#920
+1aaa
+
+#922
+b10111 aad
+b111 aae
+b10111 aaf
+b11011 aag
+b10001 aah
+b1101 aai
+
+#925
+b11001 aaf
+b10010 aah
+b1110 aai
+
+#930
+0aaa
+
+#940
+1aaa
+
+#942
+b11000 aad
+b1000 aae
+b10111 aag
+b10101 aah
+b100010 aai
+
+#945
+b11001 aag
+b10110 aah
+b100011 aai
+
+#950
+0aaa
+
+#960
+1aaa
+
+#962
+b11001 aad
+b1001 aae
+b101011 aah
+b100001 aai
+
+#965
+b11011 aag
+b101100 aah
+b100010 aai
+
+#970
+0aaa
+
+#980
+1aaa
+
+#982
+b11010 aad
+b1010 aae
+b101110 aaf
+b101100 aag
+b101011 aah
+b100100 aai
+
+#985
+b110000 aaf
+b101100 aah
+b100101 aai
+
+#990
+0aaa
+
+#1000
+1aaa
+
+#1002
+b11011 aad
+b1011 aae
+b110100 aag
+b101111 aah
+b110110 aai
+
+#1005
+b110010 aaf
+b110110 aag
+b110000 aah
+b110111 aai
+
+#1010
+0aaa
+
+#1020
+1aaa
+
+#1022
+b11100 aad
+b1100 aae
+b110110 aaf
+b111000 aag
+b1000010 aah
+b1000001 aai
+
+#1025
+b111000 aaf
+b111010 aag
+b1000011 aah
+b1000010 aai
+
+#1030
+0aaa
+
+#1040
+1aaa
+
+#1042
+b11101 aad
+b1101 aae
+b1001011 aaf
+b1000011 aag
+b1001110 aah
+b1000110 aai
+
+#1045
+b1001101 aaf
+b1001111 aah
+b1000111 aai
+
+#1050
+0aaa
+
+#1060
+1aaa
+
+#1062
+b11110 aad
+b1110 aae
+b1011001 aaf
+b1010111 aag
+b1010100 aah
+b1010000 aai
+
+#1065
+b1011011 aaf
+b1011001 aag
+b1010101 aah
+b1010001 aai
+
+#1070
+0aaa
+
+#1080
+1aaa
+
+#1082
+b11111 aad
+b1111 aae
+b1100001 aaf
+b1100111 aag
+b1011111 aah
+b1100111 aai
+
+#1085
+b1100011 aaf
+b1101001 aag
+b1100000 aah
+b1101000 aai
+
+#1090
+0aaa
+
+#1100
+1aaa
+
+#1102
+b0 aad
+b10000 aae
+b1101110 aaf
+b1110001 aag
+b1110111 aah
+b1111000 aai
+
+#1105
+b1100011 aaf
+b1100000 aag
+b1101001 aah
+b1101000 aai
+
+#1110
+0aaa
+
+#1120
+1aaa
+
+#1122
+b1 aad
+b10001 aae
+b1101001 aag
+b1100000 aah
+
+#1125
+b1100001 aah
+b1101001 aai
+
+#1130
+0aaa
+
+#1140
+1aaa
+
+#1142
+b10 aad
+b10010 aae
+b1100001 aag
+b1101010 aah
+b1101010 aai
+
+#1145
+b1101011 aah
+b1101011 aai
+
+#1150
+0aaa
+
+#1160
+1aaa
+
+#1162
+b11 aad
+b10011 aae
+b1101011 aag
+b1100011 aah
+b1101101 aai
+
+#1165
+b1100100 aah
+b1101110 aai
+
+#1170
+0aaa
+
+#1180
+1aaa
+
+#1182
+b100 aad
+b10100 aae
+b1100100 aag
+b1101110 aah
+b1110001 aai
+
+#1185
+b1101111 aah
+b1110010 aai
+
+#1190
+0aaa
+
+#1200
+1aaa
+
+#1202
+b101 aad
+b10101 aae
+b1100111 aaf
+b1101111 aag
+b1101000 aah
+b1110110 aai
+
+#1205
+b1101001 aaf
+b1101001 aah
+b1110111 aai
+
+#1210
+0aaa
+
+#1220
+1aaa
+
+#1222
+b110 aad
+b10110 aae
+b1101001 aag
+b1110100 aah
+b1111100 aai
+
+#1225
+b1110101 aah
+b1111101 aai
+
+#1230
+0aaa
+
+#1240
+1aaa
+
+#1242
+b111 aad
+b10111 aae
+b1110001 aaf
+b1110101 aag
+b1110011 aah
+b10000011 aai
+
+#1245
+b1110011 aaf
+b1110100 aah
+b10000100 aai
+
+#1250
+0aaa
+
+#1260
+1aaa
+
+#1262
+b1000 aad
+b11000 aae
+b1110100 aag
+b1111100 aah
+b10001011 aai
+
+#1265
+b1110100 aaf
+b1111101 aah
+b10001100 aai
+
+#1270
+0aaa
+
+#1280
+1aaa
+
+#1282
+b1001 aad
+b11001 aae
+b1111101 aaf
+b1111101 aag
+b10000100 aah
+b10010100 aai
+
+#1285
+b1111111 aaf
+b10000101 aah
+b10010101 aai
+
+#1290
+0aaa
+
+#1300
+1aaa
+
+#1302
+b1010 aad
+b11010 aae
+b10000111 aaf
+b10000101 aag
+b10001110 aah
+b10011110 aai
+
+#1305
+b10001001 aaf
+b10001111 aah
+b10011111 aai
+
+#1310
+0aaa
+
+#1320
+1aaa
+
+#1322
+b1011 aad
+b11011 aae
+b10010011 aaf
+b10001111 aag
+b10011001 aah
+b10101001 aai
+
+#1325
+b10010101 aaf
+b10011010 aah
+b10101010 aai
+
+#1330
+0aaa
+
+#1340
+1aaa
+
+#1342
+b1100 aad
+b11100 aae
+b10100000 aaf
+b10011011 aag
+b10100101 aah
+b10110101 aai
+
+#1345
+b10100010 aaf
+b10011101 aag
+b10100110 aah
+b10110110 aai
+
+#1350
+0aaa
+
+#1360
+1aaa
+
+#1362
+b1101 aad
+b11101 aae
+b10101110 aaf
+b10101010 aag
+b10110010 aah
+b11000010 aai
+
+#1365
+b10110000 aaf
+b10101100 aag
+b10110011 aah
+b11000011 aai
+
+#1370
+0aaa
+
+#1380
+1aaa
+
+#1382
+b1110 aad
+b11110 aae
+b10111101 aaf
+b10111010 aag
+b11000000 aah
+b11010000 aai
+
+#1385
+b10111111 aaf
+b10111100 aag
+b11000001 aah
+b11010001 aai
+
+#1390
+0aaa
+
+#1400
+1aaa
+
+#1402
+b1111 aad
+b11111 aae
+b11001101 aaf
+b11001011 aag
+b11001111 aah
+b11011111 aai
+
+#1405
+b11001111 aaf
+b11001101 aag
+b11010000 aah
+b11100000 aai
+
+#1410
+0aaa
+
+#1420
+1aaa
+
+#1422
+b10000 aad
+b0 aae
+b11011110 aaf
+b11011101 aag
+b11011111 aah
+b11101111 aai
+
+#1425
+b11001111 aaf
+b11010000 aag
+b11100000 aah
+b11010000 aai
+
+#1430
+0aaa
+
+#1440
+1aaa
+
+#1442
+b10001 aad
+b1 aae
+b11010000 aaf
+b11100000 aag
+b11010000 aah
+
+#1445
+b11010010 aaf
+b11010001 aah
+b11010001 aai
+
+#1450
+0aaa
+
+#1460
+1aaa
+
+#1462
+b10010 aad
+b10 aae
+b11010001 aag
+b11010010 aah
+b11100001 aai
+
+#1465
+b11010011 aah
+b11100010 aai
+
+#1470
+0aaa
+
+#1480
+1aaa
+
+#1482
+b10011 aad
+b11 aae
+b11010011 aag
+b11100100 aah
+b11010100 aai
+
+#1485
+b11100101 aah
+b11010101 aai
+
+#1490
+0aaa
+
+#1500
+1aaa
+
+#1502
+b10100 aad
+b100 aae
+b11011011 aaf
+b11100101 aag
+b11011000 aah
+b11010110 aai
+
+#1505
+b11011101 aaf
+b11011001 aah
+b11010111 aai
+
+#1510
+0aaa
+
+#1520
+1aaa
+
+#1522
+b10101 aad
+b101 aae
+b11011001 aag
+b11011011 aah
+b11101001 aai
+
+#1525
+b11011100 aah
+b11101010 aai
+
+#1530
+0aaa
+
+#1540
+1aaa
+
+#1542
+b10110 aad
+b110 aae
+b11011100 aag
+b11101111 aah
+b11011111 aai
+
+#1545
+b11110000 aah
+b11100000 aai
+
+#1550
+0aaa
+
+#1560
+1aaa
+
+#1562
+b10111 aad
+b111 aae
+b11101100 aaf
+b11110000 aag
+b11100110 aah
+b11100010 aai
+
+#1565
+b11101110 aaf
+b11100111 aah
+b11100011 aai
+
+#1570
+0aaa
+
+#1580
+1aaa
+
+#1582
+b11000 aad
+b1000 aae
+b11101100 aag
+b11101010 aah
+b11110111 aai
+
+#1585
+b11101110 aag
+b11101011 aah
+b11111000 aai
+
+#1590
+0aaa
+
+#1600
+1aaa
+
+#1602
+b11001 aad
+b1001 aae
+b0 aah
+b11110110 aai
+
+#1605
+b11110000 aag
+b1 aah
+b11110111 aai
+
+#1610
+0aaa
+
+#1620
+1aaa
+
+#1622
+b11010 aad
+b1010 aae
+b11 aaf
+b1 aag
+b0 aah
+b11111001 aai
+
+#1625
+b101 aaf
+b1 aah
+b11111010 aai
+
+#1630
+0aaa
+
+#1640
+1aaa
+
+#1642
+b11011 aad
+b1011 aae
+b1001 aag
+b100 aah
+b1011 aai
+
+#1645
+b111 aaf
+b1011 aag
+b101 aah
+b1100 aai
+
+#1650
+0aaa
+
+#1660
+1aaa
+
+#1662
+b11100 aad
+b1100 aae
+b1011 aaf
+b1101 aag
+b10111 aah
+b10110 aai
+
+#1665
+b1101 aaf
+b1111 aag
+b11000 aah
+b10111 aai
+
+#1670
+0aaa
+
+#1680
+1aaa
+
+#1682
+b11101 aad
+b1101 aae
+b100000 aaf
+b11000 aag
+b100011 aah
+b11011 aai
+
+#1685
+b100010 aaf
+b100100 aah
+b11100 aai
+
+#1690
+0aaa
+
+#1700
+1aaa
+
+#1702
+b11110 aad
+b1110 aae
+b101110 aaf
+b101100 aag
+b101001 aah
+b100101 aai
+
+#1705
+b110000 aaf
+b101110 aag
+b101010 aah
+b100110 aai
+
+#1710
+0aaa
+
+#1720
+1aaa
+
+#1722
+b11111 aad
+b1111 aae
+b110110 aaf
+b111100 aag
+b110100 aah
+b111100 aai
+
+#1725
+b111000 aaf
+b111110 aag
+b110101 aah
+b111101 aai
+
+#1730
+0aaa
+
+#1740
+1aaa
+
+#1742
+b0 aad
+b10000 aae
+b1000011 aaf
+b1000110 aag
+b1001100 aah
+b1001101 aai
+
+#1745
+b111000 aaf
+b110101 aag
+b111110 aah
+b111101 aai
+
+#1750
+0aaa
+
+#1760
+1aaa
+
+#1762
+b1 aad
+b10001 aae
+b111110 aag
+b110101 aah
+
+#1765
+b110110 aah
+b111110 aai
+
+#1770
+0aaa
+
+#1780
+1aaa
+
+#1782
+b10 aad
+b10010 aae
+b110110 aag
+b111111 aah
+b111111 aai
+
+#1785
+b1000000 aah
+b1000000 aai
+
+#1790
+0aaa
+
+#1800
+1aaa
+
+#1802
+b11 aad
+b10011 aae
+b1000000 aag
+b111000 aah
+b1000010 aai
+
+#1805
+b111001 aah
+b1000011 aai
+
+#1810
+0aaa
+
+#1820
+1aaa
+
+#1822
+b100 aad
+b10100 aae
+b111001 aag
+b1000011 aah
+b1000110 aai
+
+#1825
+b1000100 aah
+b1000111 aai
+
+#1830
+0aaa
+
+#1840
+1aaa
+
+#1842
+b101 aad
+b10101 aae
+b111100 aaf
+b1000100 aag
+b111101 aah
+b1001011 aai
+
+#1845
+b111110 aaf
+b111110 aah
+b1001100 aai
+
+#1850
+0aaa
+
+#1860
+1aaa
+
+#1862
+b110 aad
+b10110 aae
+b111110 aag
+b1001001 aah
+b1010001 aai
+
+#1865
+b1001010 aah
+b1010010 aai
+
+#1870
+0aaa
+
+#1880
+1aaa
+
+#1882
+b111 aad
+b10111 aae
+b1000110 aaf
+b1001010 aag
+b1001000 aah
+b1011000 aai
+
+#1885
+b1001000 aaf
+b1001001 aah
+b1011001 aai
+
+#1890
+0aaa
+
+#1900
+1aaa
+
+#1902
+b1000 aad
+b11000 aae
+b1001001 aag
+b1010001 aah
+b1100000 aai
+
+#1905
+b1001001 aaf
+b1010010 aah
+b1100001 aai
+
+#1910
+0aaa
+
+#1920
+1aaa
+
+#1922
+b1001 aad
+b11001 aae
+b1010010 aaf
+b1010010 aag
+b1011001 aah
+b1101001 aai
+
+#1925
+b1010100 aaf
+b1011010 aah
+b1101010 aai
+
+#1930
+0aaa
+
+#1940
+1aaa
+
+#1942
+b1010 aad
+b11010 aae
+b1011100 aaf
+b1011010 aag
+b1100011 aah
+b1110011 aai
+
+#1945
+b1011110 aaf
+b1100100 aah
+b1110100 aai
+
+#1950
+0aaa
+
+#1960
+1aaa
+
+#1962
+b1011 aad
+b11011 aae
+b1101000 aaf
+b1100100 aag
+b1101110 aah
+b1111110 aai
+
+#1965
+b1101010 aaf
+b1101111 aah
+b1111111 aai
+
+#1970
+0aaa
+
+#1980
+1aaa
+
+#1982
+b1100 aad
+b11100 aae
+b1110101 aaf
+b1110000 aag
+b1111010 aah
+b10001010 aai
+
+#1985
+b1110111 aaf
+b1110010 aag
+b1111011 aah
+b10001011 aai
+
+#1990
+0aaa
+
+#2000
+1aaa
+
+#2002
+b1101 aad
+b11101 aae
+b10000011 aaf
+b1111111 aag
+b10000111 aah
+b10010111 aai
+
+#2005
+b10000101 aaf
+b10000001 aag
+b10001000 aah
+b10011000 aai
+
+#2010
+0aaa
+
+#2020
+1aaa
+
+#2022
+b1110 aad
+b11110 aae
+b10010010 aaf
+b10001111 aag
+b10010101 aah
+b10100101 aai
+
+#2025
+b10010100 aaf
+b10010001 aag
+b10010110 aah
+b10100110 aai
+
+#2030
+0aaa
+
+#2040
+1aaa
+
+#2042
+b1111 aad
+b11111 aae
+b10100010 aaf
+b10100000 aag
+b10100100 aah
+b10110100 aai
+
+#2045
+b10100100 aaf
+b10100010 aag
+b10100101 aah
+b10110101 aai
+
+#2050
+0aaa
+
+#2060
+1aaa
+
+#2062
+b10000 aad
+b0 aae
+b10110011 aaf
+b10110010 aag
+b10110100 aah
+b11000100 aai
+
+#2065
+b10100100 aaf
+b10100101 aag
+b10110101 aah
+b10100101 aai
+
+#2070
+0aaa
+
+#2080
+1aaa
+
+#2082
+b10001 aad
+b1 aae
+b10100101 aaf
+b10110101 aag
+b10100101 aah
+
+#2085
+b10100111 aaf
+b10100110 aah
+b10100110 aai
+
+#2090
+0aaa
+
+#2100
+1aaa
+
+#2102
+b10010 aad
+b10 aae
+b10100110 aag
+b10100111 aah
+b10110110 aai
+
+#2105
+b10101000 aah
+b10110111 aai
+
+#2110
+0aaa
+
+#2120
+1aaa
+
+#2122
+b10011 aad
+b11 aae
+b10101000 aag
+b10111001 aah
+b10101001 aai
+
+#2125
+b10111010 aah
+b10101010 aai
+
+#2130
+0aaa
+
+#2140
+1aaa
+
+#2142
+b10100 aad
+b100 aae
+b10110000 aaf
+b10111010 aag
+b10101101 aah
+b10101011 aai
+
+#2145
+b10110010 aaf
+b10101110 aah
+b10101100 aai
+
+#2150
+0aaa
+
+#2160
+1aaa
+
+#2162
+b10101 aad
+b101 aae
+b10101110 aag
+b10110000 aah
+b10111110 aai
+
+#2165
+b10110001 aah
+b10111111 aai
+
+#2170
+0aaa
+
+#2180
+1aaa
+
+#2182
+b10110 aad
+b110 aae
+b10110001 aag
+b11000100 aah
+b10110100 aai
+
+#2185
+b11000101 aah
+b10110101 aai
+
+#2190
+0aaa
+
+#2200
+1aaa
+
+#2202
+b10111 aad
+b111 aae
+b11000001 aaf
+b11000101 aag
+b10111011 aah
+b10110111 aai
+
+#2205
+b11000011 aaf
+b10111100 aah
+b10111000 aai
+
+#2210
+0aaa
+
+#2220
+1aaa
+
+#2222
+b11000 aad
+b1000 aae
+b11000001 aag
+b10111111 aah
+b11001100 aai
+
+#2225
+b11000011 aag
+b11000000 aah
+b11001101 aai
+
+#2230
+0aaa
+
+#2240
+1aaa
+
+#2242
+b11001 aad
+b1001 aae
+b11010101 aah
+b11001011 aai
+
+#2245
+b11000101 aag
+b11010110 aah
+b11001100 aai
+
+#2250
+0aaa
+
+#2260
+1aaa
+
+#2262
+b11010 aad
+b1010 aae
+b11011000 aaf
+b11010110 aag
+b11010101 aah
+b11001110 aai
+
+#2265
+b11011010 aaf
+b11010110 aah
+b11001111 aai
+
+#2270
+0aaa
+
+#2280
+1aaa
+
+#2282
+b11011 aad
+b1011 aae
+b11011110 aag
+b11011001 aah
+b11100000 aai
+
+#2285
+b11011100 aaf
+b11100000 aag
+b11011010 aah
+b11100001 aai
+
+#2290
+0aaa
+
+#2300
+1aaa
+
+#2302
+b11100 aad
+b1100 aae
+b11100000 aaf
+b11100010 aag
+b11101100 aah
+b11101011 aai
+
+#2305
+b11100010 aaf
+b11100100 aag
+b11101101 aah
+b11101100 aai
+
+#2310
+0aaa
+
+#2320
+1aaa
+
+#2322
+b11101 aad
+b1101 aae
+b11110101 aaf
+b11101101 aag
+b11111000 aah
+b11110000 aai
+
+#2325
+b11110111 aaf
+b11111001 aah
+b11110001 aai
+
+#2330
+0aaa
+
+#2340
+1aaa
+
+#2342
+b11110 aad
+b1110 aae
+b11 aaf
+b1 aag
+b11111110 aah
+b11111010 aai
+
+#2345
+b101 aaf
+b11 aag
+b11111111 aah
+b11111011 aai
+
+#2350
+0aaa
+
+#2360
+1aaa
+
+#2362
+b11111 aad
+b1111 aae
+b1011 aaf
+b10001 aag
+b1001 aah
+b10001 aai
+
+#2365
+b1101 aaf
+b10011 aag
+b1010 aah
+b10010 aai
+
+#2370
+0aaa
+
+#2380
+1aaa
+
+#2382
+b0 aad
+b10000 aae
+b11000 aaf
+b11011 aag
+b100001 aah
+b100010 aai
+
+#2385
+b1101 aaf
+b1010 aag
+b10011 aah
+b10010 aai
+
+#2390
+0aaa
+
+#2400
+1aaa
+
+#2402
+b1 aad
+b10001 aae
+b10011 aag
+b1010 aah
+
+#2405
+b1011 aah
+b10011 aai
+
+#2410
+0aaa
+
+#2420
+1aaa
+
+#2422
+b10 aad
+b10010 aae
+b1011 aag
+b10100 aah
+b10100 aai
+
+#2425
+b10101 aah
+b10101 aai
+
+#2430
+0aaa
+
+#2440
+1aaa
+
+#2442
+b11 aad
+b10011 aae
+b10101 aag
+b1101 aah
+b10111 aai
+
+#2445
+b1110 aah
+b11000 aai
+
+#2450
+0aaa
+
+#2460
+1aaa
+
+#2462
+b100 aad
+b10100 aae
+b1110 aag
+b11000 aah
+b11011 aai
+
+#2465
+b11001 aah
+b11100 aai
+
+#2470
+0aaa
+
+#2480
+1aaa
+
+#2482
+b101 aad
+b10101 aae
+b10001 aaf
+b11001 aag
+b10010 aah
+b100000 aai
+
+#2485
+b10011 aaf
+b10011 aah
+b100001 aai
+
+#2490
+0aaa
+
+#2500
+1aaa
+
+#2502
+b110 aad
+b10110 aae
+b10011 aag
+b11110 aah
+b100110 aai
+
+#2505
+b11111 aah
+b100111 aai
+
+#2510
+0aaa
+
+#2520
+1aaa
+
+#2522
+b111 aad
+b10111 aae
+b11011 aaf
+b11111 aag
+b11101 aah
+b101101 aai
+
+#2525
+b11101 aaf
+b11110 aah
+b101110 aai
+
+#2530
+0aaa
+
+#2540
+1aaa
+
+#2542
+b1000 aad
+b11000 aae
+b11110 aag
+b100110 aah
+b110101 aai
+
+#2545
+b11110 aaf
+b100111 aah
+b110110 aai
+
+#2550
+0aaa
+
+#2560
+1aaa
+
+#2562
+b1001 aad
+b11001 aae
+b100111 aaf
+b100111 aag
+b101110 aah
+b111110 aai
+
+#2565
+b101001 aaf
+b101111 aah
+b111111 aai
+
+#2570
+0aaa
+
+#2580
+1aaa
+
+#2582
+b1010 aad
+b11010 aae
+b110001 aaf
+b101111 aag
+b111000 aah
+b1001000 aai
+
+#2585
+b110011 aaf
+b111001 aah
+b1001001 aai
+
+#2590
+0aaa
+
+#2600
+1aaa
+
+#2602
+b1011 aad
+b11011 aae
+b111101 aaf
+b111001 aag
+b1000011 aah
+b1010011 aai
+
+#2605
+b111111 aaf
+b1000100 aah
+b1010100 aai
+
+#2610
+0aaa
+
+#2620
+1aaa
+
+#2622
+b1100 aad
+b11100 aae
+b1001010 aaf
+b1000101 aag
+b1001111 aah
+b1011111 aai
+
+#2625
+b1001100 aaf
+b1000111 aag
+b1010000 aah
+b1100000 aai
+
+#2630
+0aaa
+
+#2640
+1aaa
+
+#2642
+b1101 aad
+b11101 aae
+b1011000 aaf
+b1010100 aag
+b1011100 aah
+b1101100 aai
+
+#2645
+b1011010 aaf
+b1010110 aag
+b1011101 aah
+b1101101 aai
+
+#2650
+0aaa
+
+#2660
+1aaa
+
+#2662
+b1110 aad
+b11110 aae
+b1100111 aaf
+b1100100 aag
+b1101010 aah
+b1111010 aai
+
+#2665
+b1101001 aaf
+b1100110 aag
+b1101011 aah
+b1111011 aai
+
+#2670
+0aaa
+
+#2680
+1aaa
+
+#2682
+b1111 aad
+b11111 aae
+b1110111 aaf
+b1110101 aag
+b1111001 aah
+b10001001 aai
+
+#2685
+b1111001 aaf
+b1110111 aag
+b1111010 aah
+b10001010 aai
+
+#2690
+0aaa
+
+#2700
+1aaa
+
+#2702
+b10000 aad
+b0 aae
+b10001000 aaf
+b10000111 aag
+b10001001 aah
+b10011001 aai
+
+#2705
+b1111001 aaf
+b1111010 aag
+b10001010 aah
+b1111010 aai
+
+#2710
+0aaa
+
+#2720
+1aaa
+
+#2722
+b10001 aad
+b1 aae
+b1111010 aaf
+b10001010 aag
+b1111010 aah
+
+#2725
+b1111100 aaf
+b1111011 aah
+b1111011 aai
+
+#2730
+0aaa
+
+#2740
+1aaa
+
+#2742
+b10010 aad
+b10 aae
+b1111011 aag
+b1111100 aah
+b10001011 aai
+
+#2745
+b1111101 aah
+b10001100 aai
+
+#2750
+0aaa
+
+#2760
+1aaa
+
+#2762
+b10011 aad
+b11 aae
+b1111101 aag
+b10001110 aah
+b1111110 aai
+
+#2765
+b10001111 aah
+b1111111 aai
+
+#2770
+0aaa
+
+#2780
+1aaa
+
+#2782
+b10100 aad
+b100 aae
+b10000101 aaf
+b10001111 aag
+b10000010 aah
+b10000000 aai
+
+#2785
+b10000111 aaf
+b10000011 aah
+b10000001 aai
+
+#2790
+0aaa
+
+#2800
+1aaa
+
+#2802
+b10101 aad
+b101 aae
+b10000011 aag
+b10000101 aah
+b10010011 aai
+
+#2805
+b10000110 aah
+b10010100 aai
+
+#2810
+0aaa
+
+#2820
+1aaa
+
+#2822
+b10110 aad
+b110 aae
+b10000110 aag
+b10011001 aah
+b10001001 aai
+
+#2825
+b10011010 aah
+b10001010 aai
+
+#2830
+0aaa
+
+#2840
+1aaa
+
+#2842
+b10111 aad
+b111 aae
+b10010110 aaf
+b10011010 aag
+b10010000 aah
+b10001100 aai
+
+#2845
+b10011000 aaf
+b10010001 aah
+b10001101 aai
+
+#2850
+0aaa
+
+#2860
+1aaa
+
+#2862
+b11000 aad
+b1000 aae
+b10010110 aag
+b10010100 aah
+b10100001 aai
+
+#2865
+b10011000 aag
+b10010101 aah
+b10100010 aai
+
+#2870
+0aaa
+
+#2880
+1aaa
+
+#2882
+b11001 aad
+b1001 aae
+b10101010 aah
+b10100000 aai
+
+#2885
+b10011010 aag
+b10101011 aah
+b10100001 aai
+
+#2890
+0aaa
+
+#2900
+1aaa
+
+#2902
+b11010 aad
+b1010 aae
+b10101101 aaf
+b10101011 aag
+b10101010 aah
+b10100011 aai
+
+#2905
+b10101111 aaf
+b10101011 aah
+b10100100 aai
+
+#2910
+0aaa
+
+#2920
+1aaa
+
+#2922
+b11011 aad
+b1011 aae
+b10110011 aag
+b10101110 aah
+b10110101 aai
+
+#2925
+b10110001 aaf
+b10110101 aag
+b10101111 aah
+b10110110 aai
+
+#2930
+0aaa
+
+#2940
+1aaa
+
+#2942
+b11100 aad
+b1100 aae
+b10110101 aaf
+b10110111 aag
+b11000001 aah
+b11000000 aai
+
+#2945
+b10110111 aaf
+b10111001 aag
+b11000010 aah
+b11000001 aai
+
+#2950
+0aaa
+
+#2960
+1aaa
+
+#2962
+b11101 aad
+b1101 aae
+b11001010 aaf
+b11000010 aag
+b11001101 aah
+b11000101 aai
+
+#2965
+b11001100 aaf
+b11001110 aah
+b11000110 aai
+
+#2970
+0aaa
+
+#2980
+1aaa
+
+#2982
+b11110 aad
+b1110 aae
+b11011000 aaf
+b11010110 aag
+b11010011 aah
+b11001111 aai
+
+#2985
+b11011010 aaf
+b11011000 aag
+b11010100 aah
+b11010000 aai
+
+#2990
+0aaa
+
+#3000
+1aaa
+
+#3002
+b11111 aad
+b1111 aae
+b11100000 aaf
+b11100110 aag
+b11011110 aah
+b11100110 aai
+
+#3005
+b11100010 aaf
+b11101000 aag
+b11011111 aah
+b11100111 aai
+
+#3010
+0aaa
+
+#3020
+1aaa
+
+#3022
+b0 aad
+b10000 aae
+b11101101 aaf
+b11110000 aag
+b11110110 aah
+b11110111 aai
+
+#3025
+b11100010 aaf
+b11011111 aag
+b11101000 aah
+b11100111 aai
+
+#3030
+0aaa
+
+#3040
+1aaa
+
+#3042
+b1 aad
+b10001 aae
+b11101000 aag
+b11011111 aah
+
+#3045
+b11100000 aah
+b11101000 aai
+
+#3050
+0aaa
+
+#3060
+1aaa
+
+#3062
+b10 aad
+b10010 aae
+b11100000 aag
+b11101001 aah
+b11101001 aai
+
+#3065
+b11101010 aah
+b11101010 aai
+
+#3070
+0aaa
+
+#3080
+1aaa
+
+#3082
+b11 aad
+b10011 aae
+b11101010 aag
+b11100010 aah
+b11101100 aai
+
+#3085
+b11100011 aah
+b11101101 aai
+
+#3090
+0aaa
+
+#3100
+1aaa
+
+#3102
+b100 aad
+b10100 aae
+b11100011 aag
+b11101101 aah
+b11110000 aai
+
+#3105
+b11101110 aah
+b11110001 aai
+
+#3110
+0aaa
+
+#3120
+1aaa
+
+#3122
+b101 aad
+b10101 aae
+b11100110 aaf
+b11101110 aag
+b11100111 aah
+b11110101 aai
+
+#3125
+b11101000 aaf
+b11101000 aah
+b11110110 aai
+
+#3130
+0aaa
+
+#3140
+1aaa
+
+#3142
+b110 aad
+b10110 aae
+b11101000 aag
+b11110011 aah
+b11111011 aai
+
+#3145
+b11110100 aah
+b11111100 aai
+
+#3150
+0aaa
+
+#3160
+1aaa
+
+#3162
+b111 aad
+b10111 aae
+b11110000 aaf
+b11110100 aag
+b11110010 aah
+b10 aai
+
+#3165
+b11110010 aaf
+b11110011 aah
+b11 aai
+
+#3170
+0aaa
+
+#3180
+1aaa
+
+#3182
+b1000 aad
+b11000 aae
+b11110011 aag
+b11111011 aah
+b1010 aai
+
+#3185
+b11110011 aaf
+b11111100 aah
+b1011 aai
+
+#3190
+0aaa
+
+#3200
+1aaa
+
+#3202
+b1001 aad
+b11001 aae
+b11111100 aaf
+b11111100 aag
+b11 aah
+b10011 aai
+
+#3205
+b11111110 aaf
+b100 aah
+b10100 aai
+
+#3210
+0aaa
+
+#3220
+1aaa
+
+#3222
+b1010 aad
+b11010 aae
+b110 aaf
+b100 aag
+b1101 aah
+b11101 aai
+
+#3225
+b1000 aaf
+b1110 aah
+b11110 aai
+
+#3230
+0aaa
+
+#3240
+1aaa
+
+#3242
+b1011 aad
+b11011 aae
+b10010 aaf
+b1110 aag
+b11000 aah
+b101000 aai
+
+#3245
+b10100 aaf
+b11001 aah
+b101001 aai
+
+#3250
+0aaa
+
+#3260
+1aaa
+
+#3262
+b1100 aad
+b11100 aae
+b11111 aaf
+b11010 aag
+b100100 aah
+b110100 aai
+
+#3265
+b100001 aaf
+b11100 aag
+b100101 aah
+b110101 aai
+
+#3270
+0aaa
+
+#3280
+1aaa
+
+#3282
+b1101 aad
+b11101 aae
+b101101 aaf
+b101001 aag
+b110001 aah
+b1000001 aai
+
+#3285
+b101111 aaf
+b101011 aag
+b110010 aah
+b1000010 aai
+
+#3290
+0aaa
+
+#3300
+1aaa
+
+#3302
+b1110 aad
+b11110 aae
+b111100 aaf
+b111001 aag
+b111111 aah
+b1001111 aai
+
+#3305
+b111110 aaf
+b111011 aag
+b1000000 aah
+b1010000 aai
+
+#3310
+0aaa
+
+#3320
+1aaa
+
+#3322
+b1111 aad
+b11111 aae
+b1001100 aaf
+b1001010 aag
+b1001110 aah
+b1011110 aai
+
+#3325
+b1001110 aaf
+b1001100 aag
+b1001111 aah
+b1011111 aai
+
+#3330
+0aaa
+
+#3340
+1aaa
+
+#3342
+b10000 aad
+b0 aae
+b1011101 aaf
+b1011100 aag
+b1011110 aah
+b1101110 aai
+
+#3345
+b1001110 aaf
+b1001111 aag
+b1011111 aah
+b1001111 aai
+
+#3350
+0aaa
+
+#3360
+1aaa
+
+#3362
+b10001 aad
+b1 aae
+b1001111 aaf
+b1011111 aag
+b1001111 aah
+
+#3365
+b1010001 aaf
+b1010000 aah
+b1010000 aai
+
+#3370
+0aaa
+
+#3380
+1aaa
+
+#3382
+b10010 aad
+b10 aae
+b1010000 aag
+b1010001 aah
+b1100000 aai
+
+#3385
+b1010010 aah
+b1100001 aai
+
+#3390
+0aaa
+
+#3400
+1aaa
+
+#3402
+b10011 aad
+b11 aae
+b1010010 aag
+b1100011 aah
+b1010011 aai
+
+#3405
+b1100100 aah
+b1010100 aai
+
+#3410
+0aaa
+
+#3420
+1aaa
+
+#3422
+b10100 aad
+b100 aae
+b1011010 aaf
+b1100100 aag
+b1010111 aah
+b1010101 aai
+
+#3425
+b1011100 aaf
+b1011000 aah
+b1010110 aai
+
+#3430
+0aaa
+
+#3440
+1aaa
+
+#3442
+b10101 aad
+b101 aae
+b1011000 aag
+b1011010 aah
+b1101000 aai
+
+#3445
+b1011011 aah
+b1101001 aai
+
+#3450
+0aaa
+
+#3460
+1aaa
+
+#3462
+b10110 aad
+b110 aae
+b1011011 aag
+b1101110 aah
+b1011110 aai
+
+#3465
+b1101111 aah
+b1011111 aai
+
+#3470
+0aaa
+
+#3480
+1aaa
+
+#3482
+b10111 aad
+b111 aae
+b1101011 aaf
+b1101111 aag
+b1100101 aah
+b1100001 aai
+
+#3485
+b1101101 aaf
+b1100110 aah
+b1100010 aai
+
+#3490
+0aaa
+
+#3500
+1aaa
+
+#3502
+b11000 aad
+b1000 aae
+b1101011 aag
+b1101001 aah
+b1110110 aai
+
+#3505
+b1101101 aag
+b1101010 aah
+b1110111 aai
+
+#3510
+0aaa
+
+#3520
+1aaa
+
+#3522
+b11001 aad
+b1001 aae
+b1111111 aah
+b1110101 aai
+
+#3525
+b1101111 aag
+b10000000 aah
+b1110110 aai
+
+#3530
+0aaa
+
+#3540
+1aaa
+
+#3542
+b11010 aad
+b1010 aae
+b10000010 aaf
+b10000000 aag
+b1111111 aah
+b1111000 aai
+
+#3545
+b10000100 aaf
+b10000000 aah
+b1111001 aai
+
+#3550
+0aaa
+
+#3560
+1aaa
+
+#3562
+b11011 aad
+b1011 aae
+b10001000 aag
+b10000011 aah
+b10001010 aai
+
+#3565
+b10000110 aaf
+b10001010 aag
+b10000100 aah
+b10001011 aai
+
+#3570
+0aaa
+
+#3580
+1aaa
+
+#3582
+b11100 aad
+b1100 aae
+b10001010 aaf
+b10001100 aag
+b10010110 aah
+b10010101 aai
+
+#3585
+b10001100 aaf
+b10001110 aag
+b10010111 aah
+b10010110 aai
+
+#3590
+0aaa
+
+#3600
+1aaa
+
+#3602
+b11101 aad
+b1101 aae
+b10011111 aaf
+b10010111 aag
+b10100010 aah
+b10011010 aai
+
+#3605
+b10100001 aaf
+b10100011 aah
+b10011011 aai
+
+#3610
+0aaa
+
+#3620
+1aaa
+
+#3622
+b11110 aad
+b1110 aae
+b10101101 aaf
+b10101011 aag
+b10101000 aah
+b10100100 aai
+
+#3625
+b10101111 aaf
+b10101101 aag
+b10101001 aah
+b10100101 aai
+
+#3630
+0aaa
+
+#3640
+1aaa
+
+#3642
+b11111 aad
+b1111 aae
+b10110101 aaf
+b10111011 aag
+b10110011 aah
+b10111011 aai
+
+#3645
+b10110111 aaf
+b10111101 aag
+b10110100 aah
+b10111100 aai
+
+#3650
+0aaa
+
+#3660
+1aaa
+
+#3662
+b0 aad
+b10000 aae
+b11000010 aaf
+b11000101 aag
+b11001011 aah
+b11001100 aai
+
+#3665
+b10110111 aaf
+b10110100 aag
+b10111101 aah
+b10111100 aai
+
+#3670
+0aaa
+
+#3680
+1aaa
+
+#3682
+b1 aad
+b10001 aae
+b10111101 aag
+b10110100 aah
+
+#3685
+b10110101 aah
+b10111101 aai
+
+#3690
+0aaa
+
+#3700
+1aaa
+
+#3702
+b10 aad
+b10010 aae
+b10110101 aag
+b10111110 aah
+b10111110 aai
+
+#3705
+b10111111 aah
+b10111111 aai
+
+#3710
+0aaa
+
+#3720
+1aaa
+
+#3722
+b11 aad
+b10011 aae
+b10111111 aag
+b10110111 aah
+b11000001 aai
+
+#3725
+b10111000 aah
+b11000010 aai
+
+#3730
+0aaa
+
+#3740
+1aaa
+
+#3742
+b100 aad
+b10100 aae
+b10111000 aag
+b11000010 aah
+b11000101 aai
+
+#3745
+b11000011 aah
+b11000110 aai
+
+#3750
+0aaa
+
+#3760
+1aaa
+
+#3762
+b101 aad
+b10101 aae
+b10111011 aaf
+b11000011 aag
+b10111100 aah
+b11001010 aai
+
+#3765
+b10111101 aaf
+b10111101 aah
+b11001011 aai
+
+#3770
+0aaa
+
+#3780
+1aaa
+
+#3782
+b110 aad
+b10110 aae
+b10111101 aag
+b11001000 aah
+b11010000 aai
+
+#3785
+b11001001 aah
+b11010001 aai
+
+#3790
+0aaa
+
+#3800
+1aaa
+
+#3802
+b111 aad
+b10111 aae
+b11000101 aaf
+b11001001 aag
+b11000111 aah
+b11010111 aai
+
+#3805
+b11000111 aaf
+b11001000 aah
+b11011000 aai
+
+#3810
+0aaa
+
+#3820
+1aaa
+
+#3822
+b1000 aad
+b11000 aae
+b11001000 aag
+b11010000 aah
+b11011111 aai
+
+#3825
+b11001000 aaf
+b11010001 aah
+b11100000 aai
+
+#3830
+0aaa
+
+#3840
+1aaa
+
+#3842
+b1001 aad
+b11001 aae
+b11010001 aaf
+b11010001 aag
+b11011000 aah
+b11101000 aai
+
+#3845
+b11010011 aaf
+b11011001 aah
+b11101001 aai
+
+#3850
+0aaa
+
+#3860
+1aaa
+
+#3862
+b1010 aad
+b11010 aae
+b11011011 aaf
+b11011001 aag
+b11100010 aah
+b11110010 aai
+
+#3865
+b11011101 aaf
+b11100011 aah
+b11110011 aai
+
+#3870
+0aaa
+
+#3880
+1aaa
+
+#3882
+b1011 aad
+b11011 aae
+b11100111 aaf
+b11100011 aag
+b11101101 aah
+b11111101 aai
+
+#3885
+b11101001 aaf
+b11101110 aah
+b11111110 aai
+
+#3890
+0aaa
+
+#3900
+1aaa
+
+#3902
+b1100 aad
+b11100 aae
+b11110100 aaf
+b11101111 aag
+b11111001 aah
+b1001 aai
+
+#3905
+b11110110 aaf
+b11110001 aag
+b11111010 aah
+b1010 aai
+
+#3910
+0aaa
+
+#3920
+1aaa
+
+#3922
+b1101 aad
+b11101 aae
+b10 aaf
+b11111110 aag
+b110 aah
+b10110 aai
+
+#3925
+b100 aaf
+b0 aag
+b111 aah
+b10111 aai
+
+#3930
+0aaa
+
+#3940
+1aaa
+
+#3942
+b1110 aad
+b11110 aae
+b10001 aaf
+b1110 aag
+b10100 aah
+b100100 aai
+
+#3945
+b10011 aaf
+b10000 aag
+b10101 aah
+b100101 aai
+
+#3950
+0aaa
+
+#3960
+1aaa
+
+#3962
+b1111 aad
+b11111 aae
+b100001 aaf
+b11111 aag
+b100011 aah
+b110011 aai
+
+#3965
+b100011 aaf
+b100001 aag
+b100100 aah
+b110100 aai
+
+#3970
+0aaa
+
+#3980
+1aaa
+
+#3982
+b10000 aad
+b0 aae
+b110010 aaf
+b110001 aag
+b110011 aah
+b1000011 aai
+
+#3985
+b100011 aaf
+b100100 aag
+b110100 aah
+b100100 aai
+
+#3990
+0aaa
+
+#4000
+1aaa
+
+#4002
+b10001 aad
+b1 aae
+b100100 aaf
+b110100 aag
+b100100 aah
+
+#4005
+b100110 aaf
+b100101 aah
+b100101 aai
+
+#4010
+0aaa
+
+#4020
+1aaa
+
+#4022
+b10010 aad
+b10 aae
+b100101 aag
+b100110 aah
+b110101 aai
+
+#4025
+b100111 aah
+b110110 aai
+
+#4030
+0aaa
+
+#4040
+1aaa
+
+#4042
+b10011 aad
+b11 aae
+b100111 aag
+b111000 aah
+b101000 aai
+
+#4045
+b111001 aah
+b101001 aai
+
+#4050
+0aaa
+
+#4060
+1aaa
+
+#4062
+b10100 aad
+b100 aae
+b101111 aaf
+b111001 aag
+b101100 aah
+b101010 aai
+
+#4065
+b110001 aaf
+b101101 aah
+b101011 aai
+
+#4070
+0aaa
+
+#4080
+1aaa
+
+#4082
+b10101 aad
+b101 aae
+b101101 aag
+b101111 aah
+b111101 aai
+
+#4085
+b110000 aah
+b111110 aai
+
+#4090
+0aaa
+
+#4100
+1aaa
+
+#4102
+b10110 aad
+b110 aae
+b110000 aag
+b1000011 aah
+b110011 aai
+
+#4105
+b1000100 aah
+b110100 aai
+
+#4110
+0aaa
+
+#4120
+1aaa
+
+#4122
+b10111 aad
+b111 aae
+b1000000 aaf
+b1000100 aag
+b111010 aah
+b110110 aai
+
+#4125
+b1000010 aaf
+b111011 aah
+b110111 aai
+
+#4130
+0aaa
+
+#4140
+1aaa
+
+#4142
+b11000 aad
+b1000 aae
+b1000000 aag
+b111110 aah
+b1001011 aai
+
+#4145
+b1000010 aag
+b111111 aah
+b1001100 aai
+
+#4150
+0aaa
+
+#4160
+1aaa
+
+#4162
+b11001 aad
+b1001 aae
+b1010100 aah
+b1001010 aai
+
+#4165
+b1000100 aag
+b1010101 aah
+b1001011 aai
+
+#4170
+0aaa
+
+#4180
+1aaa
+
+#4182
+b11010 aad
+b1010 aae
+b1010111 aaf
+b1010101 aag
+b1010100 aah
+b1001101 aai
+
+#4185
+b1011001 aaf
+b1010101 aah
+b1001110 aai
+
+#4190
+0aaa
+
+#4200
+1aaa
+
+#4202
+b11011 aad
+b1011 aae
+b1011101 aag
+b1011000 aah
+b1011111 aai
+
+#4205
+b1011011 aaf
+b1011111 aag
+b1011001 aah
+b1100000 aai
+
+#4210
+0aaa
+
+#4220
+1aaa
+
+#4222
+b11100 aad
+b1100 aae
+b1011111 aaf
+b1100001 aag
+b1101011 aah
+b1101010 aai
+
+#4225
+b1100001 aaf
+b1100011 aag
+b1101100 aah
+b1101011 aai
+
+#4230
+0aaa
+
+#4240
+1aaa
+
+#4242
+b11101 aad
+b1101 aae
+b1110100 aaf
+b1101100 aag
+b1110111 aah
+b1101111 aai
+
+#4245
+b1110110 aaf
+b1111000 aah
+b1110000 aai
+
+#4250
+0aaa
+
+#4260
+1aaa
+
+#4262
+b11110 aad
+b1110 aae
+b10000010 aaf
+b10000000 aag
+b1111101 aah
+b1111001 aai
+
+#4265
+b10000100 aaf
+b10000010 aag
+b1111110 aah
+b1111010 aai
+
+#4270
+0aaa
+
+#4280
+1aaa
+
+#4282
+b11111 aad
+b1111 aae
+b10001010 aaf
+b10010000 aag
+b10001000 aah
+b10010000 aai
+
+#4285
+b10001100 aaf
+b10010010 aag
+b10001001 aah
+b10010001 aai
+
+#4290
+0aaa
+
+#4300
+1aaa
+
+#4302
+b0 aad
+b10000 aae
+b10010111 aaf
+b10011010 aag
+b10100000 aah
+b10100001 aai
+
+#4305
+b10001100 aaf
+b10001001 aag
+b10010010 aah
+b10010001 aai
+
+#4310
+0aaa
+
+#4320
+1aaa
+
+#4322
+b1 aad
+b10001 aae
+b10010010 aag
+b10001001 aah
+
+#4325
+b10001010 aah
+b10010010 aai
+
+#4330
+0aaa
+
+#4340
+1aaa
+
+#4342
+b10 aad
+b10010 aae
+b10001010 aag
+b10010011 aah
+b10010011 aai
+
+#4345
+b10010100 aah
+b10010100 aai
+
+#4350
+0aaa
+
+#4360
+1aaa
+
+#4362
+b11 aad
+b10011 aae
+b10010100 aag
+b10001100 aah
+b10010110 aai
+
+#4365
+b10001101 aah
+b10010111 aai
+
+#4370
+0aaa
+
+#4380
+1aaa
+
+#4382
+b100 aad
+b10100 aae
+b10001101 aag
+b10010111 aah
+b10011010 aai
+
+#4385
+b10011000 aah
+b10011011 aai
+
+#4390
+0aaa
+
+#4400
+1aaa
+
+#4402
+b101 aad
+b10101 aae
+b10010000 aaf
+b10011000 aag
+b10010001 aah
+b10011111 aai
+
+#4405
+b10010010 aaf
+b10010010 aah
+b10100000 aai
+
+#4410
+0aaa
+
+#4420
+1aaa
+
+#4422
+b110 aad
+b10110 aae
+b10010010 aag
+b10011101 aah
+b10100101 aai
+
+#4425
+b10011110 aah
+b10100110 aai
+
+#4430
+0aaa
+
+#4440
+1aaa
+
+#4442
+b111 aad
+b10111 aae
+b10011010 aaf
+b10011110 aag
+b10011100 aah
+b10101100 aai
+
+#4445
+b10011100 aaf
+b10011101 aah
+b10101101 aai
+
+#4450
+0aaa
+
+#4460
+1aaa
+
+#4462
+b1000 aad
+b11000 aae
+b10011101 aag
+b10100101 aah
+b10110100 aai
+
+#4465
+b10011101 aaf
+b10100110 aah
+b10110101 aai
+
+#4470
+0aaa
+
+#4480
+1aaa
+
+#4482
+b1001 aad
+b11001 aae
+b10100110 aaf
+b10100110 aag
+b10101101 aah
+b10111101 aai
+
+#4485
+b10101000 aaf
+b10101110 aah
+b10111110 aai
+
+#4490
+0aaa
+
+#4500
+1aaa
+
+#4502
+b1010 aad
+b11010 aae
+b10110000 aaf
+b10101110 aag
+b10110111 aah
+b11000111 aai
+
+#4505
+b10110010 aaf
+b10111000 aah
+b11001000 aai
+
+#4510
+0aaa
+
+#4520
+1aaa
+
+#4522
+b1011 aad
+b11011 aae
+b10111100 aaf
+b10111000 aag
+b11000010 aah
+b11010010 aai
+
+#4525
+b10111110 aaf
+b11000011 aah
+b11010011 aai
+
+#4530
+0aaa
+
+#4540
+1aaa
+
+#4542
+b1100 aad
+b11100 aae
+b11001001 aaf
+b11000100 aag
+b11001110 aah
+b11011110 aai
+
+#4545
+b11001011 aaf
+b11000110 aag
+b11001111 aah
+b11011111 aai
+
+#4550
+0aaa
+
+#4560
+1aaa
+
+#4562
+b1101 aad
+b11101 aae
+b11010111 aaf
+b11010011 aag
+b11011011 aah
+b11101011 aai
+
+#4565
+b11011001 aaf
+b11010101 aag
+b11011100 aah
+b11101100 aai
+
+#4570
+0aaa
+
+#4580
+1aaa
+
+#4582
+b1110 aad
+b11110 aae
+b11100110 aaf
+b11100011 aag
+b11101001 aah
+b11111001 aai
+
+#4585
+b11101000 aaf
+b11100101 aag
+b11101010 aah
+b11111010 aai
+
+#4590
+0aaa
+
+#4600
+1aaa
+
+#4602
+b1111 aad
+b11111 aae
+b11110110 aaf
+b11110100 aag
+b11111000 aah
+b1000 aai
+
+#4605
+b11111000 aaf
+b11110110 aag
+b11111001 aah
+b1001 aai
+
+#4610
+0aaa
+
+#4620
+1aaa
+
+#4622
+b10000 aad
+b0 aae
+b111 aaf
+b110 aag
+b1000 aah
+b11000 aai
+
+#4625
+b11111000 aaf
+b11111001 aag
+b1001 aah
+b11111001 aai
+
+#4630
+0aaa
+
+#4640
+1aaa
+
+#4642
+b10001 aad
+b1 aae
+b11111001 aaf
+b1001 aag
+b11111001 aah
+
+#4645
+b11111011 aaf
+b11111010 aah
+b11111010 aai
+
+#4650
+0aaa
+
+#4660
+1aaa
+
+#4662
+b10010 aad
+b10 aae
+b11111010 aag
+b11111011 aah
+b1010 aai
+
+#4665
+b11111100 aah
+b1011 aai
+
+#4670
+0aaa
+
+#4680
+1aaa
+
+#4682
+b10011 aad
+b11 aae
+b11111100 aag
+b1101 aah
+b11111101 aai
+
+#4685
+b1110 aah
+b11111110 aai
+
+#4690
+0aaa
+
+#4700
+1aaa
+
+#4702
+b10100 aad
+b100 aae
+b100 aaf
+b1110 aag
+b1 aah
+b11111111 aai
+
+#4705
+b110 aaf
+b10 aah
+b0 aai
+
+#4710
+0aaa
+
+#4720
+1aaa
+
+#4722
+b10101 aad
+b101 aae
+b10 aag
+b100 aah
+b10010 aai
+
+#4725
+b101 aah
+b10011 aai
+
+#4730
+0aaa
+
+#4740
+1aaa
+
+#4742
+b10110 aad
+b110 aae
+b101 aag
+b11000 aah
+b1000 aai
+
+#4745
+b11001 aah
+b1001 aai
+
+#4750
+0aaa
+
+#4760
+1aaa
+
+#4762
+b10111 aad
+b111 aae
+b10101 aaf
+b11001 aag
+b1111 aah
+b1011 aai
+
+#4765
+b10111 aaf
+b10000 aah
+b1100 aai
+
+#4770
+0aaa
+
+#4780
+1aaa
+
+#4782
+b11000 aad
+b1000 aae
+b10101 aag
+b10011 aah
+b100000 aai
+
+#4785
+b10111 aag
+b10100 aah
+b100001 aai
+
+#4790
+0aaa
+
+#4800
+1aaa
+
+#4802
+b11001 aad
+b1001 aae
+b101001 aah
+b11111 aai
+
+#4805
+b11001 aag
+b101010 aah
+b100000 aai
+
+#4810
+0aaa
+
+#4820
+1aaa
+
+#4822
+b11010 aad
+b1010 aae
+b101100 aaf
+b101010 aag
+b101001 aah
+b100010 aai
+
+#4825
+b101110 aaf
+b101010 aah
+b100011 aai
+
+#4830
+0aaa
+
+#4840
+1aaa
+
+#4842
+b11011 aad
+b1011 aae
+b110010 aag
+b101101 aah
+b110100 aai
+
+#4845
+b110000 aaf
+b110100 aag
+b101110 aah
+b110101 aai
+
+#4850
+0aaa
+
+#4860
+1aaa
+
+#4862
+b11100 aad
+b1100 aae
+b110100 aaf
+b110110 aag
+b1000000 aah
+b111111 aai
+
+#4865
+b110110 aaf
+b111000 aag
+b1000001 aah
+b1000000 aai
+
+#4870
+0aaa
+
+#4880
+1aaa
+
+#4882
+b11101 aad
+b1101 aae
+b1001001 aaf
+b1000001 aag
+b1001100 aah
+b1000100 aai
+
+#4885
+b1001011 aaf
+b1001101 aah
+b1000101 aai
+
+#4890
+0aaa
+
+#4900
+1aaa
+
+#4902
+b11110 aad
+b1110 aae
+b1010111 aaf
+b1010101 aag
+b1010010 aah
+b1001110 aai
+
+#4905
+b1011001 aaf
+b1010111 aag
+b1010011 aah
+b1001111 aai
+
+#4910
+0aaa
+
+#4920
+1aaa
+
+#4922
+b11111 aad
+b1111 aae
+b1011111 aaf
+b1100101 aag
+b1011101 aah
+b1100101 aai
+
+#4925
+b1100001 aaf
+b1100111 aag
+b1011110 aah
+b1100110 aai
+
+#4930
+0aaa
+
+#4940
+1aaa
+
+#4942
+b0 aad
+b10000 aae
+b1101100 aaf
+b1101111 aag
+b1110101 aah
+b1110110 aai
+
+#4945
+b1100001 aaf
+b1011110 aag
+b1100111 aah
+b1100110 aai
+
+#4950
+0aaa
+
+#4960
+1aaa
+
+#4962
+b1 aad
+b10001 aae
+b1100111 aag
+b1011110 aah
+
+#4965
+b1011111 aah
+b1100111 aai
+
+#4970
+0aaa
+
+#4980
+1aaa
+
+#4982
+b10 aad
+b10010 aae
+b1011111 aag
+b1101000 aah
+b1101000 aai
+
+#4985
+b1101001 aah
+b1101001 aai
+
+#4990
+0aaa
+
+#5000
+1aaa
+
+#5002
+b11 aad
+b10011 aae
+b1101001 aag
+b1100001 aah
+b1101011 aai
+
+#5005
+b1100010 aah
+b1101100 aai
+
+#5010
+0aaa
+
+#5020
+1aaa
+
+#5022
+b100 aad
+b10100 aae
+b1100010 aag
+b1101100 aah
+b1101111 aai
+
+#5025
+b1101101 aah
+b1110000 aai
+
+#5030
+0aaa
+
+#5040
+1aaa
+
+#5042
+b101 aad
+b10101 aae
+b1100101 aaf
+b1101101 aag
+b1100110 aah
+b1110100 aai
+
+#5045
+b1100111 aaf
+b1100111 aah
+b1110101 aai
+
+#5050
+0aaa
+
+#5060
+1aaa
+
+#5062
+b110 aad
+b10110 aae
+b1100111 aag
+b1110010 aah
+b1111010 aai
+
+#5065
+b1110011 aah
+b1111011 aai
+
+#5070
+0aaa
+
+#5080
+1aaa
+
+#5082
+b111 aad
+b10111 aae
+b1101111 aaf
+b1110011 aag
+b1110001 aah
+b10000001 aai
+
+#5085
+b1110001 aaf
+b1110010 aah
+b10000010 aai
+
+#5090
+0aaa
+
+#5100
+1aaa
+
+#5102
+b1000 aad
+b11000 aae
+b1110010 aag
+b1111010 aah
+b10001001 aai
+
+#5105
+b1110010 aaf
+b1111011 aah
+b10001010 aai
+
+#5110
+0aaa
+
+#5120
+1aaa
+
+#5122
+b1001 aad
+b11001 aae
+b1111011 aaf
+b1111011 aag
+b10000010 aah
+b10010010 aai
+
+#5125
+b1111101 aaf
+b10000011 aah
+b10010011 aai
+
+#5130
+0aaa
+
+#5140
+1aaa
+
+#5142
+b1010 aad
+b11010 aae
+b10000101 aaf
+b10000011 aag
+b10001100 aah
+b10011100 aai
+
+#5145
+b10000111 aaf
+b10001101 aah
+b10011101 aai
+
+#5150
+0aaa
+
+#5160
+1aaa
+
+#5162
+b1011 aad
+b11011 aae
+b10010001 aaf
+b10001101 aag
+b10010111 aah
+b10100111 aai
+
+#5165
+b10010011 aaf
+b10011000 aah
+b10101000 aai
+
+#5170
+0aaa
+
+#5180
+1aaa
+
+#5182
+b1100 aad
+b11100 aae
+b10011110 aaf
+b10011001 aag
+b10100011 aah
+b10110011 aai
+
+#5185
+b10100000 aaf
+b10011011 aag
+b10100100 aah
+b10110100 aai
+
+#5190
+0aaa
+
+#5200
+1aaa
+
+#5202
+b1101 aad
+b11101 aae
+b10101100 aaf
+b10101000 aag
+b10110000 aah
+b11000000 aai
+
+#5205
+b10101110 aaf
+b10101010 aag
+b10110001 aah
+b11000001 aai
+
+#5210
+0aaa
+
+#5220
+1aaa
+
+#5222
+b1110 aad
+b11110 aae
+b10111011 aaf
+b10111000 aag
+b10111110 aah
+b11001110 aai
+
+#5225
+b10111101 aaf
+b10111010 aag
+b10111111 aah
+b11001111 aai
+
+#5230
+0aaa
+
+#5240
+1aaa
+
+#5242
+b1111 aad
+b11111 aae
+b11001011 aaf
+b11001001 aag
+b11001101 aah
+b11011101 aai
+
+#5245
+b11001101 aaf
+b11001011 aag
+b11001110 aah
+b11011110 aai
+
+#5250
+0aaa
+
+#5260
+1aaa
+
+#5262
+b10000 aad
+b0 aae
+b11011100 aaf
+b11011011 aag
+b11011101 aah
+b11101101 aai
+
+#5265
+b11001101 aaf
+b11001110 aag
+b11011110 aah
+b11001110 aai
+
+#5270
+0aaa
+
+#5280
+1aaa
+
+#5282
+b10001 aad
+b1 aae
+b11001110 aaf
+b11011110 aag
+b11001110 aah
+
+#5285
+b11010000 aaf
+b11001111 aah
+b11001111 aai
+
+#5290
+0aaa
+
+#5300
+1aaa
+
+#5302
+b10010 aad
+b10 aae
+b11001111 aag
+b11010000 aah
+b11011111 aai
+
+#5305
+b11010001 aah
+b11100000 aai
+
+#5310
+0aaa
+
+#5320
+1aaa
+
+#5322
+b10011 aad
+b11 aae
+b11010001 aag
+b11100010 aah
+b11010010 aai
+
+#5325
+b11100011 aah
+b11010011 aai
+
+#5330
+0aaa
+
+#5340
+1aaa
+
+#5342
+b10100 aad
+b100 aae
+b11011001 aaf
+b11100011 aag
+b11010110 aah
+b11010100 aai
+
+#5345
+b11011011 aaf
+b11010111 aah
+b11010101 aai
+
+#5350
+0aaa
+
+#5360
+1aaa
+
+#5362
+b10101 aad
+b101 aae
+b11010111 aag
+b11011001 aah
+b11100111 aai
+
+#5365
+b11011010 aah
+b11101000 aai
+
+#5370
+0aaa
+
+#5380
+1aaa
+
+#5382
+b10110 aad
+b110 aae
+b11011010 aag
+b11101101 aah
+b11011101 aai
+
+#5385
+b11101110 aah
+b11011110 aai
+
+#5390
+0aaa
+
+#5400
+1aaa
+
+#5402
+b10111 aad
+b111 aae
+b11101010 aaf
+b11101110 aag
+b11100100 aah
+b11100000 aai
+
+#5405
+b11101100 aaf
+b11100101 aah
+b11100001 aai
+
+#5410
+0aaa
+
+#5420
+1aaa
+
+#5422
+b11000 aad
+b1000 aae
+b11101010 aag
+b11101000 aah
+b11110101 aai
+
+#5425
+b11101100 aag
+b11101001 aah
+b11110110 aai
+
+#5430
+0aaa
+
+#5440
+1aaa
+
+#5442
+b11001 aad
+b1001 aae
+b11111110 aah
+b11110100 aai
+
+#5445
+b11101110 aag
+b11111111 aah
+b11110101 aai
+
+#5450
+0aaa
+
+#5460
+1aaa
+
+#5462
+b11010 aad
+b1010 aae
+b1 aaf
+b11111111 aag
+b11111110 aah
+b11110111 aai
+
+#5465
+b11 aaf
+b11111111 aah
+b11111000 aai
+
+#5470
+0aaa
+
+#5480
+1aaa
+
+#5482
+b11011 aad
+b1011 aae
+b111 aag
+b10 aah
+b1001 aai
+
+#5485
+b101 aaf
+b1001 aag
+b11 aah
+b1010 aai
+
+#5490
+0aaa
+
+#5500
+1aaa
+
+#5502
+b11100 aad
+b1100 aae
+b1001 aaf
+b1011 aag
+b10101 aah
+b10100 aai
+
+#5505
+b1011 aaf
+b1101 aag
+b10110 aah
+b10101 aai
+
+#5510
+0aaa
+
+#5520
+1aaa
+
+#5522
+b11101 aad
+b1101 aae
+b11110 aaf
+b10110 aag
+b100001 aah
+b11001 aai
+
+#5525
+b100000 aaf
+b100010 aah
+b11010 aai
+
+#5530
+0aaa
+
+#5540
+1aaa
+
+#5542
+b11110 aad
+b1110 aae
+b101100 aaf
+b101010 aag
+b100111 aah
+b100011 aai
+
+#5545
+b101110 aaf
+b101100 aag
+b101000 aah
+b100100 aai
+
+#5550
+0aaa
+
+#5560
+1aaa
+
+#5562
+b11111 aad
+b1111 aae
+b110100 aaf
+b111010 aag
+b110010 aah
+b111010 aai
+
+#5565
+b110110 aaf
+b111100 aag
+b110011 aah
+b111011 aai
+
+#5570
+0aaa
+
+#5580
+1aaa
+
+#5582
+b0 aad
+b10000 aae
+b1000001 aaf
+b1000100 aag
+b1001010 aah
+b1001011 aai
+
+#5585
+b110110 aaf
+b110011 aag
+b111100 aah
+b111011 aai
+
+#5590
+0aaa
+
+#5600
+1aaa
+
+#5602
+b1 aad
+b10001 aae
+b111100 aag
+b110011 aah
+
+#5605
+b110100 aah
+b111100 aai
+
+#5610
+0aaa
+
+#5620
+1aaa
+
+#5622
+b10 aad
+b10010 aae
+b110100 aag
+b111101 aah
+b111101 aai
+
+#5625
+b111110 aah
+b111110 aai
+
+#5630
+0aaa
+
+#5640
+1aaa
+
+#5642
+b11 aad
+b10011 aae
+b111110 aag
+b110110 aah
+b1000000 aai
+
+#5645
+b110111 aah
+b1000001 aai
+
+#5650
+0aaa
+
+#5660
+1aaa
+
+#5662
+b100 aad
+b10100 aae
+b110111 aag
+b1000001 aah
+b1000100 aai
+
+#5665
+b1000010 aah
+b1000101 aai
+
+#5670
+0aaa
+
+#5680
+1aaa
+
+#5682
+b101 aad
+b10101 aae
+b111010 aaf
+b1000010 aag
+b111011 aah
+b1001001 aai
+
+#5685
+b111100 aaf
+b111100 aah
+b1001010 aai
+
+#5690
+0aaa
+
+#5700
+1aaa
+
+#5702
+b110 aad
+b10110 aae
+b111100 aag
+b1000111 aah
+b1001111 aai
+
+#5705
+b1001000 aah
+b1010000 aai
+
+#5710
+0aaa
+
+#5720
+1aaa
+
+#5722
+b111 aad
+b10111 aae
+b1000100 aaf
+b1001000 aag
+b1000110 aah
+b1010110 aai
+
+#5725
+b1000110 aaf
+b1000111 aah
+b1010111 aai
+
+#5730
+0aaa
+
+#5740
+1aaa
+
+#5742
+b1000 aad
+b11000 aae
+b1000111 aag
+b1001111 aah
+b1011110 aai
+
+#5745
+b1000111 aaf
+b1010000 aah
+b1011111 aai
+
+#5750
+0aaa
+
+#5760
+1aaa
+
+#5762
+b1001 aad
+b11001 aae
+b1010000 aaf
+b1010000 aag
+b1010111 aah
+b1100111 aai
+
+#5765
+b1010010 aaf
+b1011000 aah
+b1101000 aai
+
+#5770
+0aaa
+
+#5780
+1aaa
+
+#5782
+b1010 aad
+b11010 aae
+b1011010 aaf
+b1011000 aag
+b1100001 aah
+b1110001 aai
+
+#5785
+b1011100 aaf
+b1100010 aah
+b1110010 aai
+
+#5790
+0aaa
+
+#5800
+1aaa
+
+#5802
+b1011 aad
+b11011 aae
+b1100110 aaf
+b1100010 aag
+b1101100 aah
+b1111100 aai
+
+#5805
+b1101000 aaf
+b1101101 aah
+b1111101 aai
+
+#5810
+0aaa
+
+#5820
+1aaa
+
+#5822
+b1100 aad
+b11100 aae
+b1110011 aaf
+b1101110 aag
+b1111000 aah
+b10001000 aai
+
+#5825
+b1110101 aaf
+b1110000 aag
+b1111001 aah
+b10001001 aai
+
+#5830
+0aaa
+
+#5840
+1aaa
+
+#5842
+b1101 aad
+b11101 aae
+b10000001 aaf
+b1111101 aag
+b10000101 aah
+b10010101 aai
+
+#5845
+b10000011 aaf
+b1111111 aag
+b10000110 aah
+b10010110 aai
+
+#5850
+0aaa
+
+#5860
+1aaa
+
+#5862
+b1110 aad
+b11110 aae
+b10010000 aaf
+b10001101 aag
+b10010011 aah
+b10100011 aai
+
+#5865
+b10010010 aaf
+b10001111 aag
+b10010100 aah
+b10100100 aai
+
+#5870
+0aaa
+
+#5880
+1aaa
+
+#5882
+b1111 aad
+b11111 aae
+b10100000 aaf
+b10011110 aag
+b10100010 aah
+b10110010 aai
+
+#5885
+b10100010 aaf
+b10100000 aag
+b10100011 aah
+b10110011 aai
+
+#5890
+0aaa
+
+#5900
+1aaa
+
+#5902
+b10000 aad
+b0 aae
+b10110001 aaf
+b10110000 aag
+b10110010 aah
+b11000010 aai
+
+#5905
+b10100010 aaf
+b10100011 aag
+b10110011 aah
+b10100011 aai
+
+#5910
+0aaa
+
+#5920
+1aaa
+
+#5922
+b10001 aad
+b1 aae
+b10100011 aaf
+b10110011 aag
+b10100011 aah
+
+#5925
+b10100101 aaf
+b10100100 aah
+b10100100 aai
+
+#5930
+0aaa
+
+#5940
+1aaa
+
+#5942
+b10010 aad
+b10 aae
+b10100100 aag
+b10100101 aah
+b10110100 aai
+
+#5945
+b10100110 aah
+b10110101 aai
+
+#5950
+0aaa
+
+#5960
+1aaa
+
+#5962
+b10011 aad
+b11 aae
+b10100110 aag
+b10110111 aah
+b10100111 aai
+
+#5965
+b10111000 aah
+b10101000 aai
+
+#5970
+0aaa
+
+#5980
+1aaa
+
+#5982
+b10100 aad
+b100 aae
+b10101110 aaf
+b10111000 aag
+b10101011 aah
+b10101001 aai
+
+#5985
+b10110000 aaf
+b10101100 aah
+b10101010 aai
+
+#5990
+0aaa
+
+#6000
+1aaa
+
+#6002
+b10101 aad
+b101 aae
+b10101100 aag
+b10101110 aah
+b10111100 aai
+
+#6005
+b10101111 aah
+b10111101 aai
+
+#6010
+0aaa
+
+#6020
+1aaa
+
+#6022
+b10110 aad
+b110 aae
+b10101111 aag
+b11000010 aah
+b10110010 aai
+
+#6025
+b11000011 aah
+b10110011 aai
+
+#6030
+0aaa
+
+#6040
+1aaa
+
+#6042
+b10111 aad
+b111 aae
+b10111111 aaf
+b11000011 aag
+b10111001 aah
+b10110101 aai
+
+#6045
+b11000001 aaf
+b10111010 aah
+b10110110 aai
+
+#6050
+0aaa
+
+#6060
+1aaa
+
+#6062
+b11000 aad
+b1000 aae
+b10111111 aag
+b10111101 aah
+b11001010 aai
+
+#6065
+b11000001 aag
+b10111110 aah
+b11001011 aai
+
+#6070
+0aaa
+
+#6080
+1aaa
+
+#6082
+b11001 aad
+b1001 aae
+b11010011 aah
+b11001001 aai
+
+#6085
+b11000011 aag
+b11010100 aah
+b11001010 aai
+
+#6090
+0aaa
+
+#6100
+1aaa
+
+#6102
+b11010 aad
+b1010 aae
+b11010110 aaf
+b11010100 aag
+b11010011 aah
+b11001100 aai
+
+#6105
+b11011000 aaf
+b11010100 aah
+b11001101 aai
+
+#6110
+0aaa
+
+#6120
+1aaa
+
+#6122
+b11011 aad
+b1011 aae
+b11011100 aag
+b11010111 aah
+b11011110 aai
+
+#6125
+b11011010 aaf
+b11011110 aag
+b11011000 aah
+b11011111 aai
+
+#6130
+0aaa
+
+#6140
+1aaa
+
+#6142
+b11100 aad
+b1100 aae
+b11011110 aaf
+b11100000 aag
+b11101010 aah
+b11101001 aai
+
+#6145
+b11100000 aaf
+b11100010 aag
+b11101011 aah
+b11101010 aai
+
+#6150
+0aaa
+
+#6160
+1aaa
+
+#6162
+b11101 aad
+b1101 aae
+b11110011 aaf
+b11101011 aag
+b11110110 aah
+b11101110 aai
+
+#6165
+b11110101 aaf
+b11110111 aah
+b11101111 aai
+
+#6170
+0aaa
+
+#6180
+1aaa
+
+#6182
+b11110 aad
+b1110 aae
+b1 aaf
+b11111111 aag
+b11111100 aah
+b11111000 aai
+
+#6185
+b11 aaf
+b1 aag
+b11111101 aah
+b11111001 aai
+
+#6190
+0aaa
+
+#6200
+1aaa
+
+#6202
+b11111 aad
+b1111 aae
+b1001 aaf
+b1111 aag
+b111 aah
+b1111 aai
+
+#6205
+b1011 aaf
+b10001 aag
+b1000 aah
+b10000 aai
+
+#6210
+0aaa
+
+#6220
+1aaa
+
+#6222
+b0 aad
+b10000 aae
+b10110 aaf
+b11001 aag
+b11111 aah
+b100000 aai
+
+#6225
+b1011 aaf
+b1000 aag
+b10001 aah
+b10000 aai
+
+#6230
+0aaa
+
+#6240
+1aaa
+
+#6242
+b1 aad
+b10001 aae
+b10001 aag
+b1000 aah
+
+#6245
+b1001 aah
+b10001 aai
+
+#6250
+0aaa
+
+#6260
+1aaa
+
+#6262
+b10 aad
+b10010 aae
+b1001 aag
+b10010 aah
+b10010 aai
+
+#6265
+b10011 aah
+b10011 aai
+
+#6270
+0aaa
+
+#6280
+1aaa
+
+#6282
+b11 aad
+b10011 aae
+b10011 aag
+b1011 aah
+b10101 aai
+
+#6285
+b1100 aah
+b10110 aai
+
+#6290
+0aaa
+
+#6300
+1aaa
+
+#6302
+b100 aad
+b10100 aae
+b1100 aag
+b10110 aah
+b11001 aai
+
+#6305
+b10111 aah
+b11010 aai
+
+#6310
+0aaa
+
+#6320
+1aaa
+
+#6322
+b101 aad
+b10101 aae
+b1111 aaf
+b10111 aag
+b10000 aah
+b11110 aai
+
+#6325
+b10001 aaf
+b10001 aah
+b11111 aai
+
+#6330
+0aaa
+
+#6340
+1aaa
+
+#6342
+b110 aad
+b10110 aae
+b10001 aag
+b11100 aah
+b100100 aai
+
+#6345
+b11101 aah
+b100101 aai
+
+#6350
+0aaa
+
+#6360
+1aaa
+
+#6362
+b111 aad
+b10111 aae
+b11001 aaf
+b11101 aag
+b11011 aah
+b101011 aai
+
+#6365
+b11011 aaf
+b11100 aah
+b101100 aai
+
+#6370
+0aaa
+
+#6380
+1aaa
+
+#6382
+b1000 aad
+b11000 aae
+b11100 aag
+b100100 aah
+b110011 aai
+
+#6385
+b11100 aaf
+b100101 aah
+b110100 aai
+
+#6390
+0aaa
+
+#6400
+1aaa
+
+#6402
+b1001 aad
+b11001 aae
+b100101 aaf
+b100101 aag
+b101100 aah
+b111100 aai
+
+#6405
+b100111 aaf
+b101101 aah
+b111101 aai
+
+#6410
+0aaa
+
+#6420
+1aaa
+
+#6422
+b1010 aad
+b11010 aae
+b101111 aaf
+b101101 aag
+b110110 aah
+b1000110 aai
+
+#6425
+b110001 aaf
+b110111 aah
+b1000111 aai
+
+#6430
+0aaa
+
+#6440
+1aaa
+
+#6442
+b1011 aad
+b11011 aae
+b111011 aaf
+b110111 aag
+b1000001 aah
+b1010001 aai
+
+#6445
+b111101 aaf
+b1000010 aah
+b1010010 aai
+
+#6450
+0aaa
+
+#6460
+1aaa
+
+#6462
+b1100 aad
+b11100 aae
+b1001000 aaf
+b1000011 aag
+b1001101 aah
+b1011101 aai
+
+#6465
+b1001010 aaf
+b1000101 aag
+b1001110 aah
+b1011110 aai
+
+#6470
+0aaa
+
+#6480
+1aaa
+
+#6482
+b1101 aad
+b11101 aae
+b1010110 aaf
+b1010010 aag
+b1011010 aah
+b1101010 aai
+
+#6485
+b1011000 aaf
+b1010100 aag
+b1011011 aah
+b1101011 aai
+
+#6490
+0aaa
+
+#6500
+1aaa
+
+#6502
+b1110 aad
+b11110 aae
+b1100101 aaf
+b1100010 aag
+b1101000 aah
+b1111000 aai
+
+#6505
+b1100111 aaf
+b1100100 aag
+b1101001 aah
+b1111001 aai
+
+#6510
+0aaa
+
+#6520
+1aaa
+
+#6522
+b1111 aad
+b11111 aae
+b1110101 aaf
+b1110011 aag
+b1110111 aah
+b10000111 aai
+
+#6525
+b1110111 aaf
+b1110101 aag
+b1111000 aah
+b10001000 aai
+
+#6530
+0aaa
+
+#6540
+1aaa
+
+#6542
+b10000 aad
+b0 aae
+b10000110 aaf
+b10000101 aag
+b10000111 aah
+b10010111 aai
+
+#6545
+b1110111 aaf
+b1111000 aag
+b10001000 aah
+b1111000 aai
+
+#6550
+0aaa
+
+#6560
+1aaa
+
+#6562
+b10001 aad
+b1 aae
+b1111000 aaf
+b10001000 aag
+b1111000 aah
+
+#6565
+b1111010 aaf
+b1111001 aah
+b1111001 aai
+
+#6570
+0aaa
+
+#6580
+1aaa
+
+#6582
+b10010 aad
+b10 aae
+b1111001 aag
+b1111010 aah
+b10001001 aai
+
+#6585
+b1111011 aah
+b10001010 aai
+
+#6590
+0aaa
+
+#6600
+1aaa
+
+#6602
+b10011 aad
+b11 aae
+b1111011 aag
+b10001100 aah
+b1111100 aai
+
+#6605
+b10001101 aah
+b1111101 aai
+
+#6610
+0aaa
+
+#6620
+1aaa
+
+#6622
+b10100 aad
+b100 aae
+b10000011 aaf
+b10001101 aag
+b10000000 aah
+b1111110 aai
+
+#6625
+b10000101 aaf
+b10000001 aah
+b1111111 aai
+
+#6630
+0aaa
+
+#6640
+1aaa
+
+#6642
+b10101 aad
+b101 aae
+b10000001 aag
+b10000011 aah
+b10010001 aai
+
+#6645
+b10000100 aah
+b10010010 aai
+
+#6650
+0aaa
+
+#6660
+1aaa
+
+#6662
+b10110 aad
+b110 aae
+b10000100 aag
+b10010111 aah
+b10000111 aai
+
+#6665
+b10011000 aah
+b10001000 aai
+
+#6670
+0aaa
+
+#6680
+1aaa
+
+#6682
+b10111 aad
+b111 aae
+b10010100 aaf
+b10011000 aag
+b10001110 aah
+b10001010 aai
+
+#6685
+b10010110 aaf
+b10001111 aah
+b10001011 aai
+
+#6690
+0aaa
+
+#6700
+1aaa
+
+#6702
+b11000 aad
+b1000 aae
+b10010100 aag
+b10010010 aah
+b10011111 aai
+
+#6705
+b10010110 aag
+b10010011 aah
+b10100000 aai
+
+#6710
+0aaa
+
+#6720
+1aaa
+
+#6722
+b11001 aad
+b1001 aae
+b10101000 aah
+b10011110 aai
+
+#6725
+b10011000 aag
+b10101001 aah
+b10011111 aai
+
+#6730
+0aaa
+
+#6740
+1aaa
+
+#6742
+b11010 aad
+b1010 aae
+b10101011 aaf
+b10101001 aag
+b10101000 aah
+b10100001 aai
+
+#6745
+b10101101 aaf
+b10101001 aah
+b10100010 aai
+
+#6750
+0aaa
+
+#6760
+1aaa
+
+#6762
+b11011 aad
+b1011 aae
+b10110001 aag
+b10101100 aah
+b10110011 aai
+
+#6765
+b10101111 aaf
+b10110011 aag
+b10101101 aah
+b10110100 aai
+
+#6770
+0aaa
+
+#6780
+1aaa
+
+#6782
+b11100 aad
+b1100 aae
+b10110011 aaf
+b10110101 aag
+b10111111 aah
+b10111110 aai
+
+#6785
+b10110101 aaf
+b10110111 aag
+b11000000 aah
+b10111111 aai
+
+#6790
+0aaa
+
+#6800
+1aaa
+
+#6802
+b11101 aad
+b1101 aae
+b11001000 aaf
+b11000000 aag
+b11001011 aah
+b11000011 aai
+
+#6805
+b11001010 aaf
+b11001100 aah
+b11000100 aai
+
+#6810
+0aaa
+
+#6820
+1aaa
+
+#6822
+b11110 aad
+b1110 aae
+b11010110 aaf
+b11010100 aag
+b11010001 aah
+b11001101 aai
+
+#6825
+b11011000 aaf
+b11010110 aag
+b11010010 aah
+b11001110 aai
+
+#6830
+0aaa
+
+#6840
+1aaa
+
+#6842
+b11111 aad
+b1111 aae
+b11011110 aaf
+b11100100 aag
+b11011100 aah
+b11100100 aai
+
+#6845
+b11100000 aaf
+b11100110 aag
+b11011101 aah
+b11100101 aai
+
+#6850
+0aaa
+
+#6860
+1aaa
+
+#6862
+b0 aad
+b10000 aae
+b11101011 aaf
+b11101110 aag
+b11110100 aah
+b11110101 aai
+
+#6865
+b11100000 aaf
+b11011101 aag
+b11100110 aah
+b11100101 aai
+
+#6870
+0aaa
+
+#6880
+1aaa
+
+#6882
+b1 aad
+b10001 aae
+b11100110 aag
+b11011101 aah
+
+#6885
+b11011110 aah
+b11100110 aai
+
+#6890
+0aaa
+
+#6900
+1aaa
+
+#6902
+b10 aad
+b10010 aae
+b11011110 aag
+b11100111 aah
+b11100111 aai
+
+#6905
+b11101000 aah
+b11101000 aai
+
+#6910
+0aaa
+
+#6920
+1aaa
+
+#6922
+b11 aad
+b10011 aae
+b11101000 aag
+b11100000 aah
+b11101010 aai
+
+#6925
+b11100001 aah
+b11101011 aai
+
+#6930
+0aaa
+
+#6940
+1aaa
+
+#6942
+b100 aad
+b10100 aae
+b11100001 aag
+b11101011 aah
+b11101110 aai
+
+#6945
+b11101100 aah
+b11101111 aai
+
+#6950
+0aaa
+
+#6960
+1aaa
+
+#6962
+b101 aad
+b10101 aae
+b11100100 aaf
+b11101100 aag
+b11100101 aah
+b11110011 aai
+
+#6965
+b11100110 aaf
+b11100110 aah
+b11110100 aai
+
+#6970
+0aaa
+
+#6980
+1aaa
+
+#6982
+b110 aad
+b10110 aae
+b11100110 aag
+b11110001 aah
+b11111001 aai
+
+#6985
+b11110010 aah
+b11111010 aai
+
+#6990
+0aaa
+
+#7000
+1aaa
+
+#7002
+b111 aad
+b10111 aae
+b11101110 aaf
+b11110010 aag
+b11110000 aah
+b0 aai
+
+#7005
+b11110000 aaf
+b11110001 aah
+b1 aai
+
+#7010
+0aaa
+
+#7020
+1aaa
+
+#7022
+b1000 aad
+b11000 aae
+b11110001 aag
+b11111001 aah
+b1000 aai
+
+#7025
+b11110001 aaf
+b11111010 aah
+b1001 aai
+
+#7030
+0aaa
+
+#7040
+1aaa
+
+#7042
+b1001 aad
+b11001 aae
+b11111010 aaf
+b11111010 aag
+b1 aah
+b10001 aai
+
+#7045
+b11111100 aaf
+b10 aah
+b10010 aai
+
+#7050
+0aaa
+
+#7060
+1aaa
+
+#7062
+b1010 aad
+b11010 aae
+b100 aaf
+b10 aag
+b1011 aah
+b11011 aai
+
+#7065
+b110 aaf
+b1100 aah
+b11100 aai
+
+#7070
+0aaa
+
+#7080
+1aaa
+
+#7082
+b1011 aad
+b11011 aae
+b10000 aaf
+b1100 aag
+b10110 aah
+b100110 aai
+
+#7085
+b10010 aaf
+b10111 aah
+b100111 aai
+
+#7090
+0aaa
+
+#7100
+1aaa
+
+#7102
+b1100 aad
+b11100 aae
+b11101 aaf
+b11000 aag
+b100010 aah
+b110010 aai
+
+#7105
+b11111 aaf
+b11010 aag
+b100011 aah
+b110011 aai
+
+#7110
+0aaa
+
+#7120
+1aaa
+
+#7122
+b1101 aad
+b11101 aae
+b101011 aaf
+b100111 aag
+b101111 aah
+b111111 aai
+
+#7125
+b101101 aaf
+b101001 aag
+b110000 aah
+b1000000 aai
+
+#7130
+0aaa
+
+#7140
+1aaa
+
+#7142
+b1110 aad
+b11110 aae
+b111010 aaf
+b110111 aag
+b111101 aah
+b1001101 aai
+
+#7145
+b111100 aaf
+b111001 aag
+b111110 aah
+b1001110 aai
+
+#7150
+0aaa
+
+#7160
+1aaa
+
+#7162
+b1111 aad
+b11111 aae
+b1001010 aaf
+b1001000 aag
+b1001100 aah
+b1011100 aai
+
+#7165
+b1001100 aaf
+b1001010 aag
+b1001101 aah
+b1011101 aai
+
+#7170
+0aaa
+
+#7180
+1aaa
+
+#7182
+b10000 aad
+b0 aae
+b1011011 aaf
+b1011010 aag
+b1011100 aah
+b1101100 aai
+
+#7185
+b1001100 aaf
+b1001101 aag
+b1011101 aah
+b1001101 aai
+
+#7190
+0aaa
+
+#7200
+1aaa
+
+#7202
+b10001 aad
+b1 aae
+b1001101 aaf
+b1011101 aag
+b1001101 aah
+
+#7205
+b1001111 aaf
+b1001110 aah
+b1001110 aai
+
+#7210
+0aaa
+
+#7220
+1aaa
+
+#7222
+b10010 aad
+b10 aae
+b1001110 aag
+b1001111 aah
+b1011110 aai
+
+#7225
+b1010000 aah
+b1011111 aai
+
+#7230
+0aaa
+
+#7240
+1aaa
+
+#7242
+b10011 aad
+b11 aae
+b1010000 aag
+b1100001 aah
+b1010001 aai
+
+#7245
+b1100010 aah
+b1010010 aai
+
+#7250
+0aaa
+
+#7260
+1aaa
+
+#7262
+b10100 aad
+b100 aae
+b1011000 aaf
+b1100010 aag
+b1010101 aah
+b1010011 aai
+
+#7265
+b1011010 aaf
+b1010110 aah
+b1010100 aai
+
+#7270
+0aaa
+
+#7280
+1aaa
+
+#7282
+b10101 aad
+b101 aae
+b1010110 aag
+b1011000 aah
+b1100110 aai
+
+#7285
+b1011001 aah
+b1100111 aai
+
+#7290
+0aaa
+
+#7300
+1aaa
+
+#7302
+b10110 aad
+b110 aae
+b1011001 aag
+b1101100 aah
+b1011100 aai
+
+#7305
+b1101101 aah
+b1011101 aai
+
+#7310
+0aaa
+
+#7320
+1aaa
+
+#7322
+b10111 aad
+b111 aae
+b1101001 aaf
+b1101101 aag
+b1100011 aah
+b1011111 aai
+
+#7325
+b1101011 aaf
+b1100100 aah
+b1100000 aai
+
+#7330
+0aaa
+
+#7340
+1aaa
+
+#7342
+b11000 aad
+b1000 aae
+b1101001 aag
+b1100111 aah
+b1110100 aai
+
+#7345
+b1101011 aag
+b1101000 aah
+b1110101 aai
+
+#7350
+0aaa
+
+#7360
+1aaa
+
+#7362
+b11001 aad
+b1001 aae
+b1111101 aah
+b1110011 aai
+
+#7365
+b1101101 aag
+b1111110 aah
+b1110100 aai
+
+#7370
+0aaa
+
+#7380
+1aaa
+
+#7382
+b11010 aad
+b1010 aae
+b10000000 aaf
+b1111110 aag
+b1111101 aah
+b1110110 aai
+
+#7385
+b10000010 aaf
+b1111110 aah
+b1110111 aai
+
+#7390
+0aaa
+
+#7400
+1aaa
+
+#7402
+b11011 aad
+b1011 aae
+b10000110 aag
+b10000001 aah
+b10001000 aai
+
+#7405
+b10000100 aaf
+b10001000 aag
+b10000010 aah
+b10001001 aai
+
+#7410
+0aaa
+
+#7420
+1aaa
+
+#7422
+b11100 aad
+b1100 aae
+b10001000 aaf
+b10001010 aag
+b10010100 aah
+b10010011 aai
+
+#7425
+b10001010 aaf
+b10001100 aag
+b10010101 aah
+b10010100 aai
+
+#7430
+0aaa
+
+#7440
+1aaa
+
+#7442
+b11101 aad
+b1101 aae
+b10011101 aaf
+b10010101 aag
+b10100000 aah
+b10011000 aai
+
+#7445
+b10011111 aaf
+b10100001 aah
+b10011001 aai
+
+#7450
+0aaa
+
+#7460
+1aaa
+
+#7462
+b11110 aad
+b1110 aae
+b10101011 aaf
+b10101001 aag
+b10100110 aah
+b10100010 aai
+
+#7465
+b10101101 aaf
+b10101011 aag
+b10100111 aah
+b10100011 aai
+
+#7470
+0aaa
+
+#7480
+1aaa
+
+#7482
+b11111 aad
+b1111 aae
+b10110011 aaf
+b10111001 aag
+b10110001 aah
+b10111001 aai
+
+#7485
+b10110101 aaf
+b10111011 aag
+b10110010 aah
+b10111010 aai
+
+#7490
+0aaa
+
+#7500
+1aaa
+
+#7502
+b0 aad
+b10000 aae
+b11000000 aaf
+b11000011 aag
+b11001001 aah
+b11001010 aai
+
+#7505
+b10110101 aaf
+b10110010 aag
+b10111011 aah
+b10111010 aai
+
+#7510
+0aaa
+
+#7520
+1aaa
+
+#7522
+b1 aad
+b10001 aae
+b10111011 aag
+b10110010 aah
+
+#7525
+b10110011 aah
+b10111011 aai
+
+#7530
+0aaa
+
+#7540
+1aaa
+
+#7542
+b10 aad
+b10010 aae
+b10110011 aag
+b10111100 aah
+b10111100 aai
+
+#7545
+b10111101 aah
+b10111101 aai
+
+#7550
+0aaa
+
+#7560
+1aaa
+
+#7562
+b11 aad
+b10011 aae
+b10111101 aag
+b10110101 aah
+b10111111 aai
+
+#7565
+b10110110 aah
+b11000000 aai
+
+#7570
+0aaa
+
+#7580
+1aaa
+
+#7582
+b100 aad
+b10100 aae
+b10110110 aag
+b11000000 aah
+b11000011 aai
+
+#7585
+b11000001 aah
+b11000100 aai
+
+#7590
+0aaa
+
+#7600
+1aaa
+
+#7602
+b101 aad
+b10101 aae
+b10111001 aaf
+b11000001 aag
+b10111010 aah
+b11001000 aai
+
+#7605
+b10111011 aaf
+b10111011 aah
+b11001001 aai
+
+#7610
+0aaa
+
+#7620
+1aaa
+
+#7622
+b110 aad
+b10110 aae
+b10111011 aag
+b11000110 aah
+b11001110 aai
+
+#7625
+b11000111 aah
+b11001111 aai
+
+#7630
+0aaa
+
+#7640
+1aaa
+
+#7642
+b111 aad
+b10111 aae
+b11000011 aaf
+b11000111 aag
+b11000101 aah
+b11010101 aai
+
+#7645
+b11000101 aaf
+b11000110 aah
+b11010110 aai
+
+#7650
+0aaa
+
+#7660
+1aaa
+
+#7662
+b1000 aad
+b11000 aae
+b11000110 aag
+b11001110 aah
+b11011101 aai
+
+#7665
+b11000110 aaf
+b11001111 aah
+b11011110 aai
+
+#7670
+0aaa
+
+#7680
+1aaa
+
+#7682
+b1001 aad
+b11001 aae
+b11001111 aaf
+b11001111 aag
+b11010110 aah
+b11100110 aai
+
+#7685
+b11010001 aaf
+b11010111 aah
+b11100111 aai
+
+#7690
+0aaa
+
+#7700
+1aaa
+
+#7702
+b1010 aad
+b11010 aae
+b11011001 aaf
+b11010111 aag
+b11100000 aah
+b11110000 aai
+
+#7705
+b11011011 aaf
+b11100001 aah
+b11110001 aai
+
+#7710
+0aaa
+
+#7720
+1aaa
+
+#7722
+b1011 aad
+b11011 aae
+b11100101 aaf
+b11100001 aag
+b11101011 aah
+b11111011 aai
+
+#7725
+b11100111 aaf
+b11101100 aah
+b11111100 aai
+
+#7730
+0aaa
+
+#7740
+1aaa
+
+#7742
+b1100 aad
+b11100 aae
+b11110010 aaf
+b11101101 aag
+b11110111 aah
+b111 aai
+
+#7745
+b11110100 aaf
+b11101111 aag
+b11111000 aah
+b1000 aai
+
+#7750
+0aaa
+
+#7760
+1aaa
+
+#7762
+b1101 aad
+b11101 aae
+b0 aaf
+b11111100 aag
+b100 aah
+b10100 aai
+
+#7765
+b10 aaf
+b11111110 aag
+b101 aah
+b10101 aai
+
+#7770
+0aaa
+
+#7780
+1aaa
+
+#7782
+b1110 aad
+b11110 aae
+b1111 aaf
+b1100 aag
+b10010 aah
+b100010 aai
+
+#7785
+b10001 aaf
+b1110 aag
+b10011 aah
+b100011 aai
+
+#7790
+0aaa
+
+#7800
+1aaa
+
+#7802
+b1111 aad
+b11111 aae
+b11111 aaf
+b11101 aag
+b100001 aah
+b110001 aai
+
+#7805
+b100001 aaf
+b11111 aag
+b100010 aah
+b110010 aai
+
+#7810
+0aaa
+
+#7820
+1aaa
+
+#7822
+b10000 aad
+b0 aae
+b110000 aaf
+b101111 aag
+b110001 aah
+b1000001 aai
+
+#7825
+b100001 aaf
+b100010 aag
+b110010 aah
+b100010 aai
+
+#7830
+0aaa
+
+#7840
+1aaa
+
+#7842
+b10001 aad
+b1 aae
+b100010 aaf
+b110010 aag
+b100010 aah
+
+#7845
+b100100 aaf
+b100011 aah
+b100011 aai
+
+#7850
+0aaa
+
+#7860
+1aaa
+
+#7862
+b10010 aad
+b10 aae
+b100011 aag
+b100100 aah
+b110011 aai
+
+#7865
+b100101 aah
+b110100 aai
+
+#7870
+0aaa
+
+#7880
+1aaa
+
+#7882
+b10011 aad
+b11 aae
+b100101 aag
+b110110 aah
+b100110 aai
+
+#7885
+b110111 aah
+b100111 aai
+
+#7890
+0aaa
+
+#7900
+1aaa
+
+#7902
+b10100 aad
+b100 aae
+b101101 aaf
+b110111 aag
+b101010 aah
+b101000 aai
+
+#7905
+b101111 aaf
+b101011 aah
+b101001 aai
+
+#7910
+0aaa
+
+#7920
+1aaa
+
+#7922
+b10101 aad
+b101 aae
+b101011 aag
+b101101 aah
+b111011 aai
+
+#7925
+b101110 aah
+b111100 aai
+
+#7930
+0aaa
+
+#7940
+1aaa
+
+#7942
+b10110 aad
+b110 aae
+b101110 aag
+b1000001 aah
+b110001 aai
+
+#7945
+b1000010 aah
+b110010 aai
+
+#7950
+0aaa
+
+#7960
+1aaa
+
+#7962
+b10111 aad
+b111 aae
+b111110 aaf
+b1000010 aag
+b111000 aah
+b110100 aai
+
+#7965
+b1000000 aaf
+b111001 aah
+b110101 aai
+
+#7970
+0aaa
+
+#7980
+1aaa
+
+#7982
+b11000 aad
+b1000 aae
+b111110 aag
+b111100 aah
+b1001001 aai
+
+#7985
+b1000000 aag
+b111101 aah
+b1001010 aai
+
+#7990
+0aaa
+
+#8000
+1aaa
+
+#8002
+b11001 aad
+b1001 aae
+b1010010 aah
+b1001000 aai
+
+#8005
+b1000010 aag
+b1010011 aah
+b1001001 aai
+
+#8010
+0aaa
+
+#8020
+1aaa
+
+#8022
+b11010 aad
+b1010 aae
+b1010101 aaf
+b1010011 aag
+b1010010 aah
+b1001011 aai
+
+#8025
+b1010111 aaf
+b1010011 aah
+b1001100 aai
+
+#8030
+0aaa
+
+#8040
+1aaa
+
+#8042
+b11011 aad
+b1011 aae
+b1011011 aag
+b1010110 aah
+b1011101 aai
+
+#8045
+b1011001 aaf
+b1011101 aag
+b1010111 aah
+b1011110 aai
+
+#8050
+0aaa
+
+#8060
+1aaa
+
+#8062
+b11100 aad
+b1100 aae
+b1011101 aaf
+b1011111 aag
+b1101001 aah
+b1101000 aai
+
+#8065
+b1011111 aaf
+b1100001 aag
+b1101010 aah
+b1101001 aai
+
+#8070
+0aaa
+
+#8080
+1aaa
+
+#8082
+b11101 aad
+b1101 aae
+b1110010 aaf
+b1101010 aag
+b1110101 aah
+b1101101 aai
+
+#8085
+b1110100 aaf
+b1110110 aah
+b1101110 aai
+
+#8090
+0aaa
+
+#8100
+1aaa
+
+#8102
+b11110 aad
+b1110 aae
+b10000000 aaf
+b1111110 aag
+b1111011 aah
+b1110111 aai
+
+#8105
+b10000010 aaf
+b10000000 aag
+b1111100 aah
+b1111000 aai
+
+#8110
+0aaa
+
+#8120
+1aaa
+
+#8122
+b11111 aad
+b1111 aae
+b10001000 aaf
+b10001110 aag
+b10000110 aah
+b10001110 aai
+
+#8125
+b10001010 aaf
+b10010000 aag
+b10000111 aah
+b10001111 aai
+
+#8130
+0aaa
+
+#8140
+1aaa
+
+#8142
+b0 aad
+b10000 aae
+b10010101 aaf
+b10011000 aag
+b10011110 aah
+b10011111 aai
+
+#8145
+b10001010 aaf
+b10000111 aag
+b10010000 aah
+b10001111 aai
+
+#8150
+0aaa
+
+#8160
+1aaa
+
+#8162
+b1 aad
+b10001 aae
+b10010000 aag
+b10000111 aah
+
+#8165
+b10001000 aah
+b10010000 aai
+
+#8170
+0aaa
+
+#8180
+1aaa
+
+#8182
+b10 aad
+b10010 aae
+b10001000 aag
+b10010001 aah
+b10010001 aai
+
+#8185
+b10010010 aah
+b10010010 aai
+
+#8190
+0aaa
+
+#8200
+1aaa
+
+#8202
+b11 aad
+b10011 aae
+b10010010 aag
+b10001010 aah
+b10010100 aai
+
+#8205
+b10001011 aah
+b10010101 aai
+
+#8210
+0aaa
+
+#8220
+1aaa
+
+#8222
+b100 aad
+b10100 aae
+b10001011 aag
+b10010101 aah
+b10011000 aai
+
+#8225
+b10010110 aah
+b10011001 aai
+
+#8230
+0aaa
+
+#8240
+1aaa
+
+#8242
+b101 aad
+b10101 aae
+b10001110 aaf
+b10010110 aag
+b10001111 aah
+b10011101 aai
+
+#8245
+b10010000 aaf
+b10010000 aah
+b10011110 aai
+
+#8250
+0aaa
+
+#8260
+1aaa
+
+#8262
+b110 aad
+b10110 aae
+b10010000 aag
+b10011011 aah
+b10100011 aai
+
+#8265
+b10011100 aah
+b10100100 aai
+
+#8270
+0aaa
+
+#8280
+1aaa
+
+#8282
+b111 aad
+b10111 aae
+b10011000 aaf
+b10011100 aag
+b10011010 aah
+b10101010 aai
+
+#8285
+b10011010 aaf
+b10011011 aah
+b10101011 aai
+
+#8290
+0aaa
+
+#8300
+1aaa
+
+#8302
+b1000 aad
+b11000 aae
+b10011011 aag
+b10100011 aah
+b10110010 aai
+
+#8305
+b10011011 aaf
+b10100100 aah
+b10110011 aai
+
+#8310
+0aaa
+
+#8320
+1aaa
+
+#8322
+b1001 aad
+b11001 aae
+b10100100 aaf
+b10100100 aag
+b10101011 aah
+b10111011 aai
+
+#8325
+b10100110 aaf
+b10101100 aah
+b10111100 aai
+
+#8330
+0aaa
+
+#8340
+1aaa
+
+#8342
+b1010 aad
+b11010 aae
+b10101110 aaf
+b10101100 aag
+b10110101 aah
+b11000101 aai
+
+#8345
+b10110000 aaf
+b10110110 aah
+b11000110 aai
+
+#8350
+0aaa
+
+#8360
+1aaa
+
+#8362
+b1011 aad
+b11011 aae
+b10111010 aaf
+b10110110 aag
+b11000000 aah
+b11010000 aai
+
+#8365
+b10111100 aaf
+b11000001 aah
+b11010001 aai
+
+#8370
+0aaa
+
+#8380
+1aaa
+
+#8382
+b1100 aad
+b11100 aae
+b11000111 aaf
+b11000010 aag
+b11001100 aah
+b11011100 aai
+
+#8385
+b11001001 aaf
+b11000100 aag
+b11001101 aah
+b11011101 aai
+
+#8390
+0aaa
+
+#8400
+1aaa
+
+#8402
+b1101 aad
+b11101 aae
+b11010101 aaf
+b11010001 aag
+b11011001 aah
+b11101001 aai
+
+#8405
+b11010111 aaf
+b11010011 aag
+b11011010 aah
+b11101010 aai
+
+#8410
+0aaa
+
+#8420
+1aaa
+
+#8422
+b1110 aad
+b11110 aae
+b11100100 aaf
+b11100001 aag
+b11100111 aah
+b11110111 aai
+
+#8425
+b11100110 aaf
+b11100011 aag
+b11101000 aah
+b11111000 aai
+
+#8430
+0aaa
+
+#8440
+1aaa
+
+#8442
+b1111 aad
+b11111 aae
+b11110100 aaf
+b11110010 aag
+b11110110 aah
+b110 aai
+
+#8445
+b11110110 aaf
+b11110100 aag
+b11110111 aah
+b111 aai
+
+#8450
+0aaa
+
+#8460
+1aaa
+
+#8462
+b10000 aad
+b0 aae
+b101 aaf
+b100 aag
+b110 aah
+b10110 aai
+
+#8465
+b11110110 aaf
+b11110111 aag
+b111 aah
+b11110111 aai
+
+#8470
+0aaa
+
+#8480
+1aaa
+
+#8482
+b10001 aad
+b1 aae
+b11110111 aaf
+b111 aag
+b11110111 aah
+
+#8485
+b11111001 aaf
+b11111000 aah
+b11111000 aai
+
+#8490
+0aaa
+
+#8500
+1aaa
+
+#8502
+b10010 aad
+b10 aae
+b11111000 aag
+b11111001 aah
+b1000 aai
+
+#8505
+b11111010 aah
+b1001 aai
+
+#8510
+0aaa
+
+#8520
+1aaa
+
+#8522
+b10011 aad
+b11 aae
+b11111010 aag
+b1011 aah
+b11111011 aai
+
+#8525
+b1100 aah
+b11111100 aai
+
+#8530
+0aaa
+
+#8540
+1aaa
+
+#8542
+b10100 aad
+b100 aae
+b10 aaf
+b1100 aag
+b11111111 aah
+b11111101 aai
+
+#8545
+b100 aaf
+b0 aah
+b11111110 aai
+
+#8550
+0aaa
+
+#8560
+1aaa
+
+#8562
+b10101 aad
+b101 aae
+b0 aag
+b10 aah
+b10000 aai
+
+#8565
+b11 aah
+b10001 aai
+
+#8570
+0aaa
+
+#8580
+1aaa
+
+#8582
+b10110 aad
+b110 aae
+b11 aag
+b10110 aah
+b110 aai
+
+#8585
+b10111 aah
+b111 aai
+
+#8590
+0aaa
+
+#8600
+1aaa
+
+#8602
+b10111 aad
+b111 aae
+b10011 aaf
+b10111 aag
+b1101 aah
+b1001 aai
+
+#8605
+b10101 aaf
+b1110 aah
+b1010 aai
+
+#8610
+0aaa
+
+#8620
+1aaa
+
+#8622
+b11000 aad
+b1000 aae
+b10011 aag
+b10001 aah
+b11110 aai
+
+#8625
+b10101 aag
+b10010 aah
+b11111 aai
+
+#8630
+0aaa
+
+#8640
+1aaa
+
+#8642
+b11001 aad
+b1001 aae
+b100111 aah
+b11101 aai
+
+#8645
+b10111 aag
+b101000 aah
+b11110 aai
+
+#8650
+0aaa
+
+#8660
+1aaa
+
+#8662
+b11010 aad
+b1010 aae
+b101010 aaf
+b101000 aag
+b100111 aah
+b100000 aai
+
+#8665
+b101100 aaf
+b101000 aah
+b100001 aai
+
+#8670
+0aaa
+
+#8680
+1aaa
+
+#8682
+b11011 aad
+b1011 aae
+b110000 aag
+b101011 aah
+b110010 aai
+
+#8685
+b101110 aaf
+b110010 aag
+b101100 aah
+b110011 aai
+
+#8690
+0aaa
+
+#8700
+1aaa
+
+#8702
+b11100 aad
+b1100 aae
+b110010 aaf
+b110100 aag
+b111110 aah
+b111101 aai
+
+#8705
+b110100 aaf
+b110110 aag
+b111111 aah
+b111110 aai
+
+#8710
+0aaa
+
+#8720
+1aaa
+
+#8722
+b11101 aad
+b1101 aae
+b1000111 aaf
+b111111 aag
+b1001010 aah
+b1000010 aai
+
+#8725
+b1001001 aaf
+b1001011 aah
+b1000011 aai
+
+#8730
+0aaa
+
+#8740
+1aaa
+
+#8742
+b11110 aad
+b1110 aae
+b1010101 aaf
+b1010011 aag
+b1010000 aah
+b1001100 aai
+
+#8745
+b1010111 aaf
+b1010101 aag
+b1010001 aah
+b1001101 aai
+
+#8750
+0aaa
+
+#8760
+1aaa
+
+#8762
+b11111 aad
+b1111 aae
+b1011101 aaf
+b1100011 aag
+b1011011 aah
+b1100011 aai
+
+#8765
+b1011111 aaf
+b1100101 aag
+b1011100 aah
+b1100100 aai
+
+#8770
+0aaa
+
+#8780
+1aaa
+
+#8782
+b0 aad
+b10000 aae
+b1101010 aaf
+b1101101 aag
+b1110011 aah
+b1110100 aai
+
+#8785
+b1011111 aaf
+b1011100 aag
+b1100101 aah
+b1100100 aai
+
+#8790
+0aaa
+
+#8800
+1aaa
+
+#8802
+b1 aad
+b10001 aae
+b1100101 aag
+b1011100 aah
+
+#8805
+b1011101 aah
+b1100101 aai
+
+#8810
+0aaa
+
+#8820
+1aaa
+
+#8822
+b10 aad
+b10010 aae
+b1011101 aag
+b1100110 aah
+b1100110 aai
+
+#8825
+b1100111 aah
+b1100111 aai
+
+#8830
+0aaa
+
+#8840
+1aaa
+
+#8842
+b11 aad
+b10011 aae
+b1100111 aag
+b1011111 aah
+b1101001 aai
+
+#8845
+b1100000 aah
+b1101010 aai
+
+#8850
+0aaa
+
+#8860
+1aaa
+
+#8862
+b100 aad
+b10100 aae
+b1100000 aag
+b1101010 aah
+b1101101 aai
+
+#8865
+b1101011 aah
+b1101110 aai
+
+#8870
+0aaa
+
+#8880
+1aaa
+
+#8882
+b101 aad
+b10101 aae
+b1100011 aaf
+b1101011 aag
+b1100100 aah
+b1110010 aai
+
+#8885
+b1100101 aaf
+b1100101 aah
+b1110011 aai
+
+#8890
+0aaa
+
+#8900
+1aaa
+
+#8902
+b110 aad
+b10110 aae
+b1100101 aag
+b1110000 aah
+b1111000 aai
+
+#8905
+b1110001 aah
+b1111001 aai
+
+#8910
+0aaa
+
+#8920
+1aaa
+
+#8922
+b111 aad
+b10111 aae
+b1101101 aaf
+b1110001 aag
+b1101111 aah
+b1111111 aai
+
+#8925
+b1101111 aaf
+b1110000 aah
+b10000000 aai
+
+#8930
+0aaa
+
+#8940
+1aaa
+
+#8942
+b1000 aad
+b11000 aae
+b1110000 aag
+b1111000 aah
+b10000111 aai
+
+#8945
+b1110000 aaf
+b1111001 aah
+b10001000 aai
+
+#8950
+0aaa
+
+#8960
+1aaa
+
+#8962
+b1001 aad
+b11001 aae
+b1111001 aaf
+b1111001 aag
+b10000000 aah
+b10010000 aai
+
+#8965
+b1111011 aaf
+b10000001 aah
+b10010001 aai
+
+#8970
+0aaa
+
+#8980
+1aaa
+
+#8982
+b1010 aad
+b11010 aae
+b10000011 aaf
+b10000001 aag
+b10001010 aah
+b10011010 aai
+
+#8985
+b10000101 aaf
+b10001011 aah
+b10011011 aai
+
+#8990
+0aaa
+
+#9000
+1aaa
+
+#9002
+b1011 aad
+b11011 aae
+b10001111 aaf
+b10001011 aag
+b10010101 aah
+b10100101 aai
+
+#9005
+b10010001 aaf
+b10010110 aah
+b10100110 aai
+
+#9010
+0aaa
+
+#9020
+1aaa
+
+#9022
+b1100 aad
+b11100 aae
+b10011100 aaf
+b10010111 aag
+b10100001 aah
+b10110001 aai
+
+#9025
+b10011110 aaf
+b10011001 aag
+b10100010 aah
+b10110010 aai
+
+#9030
+0aaa
+
+#9040
+1aaa
+
+#9042
+b1101 aad
+b11101 aae
+b10101010 aaf
+b10100110 aag
+b10101110 aah
+b10111110 aai
+
+#9045
+b10101100 aaf
+b10101000 aag
+b10101111 aah
+b10111111 aai
+
+#9050
+0aaa
+
+#9060
+1aaa
+
+#9062
+b1110 aad
+b11110 aae
+b10111001 aaf
+b10110110 aag
+b10111100 aah
+b11001100 aai
+
+#9065
+b10111011 aaf
+b10111000 aag
+b10111101 aah
+b11001101 aai
+
+#9070
+0aaa
+
+#9080
+1aaa
+
+#9082
+b1111 aad
+b11111 aae
+b11001001 aaf
+b11000111 aag
+b11001011 aah
+b11011011 aai
+
+#9085
+b11001011 aaf
+b11001001 aag
+b11001100 aah
+b11011100 aai
+
+#9090
+0aaa
+
+#9100
+1aaa
+
+#9102
+b10000 aad
+b0 aae
+b11011010 aaf
+b11011001 aag
+b11011011 aah
+b11101011 aai
+
+#9105
+b11001011 aaf
+b11001100 aag
+b11011100 aah
+b11001100 aai
+
+#9110
+0aaa
+
+#9120
+1aaa
+
+#9122
+b10001 aad
+b1 aae
+b11001100 aaf
+b11011100 aag
+b11001100 aah
+
+#9125
+b11001110 aaf
+b11001101 aah
+b11001101 aai
+
+#9130
+0aaa
+
+#9140
+1aaa
+
+#9142
+b10010 aad
+b10 aae
+b11001101 aag
+b11001110 aah
+b11011101 aai
+
+#9145
+b11001111 aah
+b11011110 aai
+
+#9150
+0aaa
+
+#9160
+1aaa
+
+#9162
+b10011 aad
+b11 aae
+b11001111 aag
+b11100000 aah
+b11010000 aai
+
+#9165
+b11100001 aah
+b11010001 aai
+
+#9170
+0aaa
+
+#9180
+1aaa
+
+#9182
+b10100 aad
+b100 aae
+b11010111 aaf
+b11100001 aag
+b11010100 aah
+b11010010 aai
+
+#9185
+b11011001 aaf
+b11010101 aah
+b11010011 aai
+
+#9190
+0aaa
+
+#9200
+1aaa
+
+#9202
+b10101 aad
+b101 aae
+b11010101 aag
+b11010111 aah
+b11100101 aai
+
+#9205
+b11011000 aah
+b11100110 aai
+
+#9210
+0aaa
+
+#9220
+1aaa
+
+#9222
+b10110 aad
+b110 aae
+b11011000 aag
+b11101011 aah
+b11011011 aai
+
+#9225
+b11101100 aah
+b11011100 aai
+
+#9230
+0aaa
+
+#9240
+1aaa
+
+#9242
+b10111 aad
+b111 aae
+b11101000 aaf
+b11101100 aag
+b11100010 aah
+b11011110 aai
+
+#9245
+b11101010 aaf
+b11100011 aah
+b11011111 aai
+
+#9250
+0aaa
+
+#9260
+1aaa
+
+#9262
+b11000 aad
+b1000 aae
+b11101000 aag
+b11100110 aah
+b11110011 aai
+
+#9265
+b11101010 aag
+b11100111 aah
+b11110100 aai
+
+#9270
+0aaa
+
+#9280
+1aaa
+
+#9282
+b11001 aad
+b1001 aae
+b11111100 aah
+b11110010 aai
+
+#9285
+b11101100 aag
+b11111101 aah
+b11110011 aai
+
+#9290
+0aaa
+
+#9300
+1aaa
+
+#9302
+b11010 aad
+b1010 aae
+b11111111 aaf
+b11111101 aag
+b11111100 aah
+b11110101 aai
+
+#9305
+b1 aaf
+b11111101 aah
+b11110110 aai
+
+#9310
+0aaa
+
+#9320
+1aaa
+
+#9322
+b11011 aad
+b1011 aae
+b101 aag
+b0 aah
+b111 aai
+
+#9325
+b11 aaf
+b111 aag
+b1 aah
+b1000 aai
+
+#9330
+0aaa
+
+#9340
+1aaa
+
+#9342
+b11100 aad
+b1100 aae
+b111 aaf
+b1001 aag
+b10011 aah
+b10010 aai
+
+#9345
+b1001 aaf
+b1011 aag
+b10100 aah
+b10011 aai
+
+#9350
+0aaa
+
+#9360
+1aaa
+
+#9362
+b11101 aad
+b1101 aae
+b11100 aaf
+b10100 aag
+b11111 aah
+b10111 aai
+
+#9365
+b11110 aaf
+b100000 aah
+b11000 aai
+
+#9370
+0aaa
+
+#9380
+1aaa
+
+#9382
+b11110 aad
+b1110 aae
+b101010 aaf
+b101000 aag
+b100101 aah
+b100001 aai
+
+#9385
+b101100 aaf
+b101010 aag
+b100110 aah
+b100010 aai
+
+#9390
+0aaa
+
+#9400
+1aaa
+
+#9402
+b11111 aad
+b1111 aae
+b110010 aaf
+b111000 aag
+b110000 aah
+b111000 aai
+
+#9405
+b110100 aaf
+b111010 aag
+b110001 aah
+b111001 aai
+
+#9410
+0aaa
+
+#9420
+1aaa
+
+#9422
+b0 aad
+b10000 aae
+b111111 aaf
+b1000010 aag
+b1001000 aah
+b1001001 aai
+
+#9425
+b110100 aaf
+b110001 aag
+b111010 aah
+b111001 aai
+
+#9430
+0aaa
+
+#9440
+1aaa
+
+#9442
+b1 aad
+b10001 aae
+b111010 aag
+b110001 aah
+
+#9445
+b110010 aah
+b111010 aai
+
+#9450
+0aaa
+
+#9460
+1aaa
+
+#9462
+b10 aad
+b10010 aae
+b110010 aag
+b111011 aah
+b111011 aai
+
+#9465
+b111100 aah
+b111100 aai
+
+#9470
+0aaa
+
+#9480
+1aaa
+
+#9482
+b11 aad
+b10011 aae
+b111100 aag
+b110100 aah
+b111110 aai
+
+#9485
+b110101 aah
+b111111 aai
+
+#9490
+0aaa
+
+#9500
+1aaa
+
+#9502
+b100 aad
+b10100 aae
+b110101 aag
+b111111 aah
+b1000010 aai
+
+#9505
+b1000000 aah
+b1000011 aai
+
+#9510
+0aaa
+
+#9520
+1aaa
+
+#9522
+b101 aad
+b10101 aae
+b111000 aaf
+b1000000 aag
+b111001 aah
+b1000111 aai
+
+#9525
+b111010 aaf
+b111010 aah
+b1001000 aai
+
+#9530
+0aaa
+
+#9540
+1aaa
+
+#9542
+b110 aad
+b10110 aae
+b111010 aag
+b1000101 aah
+b1001101 aai
+
+#9545
+b1000110 aah
+b1001110 aai
+
+#9550
+0aaa
+
+#9560
+1aaa
+
+#9562
+b111 aad
+b10111 aae
+b1000010 aaf
+b1000110 aag
+b1000100 aah
+b1010100 aai
+
+#9565
+b1000100 aaf
+b1000101 aah
+b1010101 aai
+
+#9570
+0aaa
+
+#9580
+1aaa
+
+#9582
+b1000 aad
+b11000 aae
+b1000101 aag
+b1001101 aah
+b1011100 aai
+
+#9585
+b1000101 aaf
+b1001110 aah
+b1011101 aai
+
+#9590
+0aaa
+
+#9600
+1aaa
+
+#9602
+b1001 aad
+b11001 aae
+b1001110 aaf
+b1001110 aag
+b1010101 aah
+b1100101 aai
+
+#9605
+b1010000 aaf
+b1010110 aah
+b1100110 aai
+
+#9610
+0aaa
+
+#9620
+1aaa
+
+#9622
+b1010 aad
+b11010 aae
+b1011000 aaf
+b1010110 aag
+b1011111 aah
+b1101111 aai
+
+#9625
+b1011010 aaf
+b1100000 aah
+b1110000 aai
+
+#9630
+0aaa
+
+#9640
+1aaa
+
+#9642
+b1011 aad
+b11011 aae
+b1100100 aaf
+b1100000 aag
+b1101010 aah
+b1111010 aai
+
+#9645
+b1100110 aaf
+b1101011 aah
+b1111011 aai
+
+#9650
+0aaa
+
+#9660
+1aaa
+
+#9662
+b1100 aad
+b11100 aae
+b1110001 aaf
+b1101100 aag
+b1110110 aah
+b10000110 aai
+
+#9665
+b1110011 aaf
+b1101110 aag
+b1110111 aah
+b10000111 aai
+
+#9670
+0aaa
+
+#9680
+1aaa
+
+#9682
+b1101 aad
+b11101 aae
+b1111111 aaf
+b1111011 aag
+b10000011 aah
+b10010011 aai
+
+#9685
+b10000001 aaf
+b1111101 aag
+b10000100 aah
+b10010100 aai
+
+#9690
+0aaa
+
+#9700
+1aaa
+
+#9702
+b1110 aad
+b11110 aae
+b10001110 aaf
+b10001011 aag
+b10010001 aah
+b10100001 aai
+
+#9705
+b10010000 aaf
+b10001101 aag
+b10010010 aah
+b10100010 aai
+
+#9710
+0aaa
+
+#9720
+1aaa
+
+#9722
+b1111 aad
+b11111 aae
+b10011110 aaf
+b10011100 aag
+b10100000 aah
+b10110000 aai
+
+#9725
+b10100000 aaf
+b10011110 aag
+b10100001 aah
+b10110001 aai
+
+#9730
+0aaa
+
+#9740
+1aaa
+
+#9742
+b10000 aad
+b0 aae
+b10101111 aaf
+b10101110 aag
+b10110000 aah
+b11000000 aai
+
+#9745
+b10100000 aaf
+b10100001 aag
+b10110001 aah
+b10100001 aai
+
+#9750
+0aaa
+
+#9760
+1aaa
+
+#9762
+b10001 aad
+b1 aae
+b10100001 aaf
+b10110001 aag
+b10100001 aah
+
+#9765
+b10100011 aaf
+b10100010 aah
+b10100010 aai
+
+#9770
+0aaa
+
+#9780
+1aaa
+
+#9782
+b10010 aad
+b10 aae
+b10100010 aag
+b10100011 aah
+b10110010 aai
+
+#9785
+b10100100 aah
+b10110011 aai
+
+#9790
+0aaa
+
+#9800
+1aaa
+
+#9802
+b10011 aad
+b11 aae
+b10100100 aag
+b10110101 aah
+b10100101 aai
+
+#9805
+b10110110 aah
+b10100110 aai
+
+#9810
+0aaa
+
+#9820
+1aaa
+
+#9822
+b10100 aad
+b100 aae
+b10101100 aaf
+b10110110 aag
+b10101001 aah
+b10100111 aai
+
+#9825
+b10101110 aaf
+b10101010 aah
+b10101000 aai
+
+#9830
+0aaa
+
+#9840
+1aaa
+
+#9842
+b10101 aad
+b101 aae
+b10101010 aag
+b10101100 aah
+b10111010 aai
+
+#9845
+b10101101 aah
+b10111011 aai
+
+#9850
+0aaa
+
+#9860
+1aaa
+
+#9862
+b10110 aad
+b110 aae
+b10101101 aag
+b11000000 aah
+b10110000 aai
+
+#9865
+b11000001 aah
+b10110001 aai
+
+#9870
+0aaa
+
+#9880
+1aaa
+
+#9882
+b10111 aad
+b111 aae
+b10111101 aaf
+b11000001 aag
+b10110111 aah
+b10110011 aai
+
+#9885
+b10111111 aaf
+b10111000 aah
+b10110100 aai
+
+#9890
+0aaa
+
+#9900
+1aaa
+
+#9902
+b11000 aad
+b1000 aae
+b10111101 aag
+b10111011 aah
+b11001000 aai
+
+#9905
+b10111111 aag
+b10111100 aah
+b11001001 aai
+
+#9910
+0aaa
+
+#9920
+1aaa
+
+#9922
+b11001 aad
+b1001 aae
+b11010001 aah
+b11000111 aai
+
+#9925
+b11000001 aag
+b11010010 aah
+b11001000 aai
+
+#9930
+0aaa
+
+#9940
+1aaa
+
+#9942
+b11010 aad
+b1010 aae
+b11010100 aaf
+b11010010 aag
+b11010001 aah
+b11001010 aai
+
+#9945
+b11010110 aaf
+b11010010 aah
+b11001011 aai
+
+#9950
+0aaa
+
+#9960
+1aaa
+
+#9962
+b11011 aad
+b1011 aae
+b11011010 aag
+b11010101 aah
+b11011100 aai
+
+#9965
+b11011000 aaf
+b11011100 aag
+b11010110 aah
+b11011101 aai
+
+#9970
+0aaa
+
+#9980
+1aaa
+
+#9982
+b11100 aad
+b1100 aae
+b11011100 aaf
+b11011110 aag
+b11101000 aah
+b11100111 aai
+
+#9985
+b11011110 aaf
+b11100000 aag
+b11101001 aah
+b11101000 aai
+
+#9990
+0aaa
+
+#10000
+1aaa
+
+#10002
+b11101 aad
+b1101 aae
+b11110001 aaf
+b11101001 aag
+b11110100 aah
+b11101100 aai
+
+#10005
+b11110011 aaf
+b11110101 aah
+b11101101 aai
+
+#10010
+0aaa
+
+#10020
+1aaa
+
+#10022
+b11110 aad
+b1110 aae
+b11111111 aaf
+b11111101 aag
+b11111010 aah
+b11110110 aai
+
+#10025
+b1 aaf
+b11111111 aag
+b11111011 aah
+b11110111 aai
+
+#10030
+0aaa
+
+#10040
+1aaa
+
+#10042
+b11111 aad
+b1111 aae
+b111 aaf
+b1101 aag
+b101 aah
+b1101 aai
+
+#10045
+b1001 aaf
+b1111 aag
+b110 aah
+b1110 aai
+
+#10050
+0aaa
+
+#10060
+1aaa
+
+#10062
+b0 aad
+b10000 aae
+b10100 aaf
+b10111 aag
+b11101 aah
+b11110 aai
+
+#10065
+b1001 aaf
+b110 aag
+b1111 aah
+b1110 aai
+
+#10070
+0aaa
+
+#10080
+1aaa
+
+#10082
+b1 aad
+b10001 aae
+b1111 aag
+b110 aah
+
+#10085
+b111 aah
+b1111 aai
+
+#10090
+0aaa
+
+#10100
+1aaa
+
+#10102
+b10 aad
+b10010 aae
+b111 aag
+b10000 aah
+b10000 aai
+
+#10105
+b10001 aah
+b10001 aai
+
+#10110
+0aaa
+
+#10120
+1aaa
+
+#10122
+b11 aad
+b10011 aae
+b10001 aag
+b1001 aah
+b10011 aai
+
+#10125
+b1010 aah
+b10100 aai
+
+#10130
+0aaa
+
+#10140
+1aaa
+
+#10142
+b100 aad
+b10100 aae
+b1010 aag
+b10100 aah
+b10111 aai
+
+#10145
+b10101 aah
+b11000 aai
+
+#10150
+0aaa
+
+#10160
+1aaa
+
+#10162
+b101 aad
+b10101 aae
+b1101 aaf
+b10101 aag
+b1110 aah
+b11100 aai
+
+#10165
+b1111 aaf
+b1111 aah
+b11101 aai
+
+#10170
+0aaa
+
+#10180
+1aaa
+
+#10182
+b110 aad
+b10110 aae
+b1111 aag
+b11010 aah
+b100010 aai
+
+#10185
+b11011 aah
+b100011 aai
+
+#10190
+0aaa
+
+#10200
+1aaa
+
+#10202
+b111 aad
+b10111 aae
+b10111 aaf
+b11011 aag
+b11001 aah
+b101001 aai
+
+#10205
+b11001 aaf
+b11010 aah
+b101010 aai
+
+#10210
+0aaa
+
+#10220
+1aaa
+
+#10222
+b1000 aad
+b11000 aae
+b11010 aag
+b100010 aah
+b110001 aai
+
+#10225
+b11010 aaf
+b100011 aah
+b110010 aai
+
+#10230
+0aaa
+
+#10240
+1aaa
+
+#10242
+b1001 aad
+b11001 aae
+b100011 aaf
+b100011 aag
+b101010 aah
+b111010 aai
+
+#10245
+b100101 aaf
+b101011 aah
+b111011 aai
+
+#10250
+0aaa
+
+#10260
+1aaa
+
+#10262
+b1010 aad
+b11010 aae
+b101101 aaf
+b101011 aag
+b110100 aah
+b1000100 aai
+
+#10265
+b101111 aaf
+b110101 aah
+b1000101 aai
+
+#10270
+0aaa
+
+#10280
+1aaa
+
+#10282
+b1011 aad
+b11011 aae
+b111001 aaf
+b110101 aag
+b111111 aah
+b1001111 aai
+
+#10285
+b111011 aaf
+b1000000 aah
+b1010000 aai
+
+#10290
+0aaa
+
+#10300
+1aaa
+
+#10302
+b1100 aad
+b11100 aae
+b1000110 aaf
+b1000001 aag
+b1001011 aah
+b1011011 aai
+
+#10305
+b1001000 aaf
+b1000011 aag
+b1001100 aah
+b1011100 aai
+
+#10310
+0aaa
+
+#10320
+1aaa
+
+#10322
+b1101 aad
+b11101 aae
+b1010100 aaf
+b1010000 aag
+b1011000 aah
+b1101000 aai
+
+#10325
+b1010110 aaf
+b1010010 aag
+b1011001 aah
+b1101001 aai
+
+#10330
+0aaa
+
+#10340
+1aaa
+
+#10342
+b1110 aad
+b11110 aae
+b1100011 aaf
+b1100000 aag
+b1100110 aah
+b1110110 aai
+
+#10345
+b1100101 aaf
+b1100010 aag
+b1100111 aah
+b1110111 aai
+
+#10350
+0aaa
+
+#10360
+1aaa
+
+#10362
+b1111 aad
+b11111 aae
+b1110011 aaf
+b1110001 aag
+b1110101 aah
+b10000101 aai
+
+#10365
+b1110101 aaf
+b1110011 aag
+b1110110 aah
+b10000110 aai
+
+#10370
+0aaa
+
+#10380
+1aaa
+
+#10382
+b10000 aad
+b0 aae
+b10000100 aaf
+b10000011 aag
+b10000101 aah
+b10010101 aai
+
+#10385
+b1110101 aaf
+b1110110 aag
+b10000110 aah
+b1110110 aai
+
+#10390
+0aaa
+
+#10400
+1aaa
+
+#10402
+b10001 aad
+b1 aae
+b1110110 aaf
+b10000110 aag
+b1110110 aah
+
+#10405
+b1111000 aaf
+b1110111 aah
+b1110111 aai
+
+#10410
+0aaa
+
+#10420
+1aaa
+
+#10422
+b10010 aad
+b10 aae
+b1110111 aag
+b1111000 aah
+b10000111 aai
+
+#10425
+b1111001 aah
+b10001000 aai
+
+#10430
+0aaa
+
+#10440
+1aaa
+
+#10442
+b10011 aad
+b11 aae
+b1111001 aag
+b10001010 aah
+b1111010 aai
+
+#10445
+b10001011 aah
+b1111011 aai
+
+#10450
+0aaa
+
+#10460
+1aaa
+
+#10462
+b10100 aad
+b100 aae
+b10000001 aaf
+b10001011 aag
+b1111110 aah
+b1111100 aai
+
+#10465
+b10000011 aaf
+b1111111 aah
+b1111101 aai
+
+#10470
+0aaa
+
+#10480
+1aaa
+
+#10482
+b10101 aad
+b101 aae
+b1111111 aag
+b10000001 aah
+b10001111 aai
+
+#10485
+b10000010 aah
+b10010000 aai
+
+#10490
+0aaa
+
+#10500
+1aaa
+
+#10502
+b10110 aad
+b110 aae
+b10000010 aag
+b10010101 aah
+b10000101 aai
+
+#10505
+b10010110 aah
+b10000110 aai
+
+#10510
+0aaa
+
+#10520
+1aaa
+
+#10522
+b10111 aad
+b111 aae
+b10010010 aaf
+b10010110 aag
+b10001100 aah
+b10001000 aai
+
+#10525
+b10010100 aaf
+b10001101 aah
+b10001001 aai
+
+#10530
+0aaa
+
+#10540
+1aaa
+
+#10542
+b11000 aad
+b1000 aae
+b10010010 aag
+b10010000 aah
+b10011101 aai
+
+#10545
+b10010100 aag
+b10010001 aah
+b10011110 aai
+
+#10550
+0aaa
+
+#10560
+1aaa
+
+#10562
+b11001 aad
+b1001 aae
+b10100110 aah
+b10011100 aai
+
+#10565
+b10010110 aag
+b10100111 aah
+b10011101 aai
+
+#10570
+0aaa
+
+#10580
+1aaa
+
+#10582
+b11010 aad
+b1010 aae
+b10101001 aaf
+b10100111 aag
+b10100110 aah
+b10011111 aai
+
+#10585
+b10101011 aaf
+b10100111 aah
+b10100000 aai
+
+#10590
+0aaa
+
+#10600
+1aaa
+
+#10602
+b11011 aad
+b1011 aae
+b10101111 aag
+b10101010 aah
+b10110001 aai
+
+#10605
+b10101101 aaf
+b10110001 aag
+b10101011 aah
+b10110010 aai
+
+#10610
+0aaa
+
+#10620
+1aaa
+
+#10622
+b11100 aad
+b1100 aae
+b10110001 aaf
+b10110011 aag
+b10111101 aah
+b10111100 aai
+
+#10625
+b10110011 aaf
+b10110101 aag
+b10111110 aah
+b10111101 aai
+
+#10630
+0aaa
+
+#10640
+1aaa
+
+#10642
+b11101 aad
+b1101 aae
+b11000110 aaf
+b10111110 aag
+b11001001 aah
+b11000001 aai
+
+#10645
+b11001000 aaf
+b11001010 aah
+b11000010 aai
+
+#10650
+0aaa
+
+#10660
+1aaa
+
+#10662
+b11110 aad
+b1110 aae
+b11010100 aaf
+b11010010 aag
+b11001111 aah
+b11001011 aai
+
+#10665
+b11010110 aaf
+b11010100 aag
+b11010000 aah
+b11001100 aai
+
+#10670
+0aaa
+
+#10680
+1aaa
+
+#10682
+b11111 aad
+b1111 aae
+b11011100 aaf
+b11100010 aag
+b11011010 aah
+b11100010 aai
+
+#10685
+b11011110 aaf
+b11100100 aag
+b11011011 aah
+b11100011 aai
+
+#10690
+0aaa
+
+#10700
+1aaa
+
+#10702
+b0 aad
+b10000 aae
+b11101001 aaf
+b11101100 aag
+b11110010 aah
+b11110011 aai
+
+#10705
+b11011110 aaf
+b11011011 aag
+b11100100 aah
+b11100011 aai
+
+#10710
+0aaa
+
+#10720
+1aaa
+
+#10722
+b1 aad
+b10001 aae
+b11100100 aag
+b11011011 aah
+
+#10725
+b11011100 aah
+b11100100 aai
+
+#10730
+0aaa
+
+#10740
+1aaa
+
+#10742
+b10 aad
+b10010 aae
+b11011100 aag
+b11100101 aah
+b11100101 aai
+
+#10745
+b11100110 aah
+b11100110 aai
+
+#10750
+0aaa
+
+#10760
+1aaa
+
+#10762
+b11 aad
+b10011 aae
+b11100110 aag
+b11011110 aah
+b11101000 aai
+
+#10765
+b11011111 aah
+b11101001 aai
+
+#10770
+0aaa
+
+#10780
+1aaa
+
+#10782
+b100 aad
+b10100 aae
+b11011111 aag
+b11101001 aah
+b11101100 aai
+
+#10785
+b11101010 aah
+b11101101 aai
+
+#10790
+0aaa
+
+#10800
+1aaa
+
+#10802
+b101 aad
+b10101 aae
+b11100010 aaf
+b11101010 aag
+b11100011 aah
+b11110001 aai
+
+#10805
+b11100100 aaf
+b11100100 aah
+b11110010 aai
+
+#10810
+0aaa
+
+#10820
+1aaa
+
+#10822
+b110 aad
+b10110 aae
+b11100100 aag
+b11101111 aah
+b11110111 aai
+
+#10825
+b11110000 aah
+b11111000 aai
+
+#10830
+0aaa
+
+#10840
+1aaa
+
+#10842
+b111 aad
+b10111 aae
+b11101100 aaf
+b11110000 aag
+b11101110 aah
+b11111110 aai
+
+#10845
+b11101110 aaf
+b11101111 aah
+b11111111 aai
+
+#10850
+0aaa
+
+#10860
+1aaa
+
+#10862
+b1000 aad
+b11000 aae
+b11101111 aag
+b11110111 aah
+b110 aai
+
+#10865
+b11101111 aaf
+b11111000 aah
+b111 aai
+
+#10870
+0aaa
+
+#10880
+1aaa
+
+#10882
+b1001 aad
+b11001 aae
+b11111000 aaf
+b11111000 aag
+b11111111 aah
+b1111 aai
+
+#10885
+b11111010 aaf
+b0 aah
+b10000 aai
+
+#10890
+0aaa
+
+#10900
+1aaa
+
+#10902
+b1010 aad
+b11010 aae
+b10 aaf
+b0 aag
+b1001 aah
+b11001 aai
+
+#10905
+b100 aaf
+b1010 aah
+b11010 aai
+
+#10910
+0aaa
+
+#10920
+1aaa
+
+#10922
+b1011 aad
+b11011 aae
+b1110 aaf
+b1010 aag
+b10100 aah
+b100100 aai
+
+#10925
+b10000 aaf
+b10101 aah
+b100101 aai
+
+#10930
+0aaa
+
+#10940
+1aaa
+
+#10942
+b1100 aad
+b11100 aae
+b11011 aaf
+b10110 aag
+b100000 aah
+b110000 aai
+
+#10945
+b11101 aaf
+b11000 aag
+b100001 aah
+b110001 aai
+
+#10950
+0aaa
+
+#10960
+1aaa
+
+#10962
+b1101 aad
+b11101 aae
+b101001 aaf
+b100101 aag
+b101101 aah
+b111101 aai
+
+#10965
+b101011 aaf
+b100111 aag
+b101110 aah
+b111110 aai
+
+#10970
+0aaa
+
+#10980
+1aaa
+
+#10982
+b1110 aad
+b11110 aae
+b111000 aaf
+b110101 aag
+b111011 aah
+b1001011 aai
+
+#10985
+b111010 aaf
+b110111 aag
+b111100 aah
+b1001100 aai
+
+#10990
+0aaa
+
+#11000
+1aaa
+
+#11002
+b1111 aad
+b11111 aae
+b1001000 aaf
+b1000110 aag
+b1001010 aah
+b1011010 aai
+
+#11005
+b1001010 aaf
+b1001000 aag
+b1001011 aah
+b1011011 aai
+
+#11010
+0aaa
+
+#11020
+1aaa
+
+#11022
+b10000 aad
+b0 aae
+b1011001 aaf
+b1011000 aag
+b1011010 aah
+b1101010 aai
+
+#11025
+b1001010 aaf
+b1001011 aag
+b1011011 aah
+b1001011 aai
+
+#11030
+0aaa
+
+#11040
+1aaa
+
+#11042
+b10001 aad
+b1 aae
+b1001011 aaf
+b1011011 aag
+b1001011 aah
+
+#11045
+b1001101 aaf
+b1001100 aah
+b1001100 aai
+
+#11050
+0aaa
+
+#11060
+1aaa
+
+#11062
+b10010 aad
+b10 aae
+b1001100 aag
+b1001101 aah
+b1011100 aai
+
+#11065
+b1001110 aah
+b1011101 aai
+
+#11070
+0aaa
+
+#11080
+1aaa
+
+#11082
+b10011 aad
+b11 aae
+b1001110 aag
+b1011111 aah
+b1001111 aai
+
+#11085
+b1100000 aah
+b1010000 aai
+
+#11090
+0aaa
+
+#11100
+1aaa
+
+#11102
+b10100 aad
+b100 aae
+b1010110 aaf
+b1100000 aag
+b1010011 aah
+b1010001 aai
+
+#11105
+b1011000 aaf
+b1010100 aah
+b1010010 aai
+
+#11110
+0aaa
+
+#11120
+1aaa
+
+#11122
+b10101 aad
+b101 aae
+b1010100 aag
+b1010110 aah
+b1100100 aai
+
+#11125
+b1010111 aah
+b1100101 aai
+
+#11130
+0aaa
+
+#11140
+1aaa
+
+#11142
+b10110 aad
+b110 aae
+b1010111 aag
+b1101010 aah
+b1011010 aai
+
+#11145
+b1101011 aah
+b1011011 aai
+
+#11150
+0aaa
+
+#11160
+1aaa
+
+#11162
+b10111 aad
+b111 aae
+b1100111 aaf
+b1101011 aag
+b1100001 aah
+b1011101 aai
+
+#11165
+b1101001 aaf
+b1100010 aah
+b1011110 aai
+
+#11170
+0aaa
+
+#11180
+1aaa
+
+#11182
+b11000 aad
+b1000 aae
+b1100111 aag
+b1100101 aah
+b1110010 aai
+
+#11185
+b1101001 aag
+b1100110 aah
+b1110011 aai
+
+#11190
+0aaa
+
+#11200
+1aaa
+
+#11202
+b11001 aad
+b1001 aae
+b1111011 aah
+b1110001 aai
+
+#11205
+b1101011 aag
+b1111100 aah
+b1110010 aai
+
+#11210
+0aaa
+
+#11220
+1aaa
+
+#11222
+b11010 aad
+b1010 aae
+b1111110 aaf
+b1111100 aag
+b1111011 aah
+b1110100 aai
+
+#11225
+b10000000 aaf
+b1111100 aah
+b1110101 aai
+
+#11230
+0aaa
+
+#11240
+1aaa
+
+#11242
+b11011 aad
+b1011 aae
+b10000100 aag
+b1111111 aah
+b10000110 aai
+
+#11245
+b10000010 aaf
+b10000110 aag
+b10000000 aah
+b10000111 aai
+
+#11250
+0aaa
+
+#11260
+1aaa
+
+#11262
+b11100 aad
+b1100 aae
+b10000110 aaf
+b10001000 aag
+b10010010 aah
+b10010001 aai
+
+#11265
+b10001000 aaf
+b10001010 aag
+b10010011 aah
+b10010010 aai
+
+#11270
+0aaa
+
+#11280
+1aaa
+
+#11282
+b11101 aad
+b1101 aae
+b10011011 aaf
+b10010011 aag
+b10011110 aah
+b10010110 aai
+
+#11285
+b10011101 aaf
+b10011111 aah
+b10010111 aai
+
+#11290
+0aaa
+
+#11300
+1aaa
+
+#11302
+b11110 aad
+b1110 aae
+b10101001 aaf
+b10100111 aag
+b10100100 aah
+b10100000 aai
+
+#11305
+b10101011 aaf
+b10101001 aag
+b10100101 aah
+b10100001 aai
+
+#11310
+0aaa
+
+#11320
+1aaa
+
+#11322
+b11111 aad
+b1111 aae
+b10110001 aaf
+b10110111 aag
+b10101111 aah
+b10110111 aai
+
+#11325
+b10110011 aaf
+b10111001 aag
+b10110000 aah
+b10111000 aai
+
+#11330
+0aaa
+
+#11340
+1aaa
+
+#11342
+b0 aad
+b10000 aae
+b10111110 aaf
+b11000001 aag
+b11000111 aah
+b11001000 aai
+
+#11345
+b10110011 aaf
+b10110000 aag
+b10111001 aah
+b10111000 aai
+
+#11350
+0aaa
+
+#11360
+1aaa
+
+#11362
+b1 aad
+b10001 aae
+b10111001 aag
+b10110000 aah
+
+#11365
+b10110001 aah
+b10111001 aai
+
+#11370
+0aaa
+
+#11380
+1aaa
+
+#11382
+b10 aad
+b10010 aae
+b10110001 aag
+b10111010 aah
+b10111010 aai
+
+#11385
+b10111011 aah
+b10111011 aai
+
+#11390
+0aaa
+
+#11400
+1aaa
+
+#11402
+b11 aad
+b10011 aae
+b10111011 aag
+b10110011 aah
+b10111101 aai
+
+#11405
+b10110100 aah
+b10111110 aai
+
+#11410
+0aaa
+
+#11420
+1aaa
+
+#11422
+b100 aad
+b10100 aae
+b10110100 aag
+b10111110 aah
+b11000001 aai
+
+#11425
+b10111111 aah
+b11000010 aai
+
+#11430
+0aaa
+
+#11440
+1aaa
+
+#11442
+b101 aad
+b10101 aae
+b10110111 aaf
+b10111111 aag
+b10111000 aah
+b11000110 aai
+
+#11445
+b10111001 aaf
+b10111001 aah
+b11000111 aai
+
+#11450
+0aaa
+
+#11460
+1aaa
+
+#11462
+b110 aad
+b10110 aae
+b10111001 aag
+b11000100 aah
+b11001100 aai
+
+#11465
+b11000101 aah
+b11001101 aai
+
+#11470
+0aaa
+
+#11480
+1aaa
+
+#11482
+b111 aad
+b10111 aae
+b11000001 aaf
+b11000101 aag
+b11000011 aah
+b11010011 aai
+
+#11485
+b11000011 aaf
+b11000100 aah
+b11010100 aai
+
+#11490
+0aaa
+
+#11500
+1aaa
+
+#11502
+b1000 aad
+b11000 aae
+b11000100 aag
+b11001100 aah
+b11011011 aai
+
+#11505
+b11000100 aaf
+b11001101 aah
+b11011100 aai
+
+#11510
+0aaa
+
+#11520
+1aaa
+
+#11522
+b1001 aad
+b11001 aae
+b11001101 aaf
+b11001101 aag
+b11010100 aah
+b11100100 aai
+
+#11525
+b11001111 aaf
+b11010101 aah
+b11100101 aai
+
+#11530
+0aaa
+
+#11540
+1aaa
+
+#11542
+b1010 aad
+b11010 aae
+b11010111 aaf
+b11010101 aag
+b11011110 aah
+b11101110 aai
+
+#11545
+b11011001 aaf
+b11011111 aah
+b11101111 aai
+
+#11550
+0aaa
+
+#11560
+1aaa
+
+#11562
+b1011 aad
+b11011 aae
+b11100011 aaf
+b11011111 aag
+b11101001 aah
+b11111001 aai
+
+#11565
+b11100101 aaf
+b11101010 aah
+b11111010 aai
+
+#11570
+0aaa
+
+#11580
+1aaa
+
+#11582
+b1100 aad
+b11100 aae
+b11110000 aaf
+b11101011 aag
+b11110101 aah
+b101 aai
+
+#11585
+b11110010 aaf
+b11101101 aag
+b11110110 aah
+b110 aai
+
+#11590
+0aaa
+
+#11600
+1aaa
+
+#11602
+b1101 aad
+b11101 aae
+b11111110 aaf
+b11111010 aag
+b10 aah
+b10010 aai
+
+#11605
+b0 aaf
+b11111100 aag
+b11 aah
+b10011 aai
+
+#11610
+0aaa
+
+#11620
+1aaa
+
+#11622
+b1110 aad
+b11110 aae
+b1101 aaf
+b1010 aag
+b10000 aah
+b100000 aai
+
+#11625
+b1111 aaf
+b1100 aag
+b10001 aah
+b100001 aai
+
+#11630
+0aaa
+
+#11640
+1aaa
+
+#11642
+b1111 aad
+b11111 aae
+b11101 aaf
+b11011 aag
+b11111 aah
+b101111 aai
+
+#11645
+b11111 aaf
+b11101 aag
+b100000 aah
+b110000 aai
+
+#11650
+0aaa
+
+#11660
+1aaa
+
+#11662
+b10000 aad
+b0 aae
+b101110 aaf
+b101101 aag
+b101111 aah
+b111111 aai
+
+#11665
+b11111 aaf
+b100000 aag
+b110000 aah
+b100000 aai
+
+#11670
+0aaa
+
+#11680
+1aaa
+
+#11682
+b10001 aad
+b1 aae
+b100000 aaf
+b110000 aag
+b100000 aah
+
+#11685
+b100010 aaf
+b100001 aah
+b100001 aai
+
+#11690
+0aaa
+
+#11700
+1aaa
+
+#11702
+b10010 aad
+b10 aae
+b100001 aag
+b100010 aah
+b110001 aai
+
+#11705
+b100011 aah
+b110010 aai
+
+#11710
+0aaa
+
+#11720
+1aaa
+
+#11722
+b10011 aad
+b11 aae
+b100011 aag
+b110100 aah
+b100100 aai
+
+#11725
+b110101 aah
+b100101 aai
+
+#11730
+0aaa
+
+#11740
+1aaa
+
+#11742
+b10100 aad
+b100 aae
+b101011 aaf
+b110101 aag
+b101000 aah
+b100110 aai
+
+#11745
+b101101 aaf
+b101001 aah
+b100111 aai
+
+#11750
+0aaa
+
+#11760
+1aaa
+
+#11762
+b10101 aad
+b101 aae
+b101001 aag
+b101011 aah
+b111001 aai
+
+#11765
+b101100 aah
+b111010 aai
+
+#11770
+0aaa
+
+#11780
+1aaa
+
+#11782
+b10110 aad
+b110 aae
+b101100 aag
+b111111 aah
+b101111 aai
+
+#11785
+b1000000 aah
+b110000 aai
+
+#11790
+0aaa
+
+#11800
+1aaa
+
+#11802
+b10111 aad
+b111 aae
+b111100 aaf
+b1000000 aag
+b110110 aah
+b110010 aai
+
+#11805
+b111110 aaf
+b110111 aah
+b110011 aai
+
+#11810
+0aaa
+
+#11820
+1aaa
+
+#11822
+b11000 aad
+b1000 aae
+b111100 aag
+b111010 aah
+b1000111 aai
+
+#11825
+b111110 aag
+b111011 aah
+b1001000 aai
+
+#11830
+0aaa
+
+#11840
+1aaa
+
+#11842
+b11001 aad
+b1001 aae
+b1010000 aah
+b1000110 aai
+
+#11845
+b1000000 aag
+b1010001 aah
+b1000111 aai
+
+#11850
+0aaa
+
+#11860
+1aaa
+
+#11862
+b11010 aad
+b1010 aae
+b1010011 aaf
+b1010001 aag
+b1010000 aah
+b1001001 aai
+
+#11865
+b1010101 aaf
+b1010001 aah
+b1001010 aai
+
+#11870
+0aaa
+
+#11880
+1aaa
+
+#11882
+b11011 aad
+b1011 aae
+b1011001 aag
+b1010100 aah
+b1011011 aai
+
+#11885
+b1010111 aaf
+b1011011 aag
+b1010101 aah
+b1011100 aai
+
+#11890
+0aaa
+
+#11900
+1aaa
+
+#11902
+b11100 aad
+b1100 aae
+b1011011 aaf
+b1011101 aag
+b1100111 aah
+b1100110 aai
+
+#11905
+b1011101 aaf
+b1011111 aag
+b1101000 aah
+b1100111 aai
+
+#11910
+0aaa
+
+#11920
+1aaa
+
+#11922
+b11101 aad
+b1101 aae
+b1110000 aaf
+b1101000 aag
+b1110011 aah
+b1101011 aai
+
+#11925
+b1110010 aaf
+b1110100 aah
+b1101100 aai
+
+#11930
+0aaa
+
+#11940
+1aaa
+
+#11942
+b11110 aad
+b1110 aae
+b1111110 aaf
+b1111100 aag
+b1111001 aah
+b1110101 aai
+
+#11945
+b10000000 aaf
+b1111110 aag
+b1111010 aah
+b1110110 aai
+
+#11950
+0aaa
+
+#11960
+1aaa
+
+#11962
+b11111 aad
+b1111 aae
+b10000110 aaf
+b10001100 aag
+b10000100 aah
+b10001100 aai
+
+#11965
+b10001000 aaf
+b10001110 aag
+b10000101 aah
+b10001101 aai
+
+#11970
+0aaa
+
+#11980
+1aaa
+
+#11982
+b0 aad
+b10000 aae
+b10010011 aaf
+b10010110 aag
+b10011100 aah
+b10011101 aai
+
+#11985
+b10001000 aaf
+b10000101 aag
+b10001110 aah
+b10001101 aai
+
+#11990
+0aaa
+
+#12000
+1aaa
+
+#12002
+b1 aad
+b10001 aae
+b10001110 aag
+b10000101 aah
+
+#12005
+b10000110 aah
+b10001110 aai
+
+#12010
+0aaa
+
+#12020
+1aaa
+
+#12022
+b10 aad
+b10010 aae
+b10000110 aag
+b10001111 aah
+b10001111 aai
+
+#12025
+b10010000 aah
+b10010000 aai
+
+#12030
+0aaa
+
+#12040
+1aaa
+
+#12042
+b11 aad
+b10011 aae
+b10010000 aag
+b10001000 aah
+b10010010 aai
+
+#12045
+b10001001 aah
+b10010011 aai
+
+#12050
+0aaa
+
+#12060
+1aaa
+
+#12062
+b100 aad
+b10100 aae
+b10001001 aag
+b10010011 aah
+b10010110 aai
+
+#12065
+b10010100 aah
+b10010111 aai
+
+#12070
+0aaa
+
+#12080
+1aaa
+
+#12082
+b101 aad
+b10101 aae
+b10001100 aaf
+b10010100 aag
+b10001101 aah
+b10011011 aai
+
+#12085
+b10001110 aaf
+b10001110 aah
+b10011100 aai
+
+#12090
+0aaa
+
+#12100
+1aaa
+
+#12102
+b110 aad
+b10110 aae
+b10001110 aag
+b10011001 aah
+b10100001 aai
+
+#12105
+b10011010 aah
+b10100010 aai
+
+#12110
+0aaa
+
+#12120
+1aaa
+
+#12122
+b111 aad
+b10111 aae
+b10010110 aaf
+b10011010 aag
+b10011000 aah
+b10101000 aai
+
+#12125
+b10011000 aaf
+b10011001 aah
+b10101001 aai
+
+#12130
+0aaa
+
+#12140
+1aaa
+
+#12142
+b1000 aad
+b11000 aae
+b10011001 aag
+b10100001 aah
+b10110000 aai
+
+#12145
+b10011001 aaf
+b10100010 aah
+b10110001 aai
+
+#12150
+0aaa
+
+#12160
+1aaa
+
+#12162
+b1001 aad
+b11001 aae
+b10100010 aaf
+b10100010 aag
+b10101001 aah
+b10111001 aai
+
+#12165
+b10100100 aaf
+b10101010 aah
+b10111010 aai
+
+#12170
+0aaa
+
+#12180
+1aaa
+
+#12182
+b1010 aad
+b11010 aae
+b10101100 aaf
+b10101010 aag
+b10110011 aah
+b11000011 aai
+
+#12185
+b10101110 aaf
+b10110100 aah
+b11000100 aai
+
+#12190
+0aaa
+
+#12200
+1aaa
+
+#12202
+b1011 aad
+b11011 aae
+b10111000 aaf
+b10110100 aag
+b10111110 aah
+b11001110 aai
+
+#12205
+b10111010 aaf
+b10111111 aah
+b11001111 aai
+
+#12210
+0aaa
+
+#12220
+1aaa
+
+#12222
+b1100 aad
+b11100 aae
+b11000101 aaf
+b11000000 aag
+b11001010 aah
+b11011010 aai
+
+#12225
+b11000111 aaf
+b11000010 aag
+b11001011 aah
+b11011011 aai
+
+#12230
+0aaa
+
+#12240
+1aaa
+
+#12242
+b1101 aad
+b11101 aae
+b11010011 aaf
+b11001111 aag
+b11010111 aah
+b11100111 aai
+
+#12245
+b11010101 aaf
+b11010001 aag
+b11011000 aah
+b11101000 aai
+
+#12250
+0aaa
+
+#12260
+1aaa
+
+#12262
+b1110 aad
+b11110 aae
+b11100010 aaf
+b11011111 aag
+b11100101 aah
+b11110101 aai
+
+#12265
+b11100100 aaf
+b11100001 aag
+b11100110 aah
+b11110110 aai
+
+#12270
+0aaa
+
+#12280
+1aaa
+
+#12282
+b1111 aad
+b11111 aae
+b11110010 aaf
+b11110000 aag
+b11110100 aah
+b100 aai
+
+#12285
+b11110100 aaf
+b11110010 aag
+b11110101 aah
+b101 aai
+
+#12290
+0aaa
+
+#12300
+1aaa
+
+#12302
+b10000 aad
+b0 aae
+b11 aaf
+b10 aag
+b100 aah
+b10100 aai
+
+#12305
+b11110100 aaf
+b11110101 aag
+b101 aah
+b11110101 aai
+
+#12310
+0aaa
+
+#12320
+1aaa
+
+#12322
+b10001 aad
+b1 aae
+b11110101 aaf
+b101 aag
+b11110101 aah
+
+#12325
+b11110111 aaf
+b11110110 aah
+b11110110 aai
+
+#12330
+0aaa
+
+#12340
+1aaa
+
+#12342
+b10010 aad
+b10 aae
+b11110110 aag
+b11110111 aah
+b110 aai
+
+#12345
+b11111000 aah
+b111 aai
+
+#12350
+0aaa
+
+#12360
+1aaa
+
+#12362
+b10011 aad
+b11 aae
+b11111000 aag
+b1001 aah
+b11111001 aai
+
+#12365
+b1010 aah
+b11111010 aai
+
+#12370
+0aaa
+
+#12380
+1aaa
+
+#12382
+b10100 aad
+b100 aae
+b0 aaf
+b1010 aag
+b11111101 aah
+b11111011 aai
+
+#12385
+b10 aaf
+b11111110 aah
+b11111100 aai
+
+#12390
+0aaa
+
+#12400
+1aaa
+
+#12402
+b10101 aad
+b101 aae
+b11111110 aag
+b0 aah
+b1110 aai
+
+#12405
+b1 aah
+b1111 aai
+
+#12410
+0aaa
+
+#12420
+1aaa
+
+#12422
+b10110 aad
+b110 aae
+b1 aag
+b10100 aah
+b100 aai
+
+#12425
+b10101 aah
+b101 aai
+
+#12430
+0aaa
+
+#12440
+1aaa
+
+#12442
+b10111 aad
+b111 aae
+b10001 aaf
+b10101 aag
+b1011 aah
+b111 aai
+
+#12445
+b10011 aaf
+b1100 aah
+b1000 aai
+
+#12450
+0aaa
+
+#12460
+1aaa
+
+#12462
+b11000 aad
+b1000 aae
+b10001 aag
+b1111 aah
+b11100 aai
+
+#12465
+b10011 aag
+b10000 aah
+b11101 aai
+
+#12470
+0aaa
+
+#12480
+1aaa
+
+#12482
+b11001 aad
+b1001 aae
+b100101 aah
+b11011 aai
+
+#12485
+b10101 aag
+b100110 aah
+b11100 aai
+
+#12490
+0aaa
+
+#12500
+1aaa
+
+#12502
+b11010 aad
+b1010 aae
+b101000 aaf
+b100110 aag
+b100101 aah
+b11110 aai
+
+#12505
+b101010 aaf
+b100110 aah
+b11111 aai
+
+#12510
+0aaa
+
+#12520
+1aaa
+
+#12522
+b11011 aad
+b1011 aae
+b101110 aag
+b101001 aah
+b110000 aai
+
+#12525
+b101100 aaf
+b110000 aag
+b101010 aah
+b110001 aai
+
+#12530
+0aaa
+
+#12540
+1aaa
+
+#12542
+b11100 aad
+b1100 aae
+b110000 aaf
+b110010 aag
+b111100 aah
+b111011 aai
+
+#12545
+b110010 aaf
+b110100 aag
+b111101 aah
+b111100 aai
+
+#12550
+0aaa
+
+#12560
+1aaa
+
+#12562
+b11101 aad
+b1101 aae
+b1000101 aaf
+b111101 aag
+b1001000 aah
+b1000000 aai
+
+#12565
+b1000111 aaf
+b1001001 aah
+b1000001 aai
+
+#12570
+0aaa
+
+#12580
+1aaa
+
+#12582
+b11110 aad
+b1110 aae
+b1010011 aaf
+b1010001 aag
+b1001110 aah
+b1001010 aai
+
+#12585
+b1010101 aaf
+b1010011 aag
+b1001111 aah
+b1001011 aai
+
+#12590
+0aaa
+
+#12600
+1aaa
+
+#12602
+b11111 aad
+b1111 aae
+b1011011 aaf
+b1100001 aag
+b1011001 aah
+b1100001 aai
+
+#12605
+b1011101 aaf
+b1100011 aag
+b1011010 aah
+b1100010 aai
+
+#12610
+0aaa
+
+#12620
+1aaa
+
+#12622
+b0 aad
+b10000 aae
+b1101000 aaf
+b1101011 aag
+b1110001 aah
+b1110010 aai
+
+#12625
+b1011101 aaf
+b1011010 aag
+b1100011 aah
+b1100010 aai
+
+#12630
+0aaa
+
+#12640
+1aaa
+
+#12642
+b1 aad
+b10001 aae
+b1100011 aag
+b1011010 aah
+
+#12645
+b1011011 aah
+b1100011 aai
+
+#12650
+0aaa
+
+#12660
+1aaa
+
+#12662
+b10 aad
+b10010 aae
+b1011011 aag
+b1100100 aah
+b1100100 aai
+
+#12665
+b1100101 aah
+b1100101 aai
+
+#12670
+0aaa
+
+#12680
+1aaa
+
+#12682
+b11 aad
+b10011 aae
+b1100101 aag
+b1011101 aah
+b1100111 aai
+
+#12685
+b1011110 aah
+b1101000 aai
+
+#12690
+0aaa
+
+#12700
+1aaa
+
+#12702
+b100 aad
+b10100 aae
+b1011110 aag
+b1101000 aah
+b1101011 aai
+
+#12705
+b1101001 aah
+b1101100 aai
+
+#12710
+0aaa
+
+#12720
+1aaa
+
+#12722
+b101 aad
+b10101 aae
+b1100001 aaf
+b1101001 aag
+b1100010 aah
+b1110000 aai
+
+#12725
+b1100011 aaf
+b1100011 aah
+b1110001 aai
+
+#12730
+0aaa
+
+#12740
+1aaa
+
+#12742
+b110 aad
+b10110 aae
+b1100011 aag
+b1101110 aah
+b1110110 aai
+
+#12745
+b1101111 aah
+b1110111 aai
+
+#12750
+0aaa
+
+#12760
+1aaa
+
+#12762
+b111 aad
+b10111 aae
+b1101011 aaf
+b1101111 aag
+b1101101 aah
+b1111101 aai
+
+#12765
+b1101101 aaf
+b1101110 aah
+b1111110 aai
+
+#12770
+0aaa
+
+#12780
+1aaa
+
+#12782
+b1000 aad
+b11000 aae
+b1101110 aag
+b1110110 aah
+b10000101 aai
+
+#12785
+b1101110 aaf
+b1110111 aah
+b10000110 aai
+
+#12790
+0aaa
+
+#12800
+1aaa
+
+#12802
+b1001 aad
+b11001 aae
+b1110111 aaf
+b1110111 aag
+b1111110 aah
+b10001110 aai
+
+#12805
+b1111001 aaf
+b1111111 aah
+b10001111 aai
+
+#12810
+0aaa
+
+#12820
+1aaa
+
+#12822
+b1010 aad
+b11010 aae
+b10000001 aaf
+b1111111 aag
+b10001000 aah
+b10011000 aai
+
+#12825
+b10000011 aaf
+b10001001 aah
+b10011001 aai
+
+#12830
+0aaa
+
+#12840
+1aaa
+
+#12842
+b1011 aad
+b11011 aae
+b10001101 aaf
+b10001001 aag
+b10010011 aah
+b10100011 aai
+
+#12845
+b10001111 aaf
+b10010100 aah
+b10100100 aai
+
+#12850
+0aaa
+
+#12860
+1aaa
+
+#12862
+b1100 aad
+b11100 aae
+b10011010 aaf
+b10010101 aag
+b10011111 aah
+b10101111 aai
+
+#12865
+b10011100 aaf
+b10010111 aag
+b10100000 aah
+b10110000 aai
+
+#12870
+0aaa
+
+#12880
+1aaa
+
+#12882
+b1101 aad
+b11101 aae
+b10101000 aaf
+b10100100 aag
+b10101100 aah
+b10111100 aai
+
+#12885
+b10101010 aaf
+b10100110 aag
+b10101101 aah
+b10111101 aai
+
+#12890
+0aaa
+
+#12900
+1aaa
+
+#12902
+b1110 aad
+b11110 aae
+b10110111 aaf
+b10110100 aag
+b10111010 aah
+b11001010 aai
+
+#12905
+b10111001 aaf
+b10110110 aag
+b10111011 aah
+b11001011 aai
+
+#12910
+0aaa
+
+#12920
+1aaa
+
+#12922
+b1111 aad
+b11111 aae
+b11000111 aaf
+b11000101 aag
+b11001001 aah
+b11011001 aai
+
+#12925
+b11001001 aaf
+b11000111 aag
+b11001010 aah
+b11011010 aai
+
+#12930
+0aaa
+
+#12940
+1aaa
+
+#12942
+b10000 aad
+b0 aae
+b11011000 aaf
+b11010111 aag
+b11011001 aah
+b11101001 aai
+
+#12945
+b11001001 aaf
+b11001010 aag
+b11011010 aah
+b11001010 aai
+
+#12950
+0aaa
+
+#12960
+1aaa
+
+#12962
+b10001 aad
+b1 aae
+b11001010 aaf
+b11011010 aag
+b11001010 aah
+
+#12965
+b11001100 aaf
+b11001011 aah
+b11001011 aai
+
+#12970
+0aaa
+
+#12980
+1aaa
+
+#12982
+b10010 aad
+b10 aae
+b11001011 aag
+b11001100 aah
+b11011011 aai
+
+#12985
+b11001101 aah
+b11011100 aai
+
+#12990
+0aaa
+
+#13000
+1aaa
+
+#13002
+b10011 aad
+b11 aae
+b11001101 aag
+b11011110 aah
+b11001110 aai
+
+#13005
+b11011111 aah
+b11001111 aai
+
+#13010
+0aaa
+
+#13020
+1aaa
+
+#13022
+b10100 aad
+b100 aae
+b11010101 aaf
+b11011111 aag
+b11010010 aah
+b11010000 aai
+
+#13025
+b11010111 aaf
+b11010011 aah
+b11010001 aai
+
+#13030
+0aaa
+
+#13040
+1aaa
+
+#13042
+b10101 aad
+b101 aae
+b11010011 aag
+b11010101 aah
+b11100011 aai
+
+#13045
+b11010110 aah
+b11100100 aai
+
+#13050
+0aaa
+
+#13060
+1aaa
+
+#13062
+b10110 aad
+b110 aae
+b11010110 aag
+b11101001 aah
+b11011001 aai
+
+#13065
+b11101010 aah
+b11011010 aai
+
+#13070
+0aaa
+
+#13080
+1aaa
+
+#13082
+b10111 aad
+b111 aae
+b11100110 aaf
+b11101010 aag
+b11100000 aah
+b11011100 aai
+
+#13085
+b11101000 aaf
+b11100001 aah
+b11011101 aai
+
+#13090
+0aaa
+
+#13100
+1aaa
+
+#13102
+b11000 aad
+b1000 aae
+b11100110 aag
+b11100100 aah
+b11110001 aai
+
+#13105
+b11101000 aag
+b11100101 aah
+b11110010 aai
+
+#13110
+0aaa
+
+#13120
+1aaa
+
+#13122
+b11001 aad
+b1001 aae
+b11111010 aah
+b11110000 aai
+
+#13125
+b11101010 aag
+b11111011 aah
+b11110001 aai
+
+#13130
+0aaa
+
+#13140
+1aaa
+
+#13142
+b11010 aad
+b1010 aae
+b11111101 aaf
+b11111011 aag
+b11111010 aah
+b11110011 aai
+
+#13145
+b11111111 aaf
+b11111011 aah
+b11110100 aai
+
+#13150
+0aaa
+
+#13160
+1aaa
+
+#13162
+b11011 aad
+b1011 aae
+b11 aag
+b11111110 aah
+b101 aai
+
+#13165
+b1 aaf
+b101 aag
+b11111111 aah
+b110 aai
+
+#13170
+0aaa
+
+#13180
+1aaa
+
+#13182
+b11100 aad
+b1100 aae
+b101 aaf
+b111 aag
+b10001 aah
+b10000 aai
+
+#13185
+b111 aaf
+b1001 aag
+b10010 aah
+b10001 aai
+
+#13190
+0aaa
+
+#13200
+1aaa
+
+#13202
+b11101 aad
+b1101 aae
+b11010 aaf
+b10010 aag
+b11101 aah
+b10101 aai
+
+#13205
+b11100 aaf
+b11110 aah
+b10110 aai
+
+#13210
+0aaa
+
+#13220
+1aaa
+
+#13222
+b11110 aad
+b1110 aae
+b101000 aaf
+b100110 aag
+b100011 aah
+b11111 aai
+
+#13225
+b101010 aaf
+b101000 aag
+b100100 aah
+b100000 aai
+
+#13230
+0aaa
+
+#13240
+1aaa
+
+#13242
+b11111 aad
+b1111 aae
+b110000 aaf
+b110110 aag
+b101110 aah
+b110110 aai
+
+#13245
+b110010 aaf
+b111000 aag
+b101111 aah
+b110111 aai
+
+#13250
+0aaa
+
+#13260
+1aaa
+
+#13262
+b0 aad
+b10000 aae
+b111101 aaf
+b1000000 aag
+b1000110 aah
+b1000111 aai
+
+#13265
+b110010 aaf
+b101111 aag
+b111000 aah
+b110111 aai
+
+#13270
+0aaa
+
+#13280
+1aaa
+
+#13282
+b1 aad
+b10001 aae
+b111000 aag
+b101111 aah
+
+#13285
+b110000 aah
+b111000 aai
+
+#13290
+0aaa
+
+#13300
+1aaa
+
+#13302
+b10 aad
+b10010 aae
+b110000 aag
+b111001 aah
+b111001 aai
+
+#13305
+b111010 aah
+b111010 aai
+
+#13310
+0aaa
+
+#13320
+1aaa
+
+#13322
+b11 aad
+b10011 aae
+b111010 aag
+b110010 aah
+b111100 aai
+
+#13325
+b110011 aah
+b111101 aai
+
+#13330
+0aaa
+
+#13340
+1aaa
+
+#13342
+b100 aad
+b10100 aae
+b110011 aag
+b111101 aah
+b1000000 aai
+
+#13345
+b111110 aah
+b1000001 aai
+
+#13350
+0aaa
+
+#13360
+1aaa
+
+#13362
+b101 aad
+b10101 aae
+b110110 aaf
+b111110 aag
+b110111 aah
+b1000101 aai
+
+#13365
+b111000 aaf
+b111000 aah
+b1000110 aai
+
+#13370
+0aaa
+
+#13380
+1aaa
+
+#13382
+b110 aad
+b10110 aae
+b111000 aag
+b1000011 aah
+b1001011 aai
+
+#13385
+b1000100 aah
+b1001100 aai
+
+#13390
+0aaa
+
+#13400
+1aaa
+
+#13402
+b111 aad
+b10111 aae
+b1000000 aaf
+b1000100 aag
+b1000010 aah
+b1010010 aai
+
+#13405
+b1000010 aaf
+b1000011 aah
+b1010011 aai
+
+#13410
+0aaa
+
+#13420
+1aaa
+
+#13422
+b1000 aad
+b11000 aae
+b1000011 aag
+b1001011 aah
+b1011010 aai
+
+#13425
+b1000011 aaf
+b1001100 aah
+b1011011 aai
+
+#13430
+0aaa
+
+#13440
+1aaa
+
+#13442
+b1001 aad
+b11001 aae
+b1001100 aaf
+b1001100 aag
+b1010011 aah
+b1100011 aai
+
+#13445
+b1001110 aaf
+b1010100 aah
+b1100100 aai
+
+#13450
+0aaa
+
+#13460
+1aaa
+
+#13462
+b1010 aad
+b11010 aae
+b1010110 aaf
+b1010100 aag
+b1011101 aah
+b1101101 aai
+
+#13465
+b1011000 aaf
+b1011110 aah
+b1101110 aai
+
+#13470
+0aaa
+
+#13480
+1aaa
+
+#13482
+b1011 aad
+b11011 aae
+b1100010 aaf
+b1011110 aag
+b1101000 aah
+b1111000 aai
+
+#13485
+b1100100 aaf
+b1101001 aah
+b1111001 aai
+
+#13490
+0aaa
+
+#13500
+1aaa
+
+#13502
+b1100 aad
+b11100 aae
+b1101111 aaf
+b1101010 aag
+b1110100 aah
+b10000100 aai
+
+#13505
+b1110001 aaf
+b1101100 aag
+b1110101 aah
+b10000101 aai
+
+#13510
+0aaa
+
+#13520
+1aaa
+
+#13522
+b1101 aad
+b11101 aae
+b1111101 aaf
+b1111001 aag
+b10000001 aah
+b10010001 aai
+
+#13525
+b1111111 aaf
+b1111011 aag
+b10000010 aah
+b10010010 aai
+
+#13530
+0aaa
+
+#13540
+1aaa
+
+#13542
+b1110 aad
+b11110 aae
+b10001100 aaf
+b10001001 aag
+b10001111 aah
+b10011111 aai
+
+#13545
+b10001110 aaf
+b10001011 aag
+b10010000 aah
+b10100000 aai
+
+#13550
+0aaa
+
+#13560
+1aaa
+
+#13562
+b1111 aad
+b11111 aae
+b10011100 aaf
+b10011010 aag
+b10011110 aah
+b10101110 aai
+
+#13565
+b10011110 aaf
+b10011100 aag
+b10011111 aah
+b10101111 aai
+
+#13570
+0aaa
+
+#13580
+1aaa
+
+#13582
+b10000 aad
+b0 aae
+b10101101 aaf
+b10101100 aag
+b10101110 aah
+b10111110 aai
+
+#13585
+b10011110 aaf
+b10011111 aag
+b10101111 aah
+b10011111 aai
+
+#13590
+0aaa
+
+#13600
+1aaa
+
+#13602
+b10001 aad
+b1 aae
+b10011111 aaf
+b10101111 aag
+b10011111 aah
+
+#13605
+b10100001 aaf
+b10100000 aah
+b10100000 aai
+
+#13610
+0aaa
+
+#13620
+1aaa
+
+#13622
+b10010 aad
+b10 aae
+b10100000 aag
+b10100001 aah
+b10110000 aai
+
+#13625
+b10100010 aah
+b10110001 aai
+
+#13630
+0aaa
+
+#13640
+1aaa
+
+#13642
+b10011 aad
+b11 aae
+b10100010 aag
+b10110011 aah
+b10100011 aai
+
+#13645
+b10110100 aah
+b10100100 aai
+
+#13650
+0aaa
+
+#13660
+1aaa
+
+#13662
+b10100 aad
+b100 aae
+b10101010 aaf
+b10110100 aag
+b10100111 aah
+b10100101 aai
+
+#13665
+b10101100 aaf
+b10101000 aah
+b10100110 aai
+
+#13670
+0aaa
+
+#13680
+1aaa
+
+#13682
+b10101 aad
+b101 aae
+b10101000 aag
+b10101010 aah
+b10111000 aai
+
+#13685
+b10101011 aah
+b10111001 aai
+
+#13690
+0aaa
+
+#13700
+1aaa
+
+#13702
+b10110 aad
+b110 aae
+b10101011 aag
+b10111110 aah
+b10101110 aai
+
+#13705
+b10111111 aah
+b10101111 aai
+
+#13710
+0aaa
+
+#13720
+1aaa
+
+#13722
+b10111 aad
+b111 aae
+b10111011 aaf
+b10111111 aag
+b10110101 aah
+b10110001 aai
+
+#13725
+b10111101 aaf
+b10110110 aah
+b10110010 aai
+
+#13730
+0aaa
+
+#13740
+1aaa
+
+#13742
+b11000 aad
+b1000 aae
+b10111011 aag
+b10111001 aah
+b11000110 aai
+
+#13745
+b10111101 aag
+b10111010 aah
+b11000111 aai
+
+#13750
+0aaa
+
+#13760
+1aaa
+
+#13762
+b11001 aad
+b1001 aae
+b11001111 aah
+b11000101 aai
+
+#13765
+b10111111 aag
+b11010000 aah
+b11000110 aai
+
+#13770
+0aaa
+
+#13780
+1aaa
+
+#13782
+b11010 aad
+b1010 aae
+b11010010 aaf
+b11010000 aag
+b11001111 aah
+b11001000 aai
+
+#13785
+b11010100 aaf
+b11010000 aah
+b11001001 aai
+
+#13790
+0aaa
+
+#13800
+1aaa
+
+#13802
+b11011 aad
+b1011 aae
+b11011000 aag
+b11010011 aah
+b11011010 aai
+
+#13805
+b11010110 aaf
+b11011010 aag
+b11010100 aah
+b11011011 aai
+
+#13810
+0aaa
+
+#13820
+1aaa
+
+#13822
+b11100 aad
+b1100 aae
+b11011010 aaf
+b11011100 aag
+b11100110 aah
+b11100101 aai
+
+#13825
+b11011100 aaf
+b11011110 aag
+b11100111 aah
+b11100110 aai
+
+#13830
+0aaa
+
+#13840
+1aaa
+
+#13842
+b11101 aad
+b1101 aae
+b11101111 aaf
+b11100111 aag
+b11110010 aah
+b11101010 aai
+
+#13845
+b11110001 aaf
+b11110011 aah
+b11101011 aai
+
+#13850
+0aaa
+
+#13860
+1aaa
+
+#13862
+b11110 aad
+b1110 aae
+b11111101 aaf
+b11111011 aag
+b11111000 aah
+b11110100 aai
+
+#13865
+b11111111 aaf
+b11111101 aag
+b11111001 aah
+b11110101 aai
+
+#13870
+0aaa
+
+#13880
+1aaa
+
+#13882
+b11111 aad
+b1111 aae
+b101 aaf
+b1011 aag
+b11 aah
+b1011 aai
+
+#13885
+b111 aaf
+b1101 aag
+b100 aah
+b1100 aai
+
+#13890
+0aaa
+
+#13900
+1aaa
+
+#13902
+b0 aad
+b10000 aae
+b10010 aaf
+b10101 aag
+b11011 aah
+b11100 aai
+
+#13905
+b111 aaf
+b100 aag
+b1101 aah
+b1100 aai
+
+#13910
+0aaa
+
+#13920
+1aaa
+
+#13922
+b1 aad
+b10001 aae
+b1101 aag
+b100 aah
+
+#13925
+b101 aah
+b1101 aai
+
+#13930
+0aaa
+
+#13940
+1aaa
+
+#13942
+b10 aad
+b10010 aae
+b101 aag
+b1110 aah
+b1110 aai
+
+#13945
+b1111 aah
+b1111 aai
+
+#13950
+0aaa
+
+#13960
+1aaa
+
+#13962
+b11 aad
+b10011 aae
+b1111 aag
+b111 aah
+b10001 aai
+
+#13965
+b1000 aah
+b10010 aai
+
+#13970
+0aaa
+
+#13980
+1aaa
+
+#13982
+b100 aad
+b10100 aae
+b1000 aag
+b10010 aah
+b10101 aai
+
+#13985
+b10011 aah
+b10110 aai
+
+#13990
+0aaa
+
+#14000
+1aaa
+
+#14002
+b101 aad
+b10101 aae
+b1011 aaf
+b10011 aag
+b1100 aah
+b11010 aai
+
+#14005
+b1101 aaf
+b1101 aah
+b11011 aai
+
+#14010
+0aaa
+
+#14020
+1aaa
+
+#14022
+b110 aad
+b10110 aae
+b1101 aag
+b11000 aah
+b100000 aai
+
+#14025
+b11001 aah
+b100001 aai
+
+#14030
+0aaa
+
+#14040
+1aaa
+
+#14042
+b111 aad
+b10111 aae
+b10101 aaf
+b11001 aag
+b10111 aah
+b100111 aai
+
+#14045
+b10111 aaf
+b11000 aah
+b101000 aai
+
+#14050
+0aaa
+
+#14060
+1aaa
+
+#14062
+b1000 aad
+b11000 aae
+b11000 aag
+b100000 aah
+b101111 aai
+
+#14065
+b11000 aaf
+b100001 aah
+b110000 aai
+
+#14070
+0aaa
+
+#14080
+1aaa
+
+#14082
+b1001 aad
+b11001 aae
+b100001 aaf
+b100001 aag
+b101000 aah
+b111000 aai
+
+#14085
+b100011 aaf
+b101001 aah
+b111001 aai
+
+#14090
+0aaa
+
+#14100
+1aaa
+
+#14102
+b1010 aad
+b11010 aae
+b101011 aaf
+b101001 aag
+b110010 aah
+b1000010 aai
+
+#14105
+b101101 aaf
+b110011 aah
+b1000011 aai
+
+#14110
+0aaa
+
+#14120
+1aaa
+
+#14122
+b1011 aad
+b11011 aae
+b110111 aaf
+b110011 aag
+b111101 aah
+b1001101 aai
+
+#14125
+b111001 aaf
+b111110 aah
+b1001110 aai
+
+#14130
+0aaa
+
+#14140
+1aaa
+
+#14142
+b1100 aad
+b11100 aae
+b1000100 aaf
+b111111 aag
+b1001001 aah
+b1011001 aai
+
+#14145
+b1000110 aaf
+b1000001 aag
+b1001010 aah
+b1011010 aai
+
+#14150
+0aaa
+
+#14160
+1aaa
+
+#14162
+b1101 aad
+b11101 aae
+b1010010 aaf
+b1001110 aag
+b1010110 aah
+b1100110 aai
+
+#14165
+b1010100 aaf
+b1010000 aag
+b1010111 aah
+b1100111 aai
+
+#14170
+0aaa
+
+#14180
+1aaa
+
+#14182
+b1110 aad
+b11110 aae
+b1100001 aaf
+b1011110 aag
+b1100100 aah
+b1110100 aai
+
+#14185
+b1100011 aaf
+b1100000 aag
+b1100101 aah
+b1110101 aai
+
+#14190
+0aaa
+
+#14200
+1aaa
+
+#14202
+b1111 aad
+b11111 aae
+b1110001 aaf
+b1101111 aag
+b1110011 aah
+b10000011 aai
+
+#14205
+b1110011 aaf
+b1110001 aag
+b1110100 aah
+b10000100 aai
+
+#14210
+0aaa
+
+#14220
+1aaa
+
+#14222
+b10000 aad
+b0 aae
+b10000010 aaf
+b10000001 aag
+b10000011 aah
+b10010011 aai
+
+#14225
+b1110011 aaf
+b1110100 aag
+b10000100 aah
+b1110100 aai
+
+#14230
+0aaa
+
+#14240
+1aaa
+
+#14242
+b10001 aad
+b1 aae
+b1110100 aaf
+b10000100 aag
+b1110100 aah
+
+#14245
+b1110110 aaf
+b1110101 aah
+b1110101 aai
+
+#14250
+0aaa
+
+#14260
+1aaa
+
+#14262
+b10010 aad
+b10 aae
+b1110101 aag
+b1110110 aah
+b10000101 aai
+
+#14265
+b1110111 aah
+b10000110 aai
+
+#14270
+0aaa
+
+#14280
+1aaa
+
+#14282
+b10011 aad
+b11 aae
+b1110111 aag
+b10001000 aah
+b1111000 aai
+
+#14285
+b10001001 aah
+b1111001 aai
+
+#14290
+0aaa
+
+#14300
+1aaa
+
+#14302
+b10100 aad
+b100 aae
+b1111111 aaf
+b10001001 aag
+b1111100 aah
+b1111010 aai
+
+#14305
+b10000001 aaf
+b1111101 aah
+b1111011 aai
+
+#14310
+0aaa
+
+#14320
+1aaa
+
+#14322
+b10101 aad
+b101 aae
+b1111101 aag
+b1111111 aah
+b10001101 aai
+
+#14325
+b10000000 aah
+b10001110 aai
+
+#14330
+0aaa
+
+#14340
+1aaa
+
+#14342
+b10110 aad
+b110 aae
+b10000000 aag
+b10010011 aah
+b10000011 aai
+
+#14345
+b10010100 aah
+b10000100 aai
+
+#14350
+0aaa
+
+#14360
+1aaa
+
+#14362
+b10111 aad
+b111 aae
+b10010000 aaf
+b10010100 aag
+b10001010 aah
+b10000110 aai
+
+#14365
+b10010010 aaf
+b10001011 aah
+b10000111 aai
+
+#14370
+0aaa
+
+#14380
+1aaa
+
+#14382
+b11000 aad
+b1000 aae
+b10010000 aag
+b10001110 aah
+b10011011 aai
+
+#14385
+b10010010 aag
+b10001111 aah
+b10011100 aai
+
+#14390
+0aaa
+
+#14400
+1aaa
+
+#14402
+b11001 aad
+b1001 aae
+b10100100 aah
+b10011010 aai
+
+#14405
+b10010100 aag
+b10100101 aah
+b10011011 aai
+
+#14410
+0aaa
+
+#14420
+1aaa
+
+#14422
+b11010 aad
+b1010 aae
+b10100111 aaf
+b10100101 aag
+b10100100 aah
+b10011101 aai
+
+#14425
+b10101001 aaf
+b10100101 aah
+b10011110 aai
+
+#14430
+0aaa
+
+#14440
+1aaa
+
+#14442
+b11011 aad
+b1011 aae
+b10101101 aag
+b10101000 aah
+b10101111 aai
+
+#14445
+b10101011 aaf
+b10101111 aag
+b10101001 aah
+b10110000 aai
+
+#14450
+0aaa
+
+#14460
+1aaa
+
+#14462
+b11100 aad
+b1100 aae
+b10101111 aaf
+b10110001 aag
+b10111011 aah
+b10111010 aai
+
+#14465
+b10110001 aaf
+b10110011 aag
+b10111100 aah
+b10111011 aai
+
+#14470
+0aaa
+
+#14480
+1aaa
+
+#14482
+b11101 aad
+b1101 aae
+b11000100 aaf
+b10111100 aag
+b11000111 aah
+b10111111 aai
+
+#14485
+b11000110 aaf
+b11001000 aah
+b11000000 aai
+
+#14490
+0aaa
+
+#14500
+1aaa
+
+#14502
+b11110 aad
+b1110 aae
+b11010010 aaf
+b11010000 aag
+b11001101 aah
+b11001001 aai
+
+#14505
+b11010100 aaf
+b11010010 aag
+b11001110 aah
+b11001010 aai
+
+#14510
+0aaa
+
+#14520
+1aaa
+
+#14522
+b11111 aad
+b1111 aae
+b11011010 aaf
+b11100000 aag
+b11011000 aah
+b11100000 aai
+
+#14525
+b11011100 aaf
+b11100010 aag
+b11011001 aah
+b11100001 aai
+
+#14530
+0aaa
+
+#14540
+1aaa
+
+#14542
+b0 aad
+b10000 aae
+b11100111 aaf
+b11101010 aag
+b11110000 aah
+b11110001 aai
+
+#14545
+b11011100 aaf
+b11011001 aag
+b11100010 aah
+b11100001 aai
+
+#14550
+0aaa
+
+#14560
+1aaa
+
+#14562
+b1 aad
+b10001 aae
+b11100010 aag
+b11011001 aah
+
+#14565
+b11011010 aah
+b11100010 aai
+
+#14570
+0aaa
+
+#14580
+1aaa
+
+#14582
+b10 aad
+b10010 aae
+b11011010 aag
+b11100011 aah
+b11100011 aai
+
+#14585
+b11100100 aah
+b11100100 aai
+
+#14590
+0aaa
+
+#14600
+1aaa
+
+#14602
+b11 aad
+b10011 aae
+b11100100 aag
+b11011100 aah
+b11100110 aai
+
+#14605
+b11011101 aah
+b11100111 aai
+
+#14610
+0aaa
+
+#14620
+1aaa
+
+#14622
+b100 aad
+b10100 aae
+b11011101 aag
+b11100111 aah
+b11101010 aai
+
+#14625
+b11101000 aah
+b11101011 aai
+
+#14630
+0aaa
+
+#14640
+1aaa
+
+#14642
+b101 aad
+b10101 aae
+b11100000 aaf
+b11101000 aag
+b11100001 aah
+b11101111 aai
+
+#14645
+b11100010 aaf
+b11100010 aah
+b11110000 aai
+
+#14650
+0aaa
+
+#14660
+1aaa
+
+#14662
+b110 aad
+b10110 aae
+b11100010 aag
+b11101101 aah
+b11110101 aai
+
+#14665
+b11101110 aah
+b11110110 aai
+
+#14670
+0aaa
+
+#14680
+1aaa
+
+#14682
+b111 aad
+b10111 aae
+b11101010 aaf
+b11101110 aag
+b11101100 aah
+b11111100 aai
+
+#14685
+b11101100 aaf
+b11101101 aah
+b11111101 aai
+
+#14690
+0aaa
+
+#14700
+1aaa
+
+#14702
+b1000 aad
+b11000 aae
+b11101101 aag
+b11110101 aah
+b100 aai
+
+#14705
+b11101101 aaf
+b11110110 aah
+b101 aai
+
+#14710
+0aaa
+
+#14720
+1aaa
+
+#14722
+b1001 aad
+b11001 aae
+b11110110 aaf
+b11110110 aag
+b11111101 aah
+b1101 aai
+
+#14725
+b11111000 aaf
+b11111110 aah
+b1110 aai
+
+#14730
+0aaa
+
+#14740
+1aaa
+
+#14742
+b1010 aad
+b11010 aae
+b0 aaf
+b11111110 aag
+b111 aah
+b10111 aai
+
+#14745
+b10 aaf
+b1000 aah
+b11000 aai
+
+#14750
+0aaa
+
+#14760
+1aaa
+
+#14762
+b1011 aad
+b11011 aae
+b1100 aaf
+b1000 aag
+b10010 aah
+b100010 aai
+
+#14765
+b1110 aaf
+b10011 aah
+b100011 aai
+
+#14770
+0aaa
+
+#14780
+1aaa
+
+#14782
+b1100 aad
+b11100 aae
+b11001 aaf
+b10100 aag
+b11110 aah
+b101110 aai
+
+#14785
+b11011 aaf
+b10110 aag
+b11111 aah
+b101111 aai
+
+#14790
+0aaa
+
+#14800
+1aaa
+
+#14802
+b1101 aad
+b11101 aae
+b100111 aaf
+b100011 aag
+b101011 aah
+b111011 aai
+
+#14805
+b101001 aaf
+b100101 aag
+b101100 aah
+b111100 aai
+
+#14810
+0aaa
+
+#14820
+1aaa
+
+#14822
+b1110 aad
+b11110 aae
+b110110 aaf
+b110011 aag
+b111001 aah
+b1001001 aai
+
+#14825
+b111000 aaf
+b110101 aag
+b111010 aah
+b1001010 aai
+
+#14830
+0aaa
+
+#14840
+1aaa
+
+#14842
+b1111 aad
+b11111 aae
+b1000110 aaf
+b1000100 aag
+b1001000 aah
+b1011000 aai
+
+#14845
+b1001000 aaf
+b1000110 aag
+b1001001 aah
+b1011001 aai
+
+#14850
+0aaa
+
+#14860
+1aaa
+
+#14862
+b10000 aad
+b0 aae
+b1010111 aaf
+b1010110 aag
+b1011000 aah
+b1101000 aai
+
+#14865
+b1001000 aaf
+b1001001 aag
+b1011001 aah
+b1001001 aai
+
+#14870
+0aaa
+
+#14880
+1aaa
+
+#14882
+b10001 aad
+b1 aae
+b1001001 aaf
+b1011001 aag
+b1001001 aah
+
+#14885
+b1001011 aaf
+b1001010 aah
+b1001010 aai
+
+#14890
+0aaa
+
+#14900
+1aaa
+
+#14902
+b10010 aad
+b10 aae
+b1001010 aag
+b1001011 aah
+b1011010 aai
+
+#14905
+b1001100 aah
+b1011011 aai
+
+#14910
+0aaa
+
+#14920
+1aaa
+
+#14922
+b10011 aad
+b11 aae
+b1001100 aag
+b1011101 aah
+b1001101 aai
+
+#14925
+b1011110 aah
+b1001110 aai
+
+#14930
+0aaa
+
+#14940
+1aaa
+
+#14942
+b10100 aad
+b100 aae
+b1010100 aaf
+b1011110 aag
+b1010001 aah
+b1001111 aai
+
+#14945
+b1010110 aaf
+b1010010 aah
+b1010000 aai
+
+#14950
+0aaa
+
+#14960
+1aaa
+
+#14962
+b10101 aad
+b101 aae
+b1010010 aag
+b1010100 aah
+b1100010 aai
+
+#14965
+b1010101 aah
+b1100011 aai
+
+#14970
+0aaa
+
+#14980
+1aaa
+
+#14982
+b10110 aad
+b110 aae
+b1010101 aag
+b1101000 aah
+b1011000 aai
+
+#14985
+b1101001 aah
+b1011001 aai
+
+#14990
+0aaa
+
+#15000
+1aaa
+
+#15002
+b10111 aad
+b111 aae
+b1100101 aaf
+b1101001 aag
+b1011111 aah
+b1011011 aai
+
+#15005
+b1100111 aaf
+b1100000 aah
+b1011100 aai
+
+#15010
+0aaa
+
+#15020
+1aaa
+
+#15022
+b11000 aad
+b1000 aae
+b1100101 aag
+b1100011 aah
+b1110000 aai
+
+#15025
+b1100111 aag
+b1100100 aah
+b1110001 aai
+
+#15030
+0aaa
+
+#15040
+1aaa
+
+#15042
+b11001 aad
+b1001 aae
+b1111001 aah
+b1101111 aai
+
+#15045
+b1101001 aag
+b1111010 aah
+b1110000 aai
+
+#15050
+0aaa
+
+#15060
+1aaa
+
+#15062
+b11010 aad
+b1010 aae
+b1111100 aaf
+b1111010 aag
+b1111001 aah
+b1110010 aai
+
+#15065
+b1111110 aaf
+b1111010 aah
+b1110011 aai
+
+#15070
+0aaa
+
+#15080
+1aaa
+
+#15082
+b11011 aad
+b1011 aae
+b10000010 aag
+b1111101 aah
+b10000100 aai
+
+#15085
+b10000000 aaf
+b10000100 aag
+b1111110 aah
+b10000101 aai
+
+#15090
+0aaa
+
+#15100
+1aaa
+
+#15102
+b11100 aad
+b1100 aae
+b10000100 aaf
+b10000110 aag
+b10010000 aah
+b10001111 aai
+
+#15105
+b10000110 aaf
+b10001000 aag
+b10010001 aah
+b10010000 aai
+
+#15110
+0aaa
+
+#15120
+1aaa
+
+#15122
+b11101 aad
+b1101 aae
+b10011001 aaf
+b10010001 aag
+b10011100 aah
+b10010100 aai
+
+#15125
+b10011011 aaf
+b10011101 aah
+b10010101 aai
+
+#15130
+0aaa
+
+#15140
+1aaa
+
+#15142
+b11110 aad
+b1110 aae
+b10100111 aaf
+b10100101 aag
+b10100010 aah
+b10011110 aai
+
+#15145
+b10101001 aaf
+b10100111 aag
+b10100011 aah
+b10011111 aai
+
+#15150
+0aaa
+
+#15160
+1aaa
+
+#15162
+b11111 aad
+b1111 aae
+b10101111 aaf
+b10110101 aag
+b10101101 aah
+b10110101 aai
+
+#15165
+b10110001 aaf
+b10110111 aag
+b10101110 aah
+b10110110 aai
+
+#15170
+0aaa
+
+#15180
+1aaa
+
+#15182
+b0 aad
+b10000 aae
+b10111100 aaf
+b10111111 aag
+b11000101 aah
+b11000110 aai
+
+#15185
+b10110001 aaf
+b10101110 aag
+b10110111 aah
+b10110110 aai
+
+#15190
+0aaa
+
+#15200
+1aaa
+
+#15202
+b1 aad
+b10001 aae
+b10110111 aag
+b10101110 aah
+
+#15205
+b10101111 aah
+b10110111 aai
+
+#15210
+0aaa
+
+#15220
+1aaa
+
+#15222
+b10 aad
+b10010 aae
+b10101111 aag
+b10111000 aah
+b10111000 aai
+
+#15225
+b10111001 aah
+b10111001 aai
+
+#15230
+0aaa
+
+#15240
+1aaa
+
+#15242
+b11 aad
+b10011 aae
+b10111001 aag
+b10110001 aah
+b10111011 aai
+
+#15245
+b10110010 aah
+b10111100 aai
+
+#15250
+0aaa
+
+#15260
+1aaa
+
+#15262
+b100 aad
+b10100 aae
+b10110010 aag
+b10111100 aah
+b10111111 aai
+
+#15265
+b10111101 aah
+b11000000 aai
+
+#15270
+0aaa
+
+#15280
+1aaa
+
+#15282
+b101 aad
+b10101 aae
+b10110101 aaf
+b10111101 aag
+b10110110 aah
+b11000100 aai
+
+#15285
+b10110111 aaf
+b10110111 aah
+b11000101 aai
+
+#15290
+0aaa
+
+#15300
+1aaa
+
+#15302
+b110 aad
+b10110 aae
+b10110111 aag
+b11000010 aah
+b11001010 aai
+
+#15305
+b11000011 aah
+b11001011 aai
+
+#15310
+0aaa
+
+#15320
+1aaa
+
+#15322
+b111 aad
+b10111 aae
+b10111111 aaf
+b11000011 aag
+b11000001 aah
+b11010001 aai
+
+#15325
+b11000001 aaf
+b11000010 aah
+b11010010 aai
+
+#15330
+0aaa
+
+#15340
+1aaa
+
+#15342
+b1000 aad
+b11000 aae
+b11000010 aag
+b11001010 aah
+b11011001 aai
+
+#15345
+b11000010 aaf
+b11001011 aah
+b11011010 aai
+
+#15350
+0aaa
+
+#15360
+1aaa
+
+#15362
+b1001 aad
+b11001 aae
+b11001011 aaf
+b11001011 aag
+b11010010 aah
+b11100010 aai
+
+#15365
+b11001101 aaf
+b11010011 aah
+b11100011 aai
+
+#15370
+0aaa
+
+#15380
+1aaa
+
+#15382
+b1010 aad
+b11010 aae
+b11010101 aaf
+b11010011 aag
+b11011100 aah
+b11101100 aai
+
+#15385
+b11010111 aaf
+b11011101 aah
+b11101101 aai
+
+#15390
+0aaa
+
+#15400
+1aaa
+
+#15402
+b1011 aad
+b11011 aae
+b11100001 aaf
+b11011101 aag
+b11100111 aah
+b11110111 aai
+
+#15405
+b11100011 aaf
+b11101000 aah
+b11111000 aai
+
+#15410
+0aaa
+
+#15420
+1aaa
+
+#15422
+b1100 aad
+b11100 aae
+b11101110 aaf
+b11101001 aag
+b11110011 aah
+b11 aai
+
+#15425
+b11110000 aaf
+b11101011 aag
+b11110100 aah
+b100 aai
+
+#15430
+0aaa
+
+#15440
+1aaa
+
+#15442
+b1101 aad
+b11101 aae
+b11111100 aaf
+b11111000 aag
+b0 aah
+b10000 aai
+
+#15445
+b11111110 aaf
+b11111010 aag
+b1 aah
+b10001 aai
+
+#15450
+0aaa
+
+#15460
+1aaa
+
+#15462
+b1110 aad
+b11110 aae
+b1011 aaf
+b1000 aag
+b1110 aah
+b11110 aai
+
+#15465
+b1101 aaf
+b1010 aag
+b1111 aah
+b11111 aai
+
+#15470
+0aaa
+
+#15480
+1aaa
+
+#15482
+b1111 aad
+b11111 aae
+b11011 aaf
+b11001 aag
+b11101 aah
+b101101 aai
+
+#15485
+b11101 aaf
+b11011 aag
+b11110 aah
+b101110 aai
+
+#15490
+0aaa
+
+#15500
+1aaa
+
+#15502
+b10000 aad
+b0 aae
+b101100 aaf
+b101011 aag
+b101101 aah
+b111101 aai
+
+#15505
+b11101 aaf
+b11110 aag
+b101110 aah
+b11110 aai
+
+#15510
+0aaa
+
+#15520
+1aaa
+
+#15522
+b10001 aad
+b1 aae
+b11110 aaf
+b101110 aag
+b11110 aah
+
+#15525
+b100000 aaf
+b11111 aah
+b11111 aai
+
+#15530
+0aaa
+
+#15540
+1aaa
+
+#15542
+b10010 aad
+b10 aae
+b11111 aag
+b100000 aah
+b101111 aai
+
+#15545
+b100001 aah
+b110000 aai
+
+#15550
+0aaa
+
+#15560
+1aaa
+
+#15562
+b10011 aad
+b11 aae
+b100001 aag
+b110010 aah
+b100010 aai
+
+#15565
+b110011 aah
+b100011 aai
+
+#15570
+0aaa
+
+#15580
+1aaa
+
+#15582
+b10100 aad
+b100 aae
+b101001 aaf
+b110011 aag
+b100110 aah
+b100100 aai
+
+#15585
+b101011 aaf
+b100111 aah
+b100101 aai
+
+#15590
+0aaa
+
+#15600
+1aaa
+
+#15602
+b10101 aad
+b101 aae
+b100111 aag
+b101001 aah
+b110111 aai
+
+#15605
+b101010 aah
+b111000 aai
+
+#15610
+0aaa
+
+#15620
+1aaa
+
+#15622
+b10110 aad
+b110 aae
+b101010 aag
+b111101 aah
+b101101 aai
+
+#15625
+b111110 aah
+b101110 aai
+
+#15630
+0aaa
+
+#15640
+1aaa
+
+#15642
+b10111 aad
+b111 aae
+b111010 aaf
+b111110 aag
+b110100 aah
+b110000 aai
+
+#15645
+b111100 aaf
+b110101 aah
+b110001 aai
+
+#15650
+0aaa
+
+#15660
+1aaa
+
+#15662
+b11000 aad
+b1000 aae
+b111010 aag
+b111000 aah
+b1000101 aai
+
+#15665
+b111100 aag
+b111001 aah
+b1000110 aai
+
+#15670
+0aaa
+
+#15680
+1aaa
+
+#15682
+b11001 aad
+b1001 aae
+b1001110 aah
+b1000100 aai
+
+#15685
+b111110 aag
+b1001111 aah
+b1000101 aai
+
+#15690
+0aaa
+
+#15700
+1aaa
+
+#15702
+b11010 aad
+b1010 aae
+b1010001 aaf
+b1001111 aag
+b1001110 aah
+b1000111 aai
+
+#15705
+b1010011 aaf
+b1001111 aah
+b1001000 aai
+
+#15710
+0aaa
+
+#15720
+1aaa
+
+#15722
+b11011 aad
+b1011 aae
+b1010111 aag
+b1010010 aah
+b1011001 aai
+
+#15725
+b1010101 aaf
+b1011001 aag
+b1010011 aah
+b1011010 aai
+
+#15730
+0aaa
+
+#15740
+1aaa
+
+#15742
+b11100 aad
+b1100 aae
+b1011001 aaf
+b1011011 aag
+b1100101 aah
+b1100100 aai
+
+#15745
+b1011011 aaf
+b1011101 aag
+b1100110 aah
+b1100101 aai
+
+#15750
+0aaa
+
+#15760
+1aaa
+
+#15762
+b11101 aad
+b1101 aae
+b1101110 aaf
+b1100110 aag
+b1110001 aah
+b1101001 aai
+
+#15765
+b1110000 aaf
+b1110010 aah
+b1101010 aai
+
+#15770
+0aaa
+
+#15780
+1aaa
+
+#15782
+b11110 aad
+b1110 aae
+b1111100 aaf
+b1111010 aag
+b1110111 aah
+b1110011 aai
+
+#15785
+b1111110 aaf
+b1111100 aag
+b1111000 aah
+b1110100 aai
+
+#15790
+0aaa
+
+#15800
+1aaa
+
+#15802
+b11111 aad
+b1111 aae
+b10000100 aaf
+b10001010 aag
+b10000010 aah
+b10001010 aai
+
+#15805
+b10000110 aaf
+b10001100 aag
+b10000011 aah
+b10001011 aai
+
+#15810
+0aaa
+
+#15820
+1aaa
+
+#15822
+b0 aad
+b10000 aae
+b10010001 aaf
+b10010100 aag
+b10011010 aah
+b10011011 aai
+
+#15825
+b10000110 aaf
+b10000011 aag
+b10001100 aah
+b10001011 aai
+
+#15830
+0aaa
+
+#15840
+1aaa
+
+#15842
+b1 aad
+b10001 aae
+b10001100 aag
+b10000011 aah
+
+#15845
+b10000100 aah
+b10001100 aai
+
+#15850
+0aaa
+
+#15860
+1aaa
+
+#15862
+b10 aad
+b10010 aae
+b10000100 aag
+b10001101 aah
+b10001101 aai
+
+#15865
+b10001110 aah
+b10001110 aai
+
+#15870
+0aaa
+
+#15880
+1aaa
+
+#15882
+b11 aad
+b10011 aae
+b10001110 aag
+b10000110 aah
+b10010000 aai
+
+#15885
+b10000111 aah
+b10010001 aai
+
+#15890
+0aaa
+
+#15900
+1aaa
+
+#15902
+b100 aad
+b10100 aae
+b10000111 aag
+b10010001 aah
+b10010100 aai
+
+#15905
+b10010010 aah
+b10010101 aai
+
+#15910
+0aaa
+
+#15920
+1aaa
+
+#15922
+b101 aad
+b10101 aae
+b10001010 aaf
+b10010010 aag
+b10001011 aah
+b10011001 aai
+
+#15925
+b10001100 aaf
+b10001100 aah
+b10011010 aai
+
+#15930
+0aaa
+
+#15940
+1aaa
+
+#15942
+b110 aad
+b10110 aae
+b10001100 aag
+b10010111 aah
+b10011111 aai
+
+#15945
+b10011000 aah
+b10100000 aai
+
+#15950
+0aaa
+
+#15960
+1aaa
+
+#15962
+b111 aad
+b10111 aae
+b10010100 aaf
+b10011000 aag
+b10010110 aah
+b10100110 aai
+
+#15965
+b10010110 aaf
+b10010111 aah
+b10100111 aai
+
+#15970
+0aaa
+
+#15980
+1aaa
+
+#15982
+b1000 aad
+b11000 aae
+b10010111 aag
+b10011111 aah
+b10101110 aai
+
+#15985
+b10010111 aaf
+b10100000 aah
+b10101111 aai
+
+#15990
+0aaa
+
+#16000
+1aaa
+
+#16002
+b1001 aad
+b11001 aae
+b10100000 aaf
+b10100000 aag
+b10100111 aah
+b10110111 aai
+
+#16005
+b10100010 aaf
+b10101000 aah
+b10111000 aai
+
+#16010
+0aaa
+
+#16020
+1aaa
+
+#16022
+b1010 aad
+b11010 aae
+b10101010 aaf
+b10101000 aag
+b10110001 aah
+b11000001 aai
+
+#16025
+b10101100 aaf
+b10110010 aah
+b11000010 aai
+
+#16030
+0aaa
+
+#16040
+1aaa
+
+#16042
+b1011 aad
+b11011 aae
+b10110110 aaf
+b10110010 aag
+b10111100 aah
+b11001100 aai
+
+#16045
+b10111000 aaf
+b10111101 aah
+b11001101 aai
+
+#16050
+0aaa
+
+#16060
+1aaa
+
+#16062
+b1100 aad
+b11100 aae
+b11000011 aaf
+b10111110 aag
+b11001000 aah
+b11011000 aai
+
+#16065
+b11000101 aaf
+b11000000 aag
+b11001001 aah
+b11011001 aai
+
+#16070
+0aaa
+
+#16080
+1aaa
+
+#16082
+b1101 aad
+b11101 aae
+b11010001 aaf
+b11001101 aag
+b11010101 aah
+b11100101 aai
+
+#16085
+b11010011 aaf
+b11001111 aag
+b11010110 aah
+b11100110 aai
+
+#16090
+0aaa
+
+#16100
+1aaa
+
+#16102
+b1110 aad
+b11110 aae
+b11100000 aaf
+b11011101 aag
+b11100011 aah
+b11110011 aai
+
+#16105
+b11100010 aaf
+b11011111 aag
+b11100100 aah
+b11110100 aai
+
+#16110
+0aaa
+
+#16120
+1aaa
+
+#16122
+b1111 aad
+b11111 aae
+b11110000 aaf
+b11101110 aag
+b11110010 aah
+b10 aai
+
+#16125
+b11110010 aaf
+b11110000 aag
+b11110011 aah
+b11 aai
+
+#16130
+0aaa
+
+#16140
+1aaa
+
+#16142
+b10000 aad
+b0 aae
+b1 aaf
+b0 aag
+b10 aah
+b10010 aai
+
+#16145
+b11110010 aaf
+b11110011 aag
+b11 aah
+b11110011 aai
+
+#16150
+0aaa
+
+#16160
+1aaa
+
+#16162
+b10001 aad
+b1 aae
+b11110011 aaf
+b11 aag
+b11110011 aah
+
+#16165
+b11110101 aaf
+b11110100 aah
+b11110100 aai
+
+#16170
+0aaa
+
+#16180
+1aaa
+
+#16182
+b10010 aad
+b10 aae
+b11110100 aag
+b11110101 aah
+b100 aai
+
+#16185
+b11110110 aah
+b101 aai
+
+#16190
+0aaa
+
+#16200
+1aaa
+
+#16202
+b10011 aad
+b11 aae
+b11110110 aag
+b111 aah
+b11110111 aai
+
+#16205
+b1000 aah
+b11111000 aai
+
+#16210
+0aaa
+
+#16220
+1aaa
+
+#16222
+b10100 aad
+b100 aae
+b11111110 aaf
+b1000 aag
+b11111011 aah
+b11111001 aai
+
+#16225
+b0 aaf
+b11111100 aah
+b11111010 aai
+
+#16230
+0aaa
+
+#16240
+1aaa
+
+#16242
+b10101 aad
+b101 aae
+b11111100 aag
+b11111110 aah
+b1100 aai
+
+#16245
+b11111111 aah
+b1101 aai
+
+#16250
+0aaa
+
+#16260
+1aaa
+
+#16262
+b10110 aad
+b110 aae
+b11111111 aag
+b10010 aah
+b10 aai
+
+#16265
+b10011 aah
+b11 aai
+
+#16270
+0aaa
+
+#16280
+1aaa
+
+#16282
+b10111 aad
+b111 aae
+b1111 aaf
+b10011 aag
+b1001 aah
+b101 aai
+
+#16285
+b10001 aaf
+b1010 aah
+b110 aai
+
+#16290
+0aaa
+
+#16300
+1aaa
+
+#16302
+b11000 aad
+b1000 aae
+b1111 aag
+b1101 aah
+b11010 aai
+
+#16305
+b10001 aag
+b1110 aah
+b11011 aai
+
+#16310
+0aaa
+
+#16320
+1aaa
+
+#16322
+b11001 aad
+b1001 aae
+b100011 aah
+b11001 aai
+
+#16325
+b10011 aag
+b100100 aah
+b11010 aai
+
+#16330
+0aaa
+
+#16340
+1aaa
+
+#16342
+b11010 aad
+b1010 aae
+b100110 aaf
+b100100 aag
+b100011 aah
+b11100 aai
+
+#16345
+b101000 aaf
+b100100 aah
+b11101 aai
+
+#16350
+0aaa
+
+#16360
+1aaa
+
+#16362
+b11011 aad
+b1011 aae
+b101100 aag
+b100111 aah
+b101110 aai
+
+#16365
+b101010 aaf
+b101110 aag
+b101000 aah
+b101111 aai
+
+#16370
+0aaa
+
+#16380
+1aaa
+
+#16382
+b11100 aad
+b1100 aae
+b101110 aaf
+b110000 aag
+b111010 aah
+b111001 aai
+
+#16385
+b110000 aaf
+b110010 aag
+b111011 aah
+b111010 aai
+
+#16390
+0aaa
+
+#16400
+1aaa
+
+#16402
+b11101 aad
+b1101 aae
+b1000011 aaf
+b111011 aag
+b1000110 aah
+b111110 aai
+
+#16405
+b1000101 aaf
+b1000111 aah
+b111111 aai
+
+#16410
+0aaa
+
+#16420
+1aaa
+
+#16422
+b11110 aad
+b1110 aae
+b1010001 aaf
+b1001111 aag
+b1001100 aah
+b1001000 aai
+
+#16425
+b1010011 aaf
+b1010001 aag
+b1001101 aah
+b1001001 aai
+
+#16430
+0aaa
+
+#16440
+1aaa
+
+#16442
+b11111 aad
+b1111 aae
+b1011001 aaf
+b1011111 aag
+b1010111 aah
+b1011111 aai
+
+#16445
+b1011011 aaf
+b1100001 aag
+b1011000 aah
+b1100000 aai
+
+#16450
+0aaa
+
+#16460
+1aaa
+
+#16462
+b0 aad
+b10000 aae
+b1100110 aaf
+b1101001 aag
+b1101111 aah
+b1110000 aai
+
+#16465
+b1011011 aaf
+b1011000 aag
+b1100001 aah
+b1100000 aai
+
+#16470
+0aaa
+
+#16480
+1aaa
+
+#16482
+b1 aad
+b10001 aae
+b1100001 aag
+b1011000 aah
+
+#16485
+b1011001 aah
+b1100001 aai
+
+#16490
+0aaa
+
+#16500
+1aaa
+
+#16502
+b10 aad
+b10010 aae
+b1011001 aag
+b1100010 aah
+b1100010 aai
+
+#16505
+b1100011 aah
+b1100011 aai
+
+#16510
+0aaa
+
+#16520
+1aaa
+
+#16522
+b11 aad
+b10011 aae
+b1100011 aag
+b1011011 aah
+b1100101 aai
+
+#16525
+b1011100 aah
+b1100110 aai
+
+#16530
+0aaa
+
+#16540
+1aaa
+
+#16542
+b100 aad
+b10100 aae
+b1011100 aag
+b1100110 aah
+b1101001 aai
+
+#16545
+b1100111 aah
+b1101010 aai
+
+#16550
+0aaa
+
+#16560
+1aaa
+
+#16562
+b101 aad
+b10101 aae
+b1011111 aaf
+b1100111 aag
+b1100000 aah
+b1101110 aai
+
+#16565
+b1100001 aaf
+b1100001 aah
+b1101111 aai
+
+#16570
+0aaa
+
+#16580
+1aaa
+
+#16582
+b110 aad
+b10110 aae
+b1100001 aag
+b1101100 aah
+b1110100 aai
+
+#16585
+b1101101 aah
+b1110101 aai
+
+#16590
+0aaa
+
+#16600
+1aaa
+
+#16602
+b111 aad
+b10111 aae
+b1101001 aaf
+b1101101 aag
+b1101011 aah
+b1111011 aai
+
+#16605
+b1101011 aaf
+b1101100 aah
+b1111100 aai
+
+#16610
+0aaa
+
+#16620
+1aaa
+
+#16622
+b1000 aad
+b11000 aae
+b1101100 aag
+b1110100 aah
+b10000011 aai
+
+#16625
+b1101100 aaf
+b1110101 aah
+b10000100 aai
+
+#16630
+0aaa
+
+#16640
+1aaa
+
+#16642
+b1001 aad
+b11001 aae
+b1110101 aaf
+b1110101 aag
+b1111100 aah
+b10001100 aai
+
+#16645
+b1110111 aaf
+b1111101 aah
+b10001101 aai
+
+#16650
+0aaa
+
+#16660
+1aaa
+
+#16662
+b1010 aad
+b11010 aae
+b1111111 aaf
+b1111101 aag
+b10000110 aah
+b10010110 aai
+
+#16665
+b10000001 aaf
+b10000111 aah
+b10010111 aai
+
+#16670
+0aaa
+
+#16680
+1aaa
+
+#16682
+b1011 aad
+b11011 aae
+b10001011 aaf
+b10000111 aag
+b10010001 aah
+b10100001 aai
+
+#16685
+b10001101 aaf
+b10010010 aah
+b10100010 aai
+
+#16690
+0aaa
+
+#16700
+1aaa
+
+#16702
+b1100 aad
+b11100 aae
+b10011000 aaf
+b10010011 aag
+b10011101 aah
+b10101101 aai
+
+#16705
+b10011010 aaf
+b10010101 aag
+b10011110 aah
+b10101110 aai
+
+#16710
+0aaa
+
+#16720
+1aaa
+
+#16722
+b1101 aad
+b11101 aae
+b10100110 aaf
+b10100010 aag
+b10101010 aah
+b10111010 aai
+
+#16725
+b10101000 aaf
+b10100100 aag
+b10101011 aah
+b10111011 aai
+
+#16730
+0aaa
+
+#16740
+1aaa
+
+#16742
+b1110 aad
+b11110 aae
+b10110101 aaf
+b10110010 aag
+b10111000 aah
+b11001000 aai
+
+#16745
+b10110111 aaf
+b10110100 aag
+b10111001 aah
+b11001001 aai
+
+#16750
+0aaa
+
+#16760
+1aaa
+
+#16762
+b1111 aad
+b11111 aae
+b11000101 aaf
+b11000011 aag
+b11000111 aah
+b11010111 aai
+
+#16765
+b11000111 aaf
+b11000101 aag
+b11001000 aah
+b11011000 aai
+
+#16770
+0aaa
+
+#16780
+1aaa
+
+#16782
+b10000 aad
+b0 aae
+b11010110 aaf
+b11010101 aag
+b11010111 aah
+b11100111 aai
+
+#16785
+b11000111 aaf
+b11001000 aag
+b11011000 aah
+b11001000 aai
+
+#16790
+0aaa
+
+#16800
+1aaa
+
+#16802
+b10001 aad
+b1 aae
+b11001000 aaf
+b11011000 aag
+b11001000 aah
+
+#16805
+b11001010 aaf
+b11001001 aah
+b11001001 aai
+
+#16810
+0aaa
+
+#16820
+1aaa
+
+#16822
+b10010 aad
+b10 aae
+b11001001 aag
+b11001010 aah
+b11011001 aai
+
+#16825
+b11001011 aah
+b11011010 aai
+
+#16830
+0aaa
+
+#16840
+1aaa
+
+#16842
+b10011 aad
+b11 aae
+b11001011 aag
+b11011100 aah
+b11001100 aai
+
+#16845
+b11011101 aah
+b11001101 aai
+
+#16850
+0aaa
+
+#16860
+1aaa
+
+#16862
+b10100 aad
+b100 aae
+b11010011 aaf
+b11011101 aag
+b11010000 aah
+b11001110 aai
+
+#16865
+b11010101 aaf
+b11010001 aah
+b11001111 aai
+
+#16870
+0aaa
+
+#16880
+1aaa
+
+#16882
+b10101 aad
+b101 aae
+b11010001 aag
+b11010011 aah
+b11100001 aai
+
+#16885
+b11010100 aah
+b11100010 aai
+
+#16890
+0aaa
+
+#16900
+1aaa
+
+#16902
+b10110 aad
+b110 aae
+b11010100 aag
+b11100111 aah
+b11010111 aai
+
+#16905
+b11101000 aah
+b11011000 aai
+
+#16910
+0aaa
+
+#16920
+1aaa
+
+#16922
+b10111 aad
+b111 aae
+b11100100 aaf
+b11101000 aag
+b11011110 aah
+b11011010 aai
+
+#16925
+b11100110 aaf
+b11011111 aah
+b11011011 aai
+
+#16930
+0aaa
+
+#16940
+1aaa
+
+#16942
+b11000 aad
+b1000 aae
+b11100100 aag
+b11100010 aah
+b11101111 aai
+
+#16945
+b11100110 aag
+b11100011 aah
+b11110000 aai
+
+#16950
+0aaa
+
+#16960
+1aaa
+
+#16962
+b11001 aad
+b1001 aae
+b11111000 aah
+b11101110 aai
+
+#16965
+b11101000 aag
+b11111001 aah
+b11101111 aai
+
+#16970
+0aaa
+
+#16980
+1aaa
+
+#16982
+b11010 aad
+b1010 aae
+b11111011 aaf
+b11111001 aag
+b11111000 aah
+b11110001 aai
+
+#16985
+b11111101 aaf
+b11111001 aah
+b11110010 aai
+
+#16990
+0aaa
+
+#17000
+1aaa
+
+#17002
+b11011 aad
+b1011 aae
+b1 aag
+b11111100 aah
+b11 aai
+
+#17005
+b11111111 aaf
+b11 aag
+b11111101 aah
+b100 aai
+
+#17010
+0aaa
+
+#17020
+1aaa
+
+#17022
+b11100 aad
+b1100 aae
+b11 aaf
+b101 aag
+b1111 aah
+b1110 aai
+
+#17025
+b101 aaf
+b111 aag
+b10000 aah
+b1111 aai
+
+#17030
+0aaa
+
+#17040
+1aaa
+
+#17042
+b11101 aad
+b1101 aae
+b11000 aaf
+b10000 aag
+b11011 aah
+b10011 aai
+
+#17045
+b11010 aaf
+b11100 aah
+b10100 aai
+
+#17050
+0aaa
+
+#17060
+1aaa
+
+#17062
+b11110 aad
+b1110 aae
+b100110 aaf
+b100100 aag
+b100001 aah
+b11101 aai
+
+#17065
+b101000 aaf
+b100110 aag
+b100010 aah
+b11110 aai
+
+#17070
+0aaa
+
+#17080
+1aaa
+
+#17082
+b11111 aad
+b1111 aae
+b101110 aaf
+b110100 aag
+b101100 aah
+b110100 aai
+
+#17085
+b110000 aaf
+b110110 aag
+b101101 aah
+b110101 aai
+
+#17090
+0aaa
+
+#17100
+1aaa
+
+#17102
+b0 aad
+b10000 aae
+b111011 aaf
+b111110 aag
+b1000100 aah
+b1000101 aai
+
+#17105
+b110000 aaf
+b101101 aag
+b110110 aah
+b110101 aai
+
+#17110
+0aaa
+
+#17120
+1aaa
+
+#17122
+b1 aad
+b10001 aae
+b110110 aag
+b101101 aah
+
+#17125
+b101110 aah
+b110110 aai
+
+#17130
+0aaa
+
+#17140
+1aaa
+
+#17142
+b10 aad
+b10010 aae
+b101110 aag
+b110111 aah
+b110111 aai
+
+#17145
+b111000 aah
+b111000 aai
+
+#17150
+0aaa
+
+#17160
+1aaa
+
+#17162
+b11 aad
+b10011 aae
+b111000 aag
+b110000 aah
+b111010 aai
+
+#17165
+b110001 aah
+b111011 aai
+
+#17170
+0aaa
+
+#17180
+1aaa
+
+#17182
+b100 aad
+b10100 aae
+b110001 aag
+b111011 aah
+b111110 aai
+
+#17185
+b111100 aah
+b111111 aai
+
+#17190
+0aaa
+
+#17200
+1aaa
+
+#17202
+b101 aad
+b10101 aae
+b110100 aaf
+b111100 aag
+b110101 aah
+b1000011 aai
+
+#17205
+b110110 aaf
+b110110 aah
+b1000100 aai
+
+#17210
+0aaa
+
+#17220
+1aaa
+
+#17222
+b110 aad
+b10110 aae
+b110110 aag
+b1000001 aah
+b1001001 aai
+
+#17225
+b1000010 aah
+b1001010 aai
+
+#17230
+0aaa
+
+#17240
+1aaa
+
+#17242
+b111 aad
+b10111 aae
+b111110 aaf
+b1000010 aag
+b1000000 aah
+b1010000 aai
+
+#17245
+b1000000 aaf
+b1000001 aah
+b1010001 aai
+
+#17250
+0aaa
+
+#17260
+1aaa
+
+#17262
+b1000 aad
+b11000 aae
+b1000001 aag
+b1001001 aah
+b1011000 aai
+
+#17265
+b1000001 aaf
+b1001010 aah
+b1011001 aai
+
+#17270
+0aaa
+
+#17280
+1aaa
+
+#17282
+b1001 aad
+b11001 aae
+b1001010 aaf
+b1001010 aag
+b1010001 aah
+b1100001 aai
+
+#17285
+b1001100 aaf
+b1010010 aah
+b1100010 aai
+
+#17290
+0aaa
+
+#17300
+1aaa
+
+#17302
+b1010 aad
+b11010 aae
+b1010100 aaf
+b1010010 aag
+b1011011 aah
+b1101011 aai
+
+#17305
+b1010110 aaf
+b1011100 aah
+b1101100 aai
+
+#17310
+0aaa
+
+#17320
+1aaa
+
+#17322
+b1011 aad
+b11011 aae
+b1100000 aaf
+b1011100 aag
+b1100110 aah
+b1110110 aai
+
+#17325
+b1100010 aaf
+b1100111 aah
+b1110111 aai
+
+#17330
+0aaa
+
+#17340
+1aaa
+
+#17342
+b1100 aad
+b11100 aae
+b1101101 aaf
+b1101000 aag
+b1110010 aah
+b10000010 aai
+
+#17345
+b1101111 aaf
+b1101010 aag
+b1110011 aah
+b10000011 aai
+
+#17350
+0aaa
+
+#17360
+1aaa
+
+#17362
+b1101 aad
+b11101 aae
+b1111011 aaf
+b1110111 aag
+b1111111 aah
+b10001111 aai
+
+#17365
+b1111101 aaf
+b1111001 aag
+b10000000 aah
+b10010000 aai
+
+#17370
+0aaa
+
+#17380
+1aaa
+
+#17382
+b1110 aad
+b11110 aae
+b10001010 aaf
+b10000111 aag
+b10001101 aah
+b10011101 aai
+
+#17385
+b10001100 aaf
+b10001001 aag
+b10001110 aah
+b10011110 aai
+
+#17390
+0aaa
+
+#17400
+1aaa
+
+#17402
+b1111 aad
+b11111 aae
+b10011010 aaf
+b10011000 aag
+b10011100 aah
+b10101100 aai
+
+#17405
+b10011100 aaf
+b10011010 aag
+b10011101 aah
+b10101101 aai
+
+#17410
+0aaa
+
+#17420
+1aaa
+
+#17422
+b10000 aad
+b0 aae
+b10101011 aaf
+b10101010 aag
+b10101100 aah
+b10111100 aai
+
+#17425
+b10011100 aaf
+b10011101 aag
+b10101101 aah
+b10011101 aai
+
+#17430
+0aaa
+
+#17440
+1aaa
+
+#17442
+b10001 aad
+b1 aae
+b10011101 aaf
+b10101101 aag
+b10011101 aah
+
+#17445
+b10011111 aaf
+b10011110 aah
+b10011110 aai
+
+#17450
+0aaa
+
+#17460
+1aaa
+
+#17462
+b10010 aad
+b10 aae
+b10011110 aag
+b10011111 aah
+b10101110 aai
+
+#17465
+b10100000 aah
+b10101111 aai
+
+#17470
+0aaa
+
+#17480
+1aaa
+
+#17482
+b10011 aad
+b11 aae
+b10100000 aag
+b10110001 aah
+b10100001 aai
+
+#17485
+b10110010 aah
+b10100010 aai
+
+#17490
+0aaa
+
+#17500
+1aaa
+
+#17502
+b10100 aad
+b100 aae
+b10101000 aaf
+b10110010 aag
+b10100101 aah
+b10100011 aai
+
+#17505
+b10101010 aaf
+b10100110 aah
+b10100100 aai
+
+#17510
+0aaa
+
+#17520
+1aaa
+
+#17522
+b10101 aad
+b101 aae
+b10100110 aag
+b10101000 aah
+b10110110 aai
+
+#17525
+b10101001 aah
+b10110111 aai
+
+#17530
+0aaa
+
+#17540
+1aaa
+
+#17542
+b10110 aad
+b110 aae
+b10101001 aag
+b10111100 aah
+b10101100 aai
+
+#17545
+b10111101 aah
+b10101101 aai
+
+#17550
+0aaa
+
+#17560
+1aaa
+
+#17562
+b10111 aad
+b111 aae
+b10111001 aaf
+b10111101 aag
+b10110011 aah
+b10101111 aai
+
+#17565
+b10111011 aaf
+b10110100 aah
+b10110000 aai
+
+#17570
+0aaa
+
+#17580
+1aaa
+
+#17582
+b11000 aad
+b1000 aae
+b10111001 aag
+b10110111 aah
+b11000100 aai
+
+#17585
+b10111011 aag
+b10111000 aah
+b11000101 aai
+
+#17590
+0aaa
+
+#17600
+1aaa
+
+#17602
+b11001 aad
+b1001 aae
+b11001101 aah
+b11000011 aai
+
+#17605
+b10111101 aag
+b11001110 aah
+b11000100 aai
+
+#17610
+0aaa
+
+#17620
+1aaa
+
+#17622
+b11010 aad
+b1010 aae
+b11010000 aaf
+b11001110 aag
+b11001101 aah
+b11000110 aai
+
+#17625
+b11010010 aaf
+b11001110 aah
+b11000111 aai
+
+#17630
+0aaa
+
+#17640
+1aaa
+
+#17642
+b11011 aad
+b1011 aae
+b11010110 aag
+b11010001 aah
+b11011000 aai
+
+#17645
+b11010100 aaf
+b11011000 aag
+b11010010 aah
+b11011001 aai
+
+#17650
+0aaa
+
+#17660
+1aaa
+
+#17662
+b11100 aad
+b1100 aae
+b11011000 aaf
+b11011010 aag
+b11100100 aah
+b11100011 aai
+
+#17665
+b11011010 aaf
+b11011100 aag
+b11100101 aah
+b11100100 aai
+
+#17670
+0aaa
+
+#17680
+1aaa
+
+#17682
+b11101 aad
+b1101 aae
+b11101101 aaf
+b11100101 aag
+b11110000 aah
+b11101000 aai
+
+#17685
+b11101111 aaf
+b11110001 aah
+b11101001 aai
+
+#17690
+0aaa
+
+#17700
+1aaa
+
+#17702
+b11110 aad
+b1110 aae
+b11111011 aaf
+b11111001 aag
+b11110110 aah
+b11110010 aai
+
+#17705
+b11111101 aaf
+b11111011 aag
+b11110111 aah
+b11110011 aai
+
+#17710
+0aaa
+
+#17720
+1aaa
+
+#17722
+b11111 aad
+b1111 aae
+b11 aaf
+b1001 aag
+b1 aah
+b1001 aai
+
+#17725
+b101 aaf
+b1011 aag
+b10 aah
+b1010 aai
+
+#17730
+0aaa
+
+#17740
+1aaa
+
+#17742
+b0 aad
+b10000 aae
+b10000 aaf
+b10011 aag
+b11001 aah
+b11010 aai
+
+#17745
+b101 aaf
+b10 aag
+b1011 aah
+b1010 aai
+
+#17750
+0aaa
+
+#17760
+1aaa
+
+#17762
+b1 aad
+b10001 aae
+b1011 aag
+b10 aah
+
+#17765
+b11 aah
+b1011 aai
+
+#17770
+0aaa
+
+#17780
+1aaa
+
+#17782
+b10 aad
+b10010 aae
+b11 aag
+b1100 aah
+b1100 aai
+
+#17785
+b1101 aah
+b1101 aai
+
+#17790
+0aaa
+
+#17800
+1aaa
+
+#17802
+b11 aad
+b10011 aae
+b1101 aag
+b101 aah
+b1111 aai
+
+#17805
+b110 aah
+b10000 aai
+
+#17810
+0aaa
+
+#17820
+1aaa
+
+#17822
+b100 aad
+b10100 aae
+b110 aag
+b10000 aah
+b10011 aai
+
+#17825
+b10001 aah
+b10100 aai
+
+#17830
+0aaa
+
+#17840
+1aaa
+
+#17842
+b101 aad
+b10101 aae
+b1001 aaf
+b10001 aag
+b1010 aah
+b11000 aai
+
+#17845
+b1011 aaf
+b1011 aah
+b11001 aai
+
+#17850
+0aaa
+
+#17860
+1aaa
+
+#17862
+b110 aad
+b10110 aae
+b1011 aag
+b10110 aah
+b11110 aai
+
+#17865
+b10111 aah
+b11111 aai
+
+#17870
+0aaa
+
+#17880
+1aaa
+
+#17882
+b111 aad
+b10111 aae
+b10011 aaf
+b10111 aag
+b10101 aah
+b100101 aai
+
+#17885
+b10101 aaf
+b10110 aah
+b100110 aai
+
+#17890
+0aaa
+
+#17900
+1aaa
+
+#17902
+b1000 aad
+b11000 aae
+b10110 aag
+b11110 aah
+b101101 aai
+
+#17905
+b10110 aaf
+b11111 aah
+b101110 aai
+
+#17910
+0aaa
+
+#17920
+1aaa
+
+#17922
+b1001 aad
+b11001 aae
+b11111 aaf
+b11111 aag
+b100110 aah
+b110110 aai
+
+#17925
+b100001 aaf
+b100111 aah
+b110111 aai
+
+#17930
+0aaa
+
+#17940
+1aaa
+
+#17942
+b1010 aad
+b11010 aae
+b101001 aaf
+b100111 aag
+b110000 aah
+b1000000 aai
+
+#17945
+b101011 aaf
+b110001 aah
+b1000001 aai
+
+#17950
+0aaa
+
+#17960
+1aaa
+
+#17962
+b1011 aad
+b11011 aae
+b110101 aaf
+b110001 aag
+b111011 aah
+b1001011 aai
+
+#17965
+b110111 aaf
+b111100 aah
+b1001100 aai
+
+#17970
+0aaa
+
+#17980
+1aaa
+
+#17982
+b1100 aad
+b11100 aae
+b1000010 aaf
+b111101 aag
+b1000111 aah
+b1010111 aai
+
+#17985
+b1000100 aaf
+b111111 aag
+b1001000 aah
+b1011000 aai
+
+#17990
+0aaa
+
+#18000
+1aaa
+
+#18002
+b1101 aad
+b11101 aae
+b1010000 aaf
+b1001100 aag
+b1010100 aah
+b1100100 aai
+
+#18005
+b1010010 aaf
+b1001110 aag
+b1010101 aah
+b1100101 aai
+
+#18010
+0aaa
+
+#18020
+1aaa
+
+#18022
+b1110 aad
+b11110 aae
+b1011111 aaf
+b1011100 aag
+b1100010 aah
+b1110010 aai
+
+#18025
+b1100001 aaf
+b1011110 aag
+b1100011 aah
+b1110011 aai
+
+#18030
+0aaa
+
+#18040
+1aaa
+
+#18042
+b1111 aad
+b11111 aae
+b1101111 aaf
+b1101101 aag
+b1110001 aah
+b10000001 aai
+
+#18045
+b1110001 aaf
+b1101111 aag
+b1110010 aah
+b10000010 aai
+
+#18050
+0aaa
+
+#18060
+1aaa
+
+#18062
+b10000 aad
+b0 aae
+b10000000 aaf
+b1111111 aag
+b10000001 aah
+b10010001 aai
+
+#18065
+b1110001 aaf
+b1110010 aag
+b10000010 aah
+b1110010 aai
+
+#18070
+0aaa
+
+#18080
+1aaa
+
+#18082
+b10001 aad
+b1 aae
+b1110010 aaf
+b10000010 aag
+b1110010 aah
+
+#18085
+b1110100 aaf
+b1110011 aah
+b1110011 aai
+
+#18090
+0aaa
+
+#18100
+1aaa
+
+#18102
+b10010 aad
+b10 aae
+b1110011 aag
+b1110100 aah
+b10000011 aai
+
+#18105
+b1110101 aah
+b10000100 aai
+
+#18110
+0aaa
+
+#18120
+1aaa
+
+#18122
+b10011 aad
+b11 aae
+b1110101 aag
+b10000110 aah
+b1110110 aai
+
+#18125
+b10000111 aah
+b1110111 aai
+
+#18130
+0aaa
+
+#18140
+1aaa
+
+#18142
+b10100 aad
+b100 aae
+b1111101 aaf
+b10000111 aag
+b1111010 aah
+b1111000 aai
+
+#18145
+b1111111 aaf
+b1111011 aah
+b1111001 aai
+
+#18150
+0aaa
+
+#18160
+1aaa
+
+#18162
+b10101 aad
+b101 aae
+b1111011 aag
+b1111101 aah
+b10001011 aai
+
+#18165
+b1111110 aah
+b10001100 aai
+
+#18170
+0aaa
+
+#18180
+1aaa
+
+#18182
+b10110 aad
+b110 aae
+b1111110 aag
+b10010001 aah
+b10000001 aai
+
+#18185
+b10010010 aah
+b10000010 aai
+
+#18190
+0aaa
+
+#18200
+1aaa
+
+#18202
+b10111 aad
+b111 aae
+b10001110 aaf
+b10010010 aag
+b10001000 aah
+b10000100 aai
+
+#18205
+b10010000 aaf
+b10001001 aah
+b10000101 aai
+
+#18210
+0aaa
+
+#18220
+1aaa
+
+#18222
+b11000 aad
+b1000 aae
+b10001110 aag
+b10001100 aah
+b10011001 aai
+
+#18225
+b10010000 aag
+b10001101 aah
+b10011010 aai
+
+#18230
+0aaa
+
+#18240
+1aaa
+
+#18242
+b11001 aad
+b1001 aae
+b10100010 aah
+b10011000 aai
+
+#18245
+b10010010 aag
+b10100011 aah
+b10011001 aai
+
+#18250
+0aaa
+
+#18260
+1aaa
+
+#18262
+b11010 aad
+b1010 aae
+b10100101 aaf
+b10100011 aag
+b10100010 aah
+b10011011 aai
+
+#18265
+b10100111 aaf
+b10100011 aah
+b10011100 aai
+
+#18270
+0aaa
+
+#18280
+1aaa
+
+#18282
+b11011 aad
+b1011 aae
+b10101011 aag
+b10100110 aah
+b10101101 aai
+
+#18285
+b10101001 aaf
+b10101101 aag
+b10100111 aah
+b10101110 aai
+
+#18290
+0aaa
+
+#18300
+1aaa
+
+#18302
+b11100 aad
+b1100 aae
+b10101101 aaf
+b10101111 aag
+b10111001 aah
+b10111000 aai
+
+#18305
+b10101111 aaf
+b10110001 aag
+b10111010 aah
+b10111001 aai
+
+#18310
+0aaa
+
+#18320
+1aaa
+
+#18322
+b11101 aad
+b1101 aae
+b11000010 aaf
+b10111010 aag
+b11000101 aah
+b10111101 aai
+
+#18325
+b11000100 aaf
+b11000110 aah
+b10111110 aai
+
+#18330
+0aaa
+
+#18340
+1aaa
+
+#18342
+b11110 aad
+b1110 aae
+b11010000 aaf
+b11001110 aag
+b11001011 aah
+b11000111 aai
+
+#18345
+b11010010 aaf
+b11010000 aag
+b11001100 aah
+b11001000 aai
+
+#18350
+0aaa
+
+#18360
+1aaa
+
+#18362
+b11111 aad
+b1111 aae
+b11011000 aaf
+b11011110 aag
+b11010110 aah
+b11011110 aai
+
+#18365
+b11011010 aaf
+b11100000 aag
+b11010111 aah
+b11011111 aai
+
+#18370
+0aaa
+
+#18380
+1aaa
+
+#18382
+b0 aad
+b10000 aae
+b11100101 aaf
+b11101000 aag
+b11101110 aah
+b11101111 aai
+
+#18385
+b11011010 aaf
+b11010111 aag
+b11100000 aah
+b11011111 aai
+
+#18390
+0aaa
+
+#18400
+1aaa
+
+#18402
+b1 aad
+b10001 aae
+b11100000 aag
+b11010111 aah
+
+#18405
+b11011000 aah
+b11100000 aai
+
+#18410
+0aaa
+
+#18420
+1aaa
+
+#18422
+b10 aad
+b10010 aae
+b11011000 aag
+b11100001 aah
+b11100001 aai
+
+#18425
+b11100010 aah
+b11100010 aai
+
+#18430
+0aaa
+
+#18440
+1aaa
+
+#18442
+b11 aad
+b10011 aae
+b11100010 aag
+b11011010 aah
+b11100100 aai
+
+#18445
+b11011011 aah
+b11100101 aai
+
+#18450
+0aaa
+
+#18460
+1aaa
+
+#18462
+b100 aad
+b10100 aae
+b11011011 aag
+b11100101 aah
+b11101000 aai
+
+#18465
+b11100110 aah
+b11101001 aai
+
+#18470
+0aaa
+
+#18480
+1aaa
+
+#18482
+b101 aad
+b10101 aae
+b11011110 aaf
+b11100110 aag
+b11011111 aah
+b11101101 aai
+
+#18485
+b11100000 aaf
+b11100000 aah
+b11101110 aai
+
+#18490
+0aaa
+
+#18500
+1aaa
+
+#18502
+b110 aad
+b10110 aae
+b11100000 aag
+b11101011 aah
+b11110011 aai
+
+#18505
+b11101100 aah
+b11110100 aai
+
+#18510
+0aaa
+
+#18520
+1aaa
+
+#18522
+b111 aad
+b10111 aae
+b11101000 aaf
+b11101100 aag
+b11101010 aah
+b11111010 aai
+
+#18525
+b11101010 aaf
+b11101011 aah
+b11111011 aai
+
+#18530
+0aaa
+
+#18540
+1aaa
+
+#18542
+b1000 aad
+b11000 aae
+b11101011 aag
+b11110011 aah
+b10 aai
+
+#18545
+b11101011 aaf
+b11110100 aah
+b11 aai
+
+#18550
+0aaa
+
+#18560
+1aaa
+
+#18562
+b1001 aad
+b11001 aae
+b11110100 aaf
+b11110100 aag
+b11111011 aah
+b1011 aai
+
+#18565
+b11110110 aaf
+b11111100 aah
+b1100 aai
+
+#18570
+0aaa
+
+#18580
+1aaa
+
+#18582
+b1010 aad
+b11010 aae
+b11111110 aaf
+b11111100 aag
+b101 aah
+b10101 aai
+
+#18585
+b0 aaf
+b110 aah
+b10110 aai
+
+#18590
+0aaa
+
+#18600
+1aaa
+
+#18602
+b1011 aad
+b11011 aae
+b1010 aaf
+b110 aag
+b10000 aah
+b100000 aai
+
+#18605
+b1100 aaf
+b10001 aah
+b100001 aai
+
+#18610
+0aaa
+
+#18620
+1aaa
+
+#18622
+b1100 aad
+b11100 aae
+b10111 aaf
+b10010 aag
+b11100 aah
+b101100 aai
+
+#18625
+b11001 aaf
+b10100 aag
+b11101 aah
+b101101 aai
+
+#18630
+0aaa
+
+#18640
+1aaa
+
+#18642
+b1101 aad
+b11101 aae
+b100101 aaf
+b100001 aag
+b101001 aah
+b111001 aai
+
+#18645
+b100111 aaf
+b100011 aag
+b101010 aah
+b111010 aai
+
+#18650
+0aaa
+
+#18660
+1aaa
+
+#18662
+b1110 aad
+b11110 aae
+b110100 aaf
+b110001 aag
+b110111 aah
+b1000111 aai
+
+#18665
+b110110 aaf
+b110011 aag
+b111000 aah
+b1001000 aai
+
+#18670
+0aaa
+
+#18680
+1aaa
+
+#18682
+b1111 aad
+b11111 aae
+b1000100 aaf
+b1000010 aag
+b1000110 aah
+b1010110 aai
+
+#18685
+b1000110 aaf
+b1000100 aag
+b1000111 aah
+b1010111 aai
+
+#18690
+0aaa
+
+#18700
+1aaa
+
+#18702
+b10000 aad
+b0 aae
+b1010101 aaf
+b1010100 aag
+b1010110 aah
+b1100110 aai
+
+#18705
+b1000110 aaf
+b1000111 aag
+b1010111 aah
+b1000111 aai
+
+#18710
+0aaa
+
+#18720
+1aaa
+
+#18722
+b10001 aad
+b1 aae
+b1000111 aaf
+b1010111 aag
+b1000111 aah
+
+#18725
+b1001001 aaf
+b1001000 aah
+b1001000 aai
+
+#18730
+0aaa
+
+#18740
+1aaa
+
+#18742
+b10010 aad
+b10 aae
+b1001000 aag
+b1001001 aah
+b1011000 aai
+
+#18745
+b1001010 aah
+b1011001 aai
+
+#18750
+0aaa
+
+#18760
+1aaa
+
+#18762
+b10011 aad
+b11 aae
+b1001010 aag
+b1011011 aah
+b1001011 aai
+
+#18765
+b1011100 aah
+b1001100 aai
+
+#18770
+0aaa
+
+#18780
+1aaa
+
+#18782
+b10100 aad
+b100 aae
+b1010010 aaf
+b1011100 aag
+b1001111 aah
+b1001101 aai
+
+#18785
+b1010100 aaf
+b1010000 aah
+b1001110 aai
+
+#18790
+0aaa
+
+#18800
+1aaa
+
+#18802
+b10101 aad
+b101 aae
+b1010000 aag
+b1010010 aah
+b1100000 aai
+
+#18805
+b1010011 aah
+b1100001 aai
+
+#18810
+0aaa
+
+#18820
+1aaa
+
+#18822
+b10110 aad
+b110 aae
+b1010011 aag
+b1100110 aah
+b1010110 aai
+
+#18825
+b1100111 aah
+b1010111 aai
+
+#18830
+0aaa
+
+#18840
+1aaa
+
+#18842
+b10111 aad
+b111 aae
+b1100011 aaf
+b1100111 aag
+b1011101 aah
+b1011001 aai
+
+#18845
+b1100101 aaf
+b1011110 aah
+b1011010 aai
+
+#18850
+0aaa
+
+#18860
+1aaa
+
+#18862
+b11000 aad
+b1000 aae
+b1100011 aag
+b1100001 aah
+b1101110 aai
+
+#18865
+b1100101 aag
+b1100010 aah
+b1101111 aai
+
+#18870
+0aaa
+
+#18880
+1aaa
+
+#18882
+b11001 aad
+b1001 aae
+b1110111 aah
+b1101101 aai
+
+#18885
+b1100111 aag
+b1111000 aah
+b1101110 aai
+
+#18890
+0aaa
+
+#18900
+1aaa
+
+#18902
+b11010 aad
+b1010 aae
+b1111010 aaf
+b1111000 aag
+b1110111 aah
+b1110000 aai
+
+#18905
+b1111100 aaf
+b1111000 aah
+b1110001 aai
+
+#18910
+0aaa
+
+#18920
+1aaa
+
+#18922
+b11011 aad
+b1011 aae
+b10000000 aag
+b1111011 aah
+b10000010 aai
+
+#18925
+b1111110 aaf
+b10000010 aag
+b1111100 aah
+b10000011 aai
+
+#18930
+0aaa
+
+#18940
+1aaa
+
+#18942
+b11100 aad
+b1100 aae
+b10000010 aaf
+b10000100 aag
+b10001110 aah
+b10001101 aai
+
+#18945
+b10000100 aaf
+b10000110 aag
+b10001111 aah
+b10001110 aai
+
+#18950
+0aaa
+
+#18960
+1aaa
+
+#18962
+b11101 aad
+b1101 aae
+b10010111 aaf
+b10001111 aag
+b10011010 aah
+b10010010 aai
+
+#18965
+b10011001 aaf
+b10011011 aah
+b10010011 aai
+
+#18970
+0aaa
+
+#18980
+1aaa
+
+#18982
+b11110 aad
+b1110 aae
+b10100101 aaf
+b10100011 aag
+b10100000 aah
+b10011100 aai
+
+#18985
+b10100111 aaf
+b10100101 aag
+b10100001 aah
+b10011101 aai
+
+#18990
+0aaa
+
+#19000
+1aaa
+
+#19002
+b11111 aad
+b1111 aae
+b10101101 aaf
+b10110011 aag
+b10101011 aah
+b10110011 aai
+
+#19005
+b10101111 aaf
+b10110101 aag
+b10101100 aah
+b10110100 aai
+
+#19010
+0aaa
+
+#19020
+1aaa
+
+#19022
+b0 aad
+b10000 aae
+b10111010 aaf
+b10111101 aag
+b11000011 aah
+b11000100 aai
+
+#19025
+b10101111 aaf
+b10101100 aag
+b10110101 aah
+b10110100 aai
+
+#19030
+0aaa
+
+#19040
+1aaa
+
+#19042
+b1 aad
+b10001 aae
+b10110101 aag
+b10101100 aah
+
+#19045
+b10101101 aah
+b10110101 aai
+
+#19050
+0aaa
+
+#19060
+1aaa
+
+#19062
+b10 aad
+b10010 aae
+b10101101 aag
+b10110110 aah
+b10110110 aai
+
+#19065
+b10110111 aah
+b10110111 aai
+
+#19070
+0aaa
+
+#19080
+1aaa
+
+#19082
+b11 aad
+b10011 aae
+b10110111 aag
+b10101111 aah
+b10111001 aai
+
+#19085
+b10110000 aah
+b10111010 aai
+
+#19090
+0aaa
+
+#19100
+1aaa
+
+#19102
+b100 aad
+b10100 aae
+b10110000 aag
+b10111010 aah
+b10111101 aai
+
+#19105
+b10111011 aah
+b10111110 aai
+
+#19110
+0aaa
+
+#19120
+1aaa
+
+#19122
+b101 aad
+b10101 aae
+b10110011 aaf
+b10111011 aag
+b10110100 aah
+b11000010 aai
+
+#19125
+b10110101 aaf
+b10110101 aah
+b11000011 aai
+
+#19130
+0aaa
+
+#19140
+1aaa
+
+#19142
+b110 aad
+b10110 aae
+b10110101 aag
+b11000000 aah
+b11001000 aai
+
+#19145
+b11000001 aah
+b11001001 aai
+
+#19150
+0aaa
+
+#19160
+1aaa
+
+#19162
+b111 aad
+b10111 aae
+b10111101 aaf
+b11000001 aag
+b10111111 aah
+b11001111 aai
+
+#19165
+b10111111 aaf
+b11000000 aah
+b11010000 aai
+
+#19170
+0aaa
+
+#19180
+1aaa
+
+#19182
+b1000 aad
+b11000 aae
+b11000000 aag
+b11001000 aah
+b11010111 aai
+
+#19185
+b11000000 aaf
+b11001001 aah
+b11011000 aai
+
+#19190
+0aaa
+
+#19200
+1aaa
+
+#19202
+b1001 aad
+b11001 aae
+b11001001 aaf
+b11001001 aag
+b11010000 aah
+b11100000 aai
+
+#19205
+b11001011 aaf
+b11010001 aah
+b11100001 aai
+
+#19210
+0aaa
+
+#19220
+1aaa
+
+#19222
+b1010 aad
+b11010 aae
+b11010011 aaf
+b11010001 aag
+b11011010 aah
+b11101010 aai
+
+#19225
+b11010101 aaf
+b11011011 aah
+b11101011 aai
+
+#19230
+0aaa
+
+#19240
+1aaa
+
+#19242
+b1011 aad
+b11011 aae
+b11011111 aaf
+b11011011 aag
+b11100101 aah
+b11110101 aai
+
+#19245
+b11100001 aaf
+b11100110 aah
+b11110110 aai
+
+#19250
+0aaa
+
+#19260
+1aaa
+
+#19262
+b1100 aad
+b11100 aae
+b11101100 aaf
+b11100111 aag
+b11110001 aah
+b1 aai
+
+#19265
+b11101110 aaf
+b11101001 aag
+b11110010 aah
+b10 aai
+
+#19270
+0aaa
+
+#19280
+1aaa
+
+#19282
+b1101 aad
+b11101 aae
+b11111010 aaf
+b11110110 aag
+b11111110 aah
+b1110 aai
+
+#19285
+b11111100 aaf
+b11111000 aag
+b11111111 aah
+b1111 aai
+
+#19290
+0aaa
+
+#19300
+1aaa
+
+#19302
+b1110 aad
+b11110 aae
+b1001 aaf
+b110 aag
+b1100 aah
+b11100 aai
+
+#19305
+b1011 aaf
+b1000 aag
+b1101 aah
+b11101 aai
+
+#19310
+0aaa
+
+#19320
+1aaa
+
+#19322
+b1111 aad
+b11111 aae
+b11001 aaf
+b10111 aag
+b11011 aah
+b101011 aai
+
+#19325
+b11011 aaf
+b11001 aag
+b11100 aah
+b101100 aai
+
+#19330
+0aaa
+
+#19340
+1aaa
+
+#19342
+b10000 aad
+b0 aae
+b101010 aaf
+b101001 aag
+b101011 aah
+b111011 aai
+
+#19345
+b11011 aaf
+b11100 aag
+b101100 aah
+b11100 aai
+
+#19350
+0aaa
+
+#19360
+1aaa
+
+#19362
+b10001 aad
+b1 aae
+b11100 aaf
+b101100 aag
+b11100 aah
+
+#19365
+b11110 aaf
+b11101 aah
+b11101 aai
+
+#19370
+0aaa
+
+#19380
+1aaa
+
+#19382
+b10010 aad
+b10 aae
+b11101 aag
+b11110 aah
+b101101 aai
+
+#19385
+b11111 aah
+b101110 aai
+
+#19390
+0aaa
+
+#19400
+1aaa
+
+#19402
+b10011 aad
+b11 aae
+b11111 aag
+b110000 aah
+b100000 aai
+
+#19405
+b110001 aah
+b100001 aai
+
+#19410
+0aaa
+
+#19420
+1aaa
+
+#19422
+b10100 aad
+b100 aae
+b100111 aaf
+b110001 aag
+b100100 aah
+b100010 aai
+
+#19425
+b101001 aaf
+b100101 aah
+b100011 aai
+
+#19430
+0aaa
+
+#19440
+1aaa
+
+#19442
+b10101 aad
+b101 aae
+b100101 aag
+b100111 aah
+b110101 aai
+
+#19445
+b101000 aah
+b110110 aai
+
+#19450
+0aaa
+
+#19460
+1aaa
+
+#19462
+b10110 aad
+b110 aae
+b101000 aag
+b111011 aah
+b101011 aai
+
+#19465
+b111100 aah
+b101100 aai
+
+#19470
+0aaa
+
+#19480
+1aaa
+
+#19482
+b10111 aad
+b111 aae
+b111000 aaf
+b111100 aag
+b110010 aah
+b101110 aai
+
+#19485
+b111010 aaf
+b110011 aah
+b101111 aai
+
+#19490
+0aaa
+
+#19500
+1aaa
+
+#19502
+b11000 aad
+b1000 aae
+b111000 aag
+b110110 aah
+b1000011 aai
+
+#19505
+b111010 aag
+b110111 aah
+b1000100 aai
+
+#19510
+0aaa
+
+#19520
+1aaa
+
+#19522
+b11001 aad
+b1001 aae
+b1001100 aah
+b1000010 aai
+
+#19525
+b111100 aag
+b1001101 aah
+b1000011 aai
+
+#19530
+0aaa
+
+#19540
+1aaa
+
+#19542
+b11010 aad
+b1010 aae
+b1001111 aaf
+b1001101 aag
+b1001100 aah
+b1000101 aai
+
+#19545
+b1010001 aaf
+b1001101 aah
+b1000110 aai
+
+#19550
+0aaa
+
+#19560
+1aaa
+
+#19562
+b11011 aad
+b1011 aae
+b1010101 aag
+b1010000 aah
+b1010111 aai
+
+#19565
+b1010011 aaf
+b1010111 aag
+b1010001 aah
+b1011000 aai
+
+#19570
+0aaa
+
+#19580
+1aaa
+
+#19582
+b11100 aad
+b1100 aae
+b1010111 aaf
+b1011001 aag
+b1100011 aah
+b1100010 aai
+
+#19585
+b1011001 aaf
+b1011011 aag
+b1100100 aah
+b1100011 aai
+
+#19590
+0aaa
+
+#19600
+1aaa
+
+#19602
+b11101 aad
+b1101 aae
+b1101100 aaf
+b1100100 aag
+b1101111 aah
+b1100111 aai
+
+#19605
+b1101110 aaf
+b1110000 aah
+b1101000 aai
+
+#19610
+0aaa
+
+#19620
+1aaa
+
+#19622
+b11110 aad
+b1110 aae
+b1111010 aaf
+b1111000 aag
+b1110101 aah
+b1110001 aai
+
+#19625
+b1111100 aaf
+b1111010 aag
+b1110110 aah
+b1110010 aai
+
+#19630
+0aaa
+
+#19640
+1aaa
+
+#19642
+b11111 aad
+b1111 aae
+b10000010 aaf
+b10001000 aag
+b10000000 aah
+b10001000 aai
+
+#19645
+b10000100 aaf
+b10001010 aag
+b10000001 aah
+b10001001 aai
+
+#19650
+0aaa
+
+#19660
+1aaa
+
+#19662
+b0 aad
+b10000 aae
+b10001111 aaf
+b10010010 aag
+b10011000 aah
+b10011001 aai
+
+#19665
+b10000100 aaf
+b10000001 aag
+b10001010 aah
+b10001001 aai
+
+#19670
+0aaa
+
+#19680
+1aaa
+
+#19682
+b1 aad
+b10001 aae
+b10001010 aag
+b10000001 aah
+
+#19685
+b10000010 aah
+b10001010 aai
+
+#19690
+0aaa
+
+#19700
+1aaa
+
+#19702
+b10 aad
+b10010 aae
+b10000010 aag
+b10001011 aah
+b10001011 aai
+
+#19705
+b10001100 aah
+b10001100 aai
+
+#19710
+0aaa
+
+#19720
+1aaa
+
+#19722
+b11 aad
+b10011 aae
+b10001100 aag
+b10000100 aah
+b10001110 aai
+
+#19725
+b10000101 aah
+b10001111 aai
+
+#19730
+0aaa
+
+#19740
+1aaa
+
+#19742
+b100 aad
+b10100 aae
+b10000101 aag
+b10001111 aah
+b10010010 aai
+
+#19745
+b10010000 aah
+b10010011 aai
+
+#19750
+0aaa
+
+#19760
+1aaa
+
+#19762
+b101 aad
+b10101 aae
+b10001000 aaf
+b10010000 aag
+b10001001 aah
+b10010111 aai
+
+#19765
+b10001010 aaf
+b10001010 aah
+b10011000 aai
+
+#19770
+0aaa
+
+#19780
+1aaa
+
+#19782
+b110 aad
+b10110 aae
+b10001010 aag
+b10010101 aah
+b10011101 aai
+
+#19785
+b10010110 aah
+b10011110 aai
+
+#19790
+0aaa
+
+#19800
+1aaa
+
+#19802
+b111 aad
+b10111 aae
+b10010010 aaf
+b10010110 aag
+b10010100 aah
+b10100100 aai
+
+#19805
+b10010100 aaf
+b10010101 aah
+b10100101 aai
+
+#19810
+0aaa
+
+#19820
+1aaa
+
+#19822
+b1000 aad
+b11000 aae
+b10010101 aag
+b10011101 aah
+b10101100 aai
+
+#19825
+b10010101 aaf
+b10011110 aah
+b10101101 aai
+
+#19830
+0aaa
+
+#19840
+1aaa
+
+#19842
+b1001 aad
+b11001 aae
+b10011110 aaf
+b10011110 aag
+b10100101 aah
+b10110101 aai
+
+#19845
+b10100000 aaf
+b10100110 aah
+b10110110 aai
+
+#19850
+0aaa
+
+#19860
+1aaa
+
+#19862
+b1010 aad
+b11010 aae
+b10101000 aaf
+b10100110 aag
+b10101111 aah
+b10111111 aai
+
+#19865
+b10101010 aaf
+b10110000 aah
+b11000000 aai
+
+#19870
+0aaa
+
+#19880
+1aaa
+
+#19882
+b1011 aad
+b11011 aae
+b10110100 aaf
+b10110000 aag
+b10111010 aah
+b11001010 aai
+
+#19885
+b10110110 aaf
+b10111011 aah
+b11001011 aai
+
+#19890
+0aaa
+
+#19900
+1aaa
+
+#19902
+b1100 aad
+b11100 aae
+b11000001 aaf
+b10111100 aag
+b11000110 aah
+b11010110 aai
+
+#19905
+b11000011 aaf
+b10111110 aag
+b11000111 aah
+b11010111 aai
+
+#19910
+0aaa
+
+#19920
+1aaa
+
+#19922
+b1101 aad
+b11101 aae
+b11001111 aaf
+b11001011 aag
+b11010011 aah
+b11100011 aai
+
+#19925
+b11010001 aaf
+b11001101 aag
+b11010100 aah
+b11100100 aai
+
+#19930
+0aaa
+
+#19940
+1aaa
+
+#19942
+b1110 aad
+b11110 aae
+b11011110 aaf
+b11011011 aag
+b11100001 aah
+b11110001 aai
+
+#19945
+b11100000 aaf
+b11011101 aag
+b11100010 aah
+b11110010 aai
+
+#19950
+0aaa
+
+#19960
+1aaa
+
+#19962
+b1111 aad
+b11111 aae
+b11101110 aaf
+b11101100 aag
+b11110000 aah
+b0 aai
+
+#19965
+b11110000 aaf
+b11101110 aag
+b11110001 aah
+b1 aai
+
+#19970
+0aaa
+
+#19980
+1aaa
+
+#19982
+b10000 aad
+b0 aae
+b11111111 aaf
+b11111110 aag
+b0 aah
+b10000 aai
+
+#19985
+b11110000 aaf
+b11110001 aag
+b1 aah
+b11110001 aai
+
+#19990
+0aaa
+
+#20000
+1aaa
+
+#20002
+b11110001 aaf
+b1 aag
+b11110001 aah
+
+#20010
+0aaa
+
+#20020
+1aaa
+
+#20022
+b11110001 aag
+b1 aai
+
+#20030
+0aaa
+
+#20040
+1aaa
+
+#20042
+b1 aah
+b11110001 aai
+
+#20050
+0aaa
+
+#20060
+1aaa
+
+#20062
+b1 aag
+b11110001 aah
+
+#20070
+0aaa
+
+#20080
+1aaa
+
+#20082
+b11110001 aag
+b1 aai
+
+#20090
+0aaa
+

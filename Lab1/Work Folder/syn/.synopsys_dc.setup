@@ -1,0 +1,8 @@
+define_design_lib WORK -path ./work
+set search_path [list . /software/synopsys/syn_current/libraries/syn/software/synopsys/syn_current/dw/sim_ver /home/maurizio.martina/libtsmc/synopsys]
+set link_library [list "*" "fast.db" "fast.db" "dw_foundation.sldb" ]
+set target_library [list "fast.db" "fast.db" ]
+set symbol_library [list "tsmc090.sdb" ]
+set synthetic_library [list "dw_foundation.sldb"]
+
+

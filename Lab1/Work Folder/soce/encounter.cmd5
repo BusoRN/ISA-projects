@@ -1,0 +1,21 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Tue Dec  3 11:35:26                     #
+#                                                     #
+#######################################################
+loadConfig /home/isa4/Desktop/Lab1/soce/design.conf 0
+commitConfig
+fit
+setDrawMode fplan
+floorPlan -r 0.983667180277 0.700677 4.0 4.0 4.0 4.0
+fit
+addRing -spacing_bottom 0.5 -width_left 0.8 -width_bottom 0.8 -width_top 0.8 -spacing_top 0.5 -layer_bottom M1 -center 1 -stacked_via_top_layer M9 -width_right 0.8 -around core -jog_distance 0.42 -offset_bottom 0.42 -layer_top M1 -threshold 0.42 -offset_left 0.42 -spacing_right 0.5 -spacing_left 0.5 -offset_right 0.42 -offset_top 0.42 -layer_right M2 -nets {VSS VDD } -stacked_via_bottom_layer M1 -layer_left M2
+addStripe -block_ring_top_layer_limit M9 -max_same_layer_jog_length 0.84 -padcore_ring_bottom_layer_limit M9 -set_to_set_distance 40 -stacked_via_top_layer M9 -padcore_ring_top_layer_limit M9 -spacing 0.42 -merge_stripes_value 0.42 -layer M9 -block_ring_bottom_layer_limit M9 -width 0.42 -nets {VSS VDD } -stacked_via_bottom_layer M1
+addStripe -block_ring_top_layer_limit M9 -max_same_layer_jog_length 0.84 -padcore_ring_bottom_layer_limit M9 -set_to_set_distance 40 -stacked_via_top_layer M9 -padcore_ring_top_layer_limit M9 -spacing 0.42 -merge_stripes_value 0.42 -layer M9 -block_ring_bottom_layer_limit M9 -width 0.42 -nets {VSS VDD } -stacked_via_bottom_layer M1
+sroute -jogControl { preferWithChanges differentLayer }
+sroute -jogControl { preferWithChanges differentLayer }
+setPrerouteAsObs {1 2 3 4 5 6 7 8}
+amoebaPlace
+checkPlace
+setDrawMode place

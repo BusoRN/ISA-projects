@@ -1,0 +1,72 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FIR
+Version: Z-2007.03-SP1
+Date   : Tue Oct 29 09:23:24 2013
+****************************************
+
+Operating Conditions: fast   Library: fast
+Wire Load Model Mode: top
+
+  Startpoint: SR/SRI/reg0/q_reg[1]
+              (rising edge-triggered flip-flop clocked by MYCLK)
+  Endpoint: PIPE1_i_0/q_reg[15]
+            (rising edge-triggered flip-flop clocked by MYCLK)
+  Path Group: MYCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FIR                tsmc090_wl40          fast
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock MYCLK (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  SR/SRI/reg0/q_reg[1]/CK (DFFRX4)         0.00       0.00 r
+  SR/SRI/reg0/q_reg[1]/Q (DFFRX4)          0.22       0.22 r
+  U204/Y (BUFX12)                          0.19       0.41 r
+  U199/Y (INVX16)                          0.14       0.55 f
+  U173/Y (NOR2X2)                          0.22       0.77 r
+  U74/Y (OR2X8)                            0.21       0.97 r
+  U755/Y (INVX4)                           0.14       1.12 f
+  U516/Y (AOI221X2)                        0.21       1.33 r
+  U250/Y (BUFX3)                           0.19       1.51 r
+  U580/Y (INVX6)                           0.16       1.67 f
+  U98/Y (OAI22X1)                          0.28       1.96 r
+  U97/S (ADDHX2)                           0.08       2.04 f
+  MULi_0/mult_15/U13/CO (ADDFX1)           0.22       2.26 f
+  MULi_0/mult_15/U12/CO (ADDFX1)           0.19       2.45 f
+  MULi_0/mult_15/U11/CO (ADDFX1)           0.19       2.64 f
+  MULi_0/mult_15/U10/CO (ADDFX1)           0.19       2.83 f
+  MULi_0/mult_15/U9/CO (ADDFX1)            0.19       3.02 f
+  MULi_0/mult_15/U8/CO (ADDFX1)            0.19       3.21 f
+  MULi_0/mult_15/U7/CO (ADDFX1)            0.19       3.40 f
+  MULi_0/mult_15/U6/CO (ADDFX1)            0.19       3.59 f
+  MULi_0/mult_15/U5/CO (ADDFX1)            0.19       3.78 f
+  MULi_0/mult_15/U4/CO (ADDFX1)            0.19       3.97 f
+  MULi_0/mult_15/U3/CO (ADDFX1)            0.19       4.16 f
+  MULi_0/mult_15/U2/CO (ADDFX1)            0.19       4.35 f
+  U219/Y (INVX2)                           0.12       4.47 r
+  PIPE1_i_0/q_reg[15]/D (DFFRQX2)          0.00       4.47 r
+  data arrival time                                   4.47
+
+  clock MYCLK (rise edge)                 10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.07       9.93
+  PIPE1_i_0/q_reg[15]/CK (DFFRQX2)         0.00       9.93 r
+  library setup time                      -0.06       9.87
+  data required time                                  9.87
+  -----------------------------------------------------------
+  data required time                                  9.87
+  data arrival time                                  -4.47
+  -----------------------------------------------------------
+  slack (MET)                                         5.41
+
+
+1

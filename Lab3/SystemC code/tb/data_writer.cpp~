@@ -1,0 +1,26 @@
+#include"data_writer.h"
+
+void data_writer::data_writer_beh()
+{
+	signed int A0val = 5;
+	signed int A1val;
+	signed int A2val;
+	signed int A3val;
+
+	A0val = A0.read();
+	A1val = A1.read();
+	A2val = A2.read();
+	A3val = A3.read();
+	
+	fprintf(fp, "%d\n", A0val);
+	fprintf(fp, "%d\n", A1val);
+	fprintf(fp, "%d\n", A2val);
+	fprintf(fp, "%d\n", A3val);
+	fprintf(fp, "\n");
+	Ccnt++;
+	if (Ccnt == Nval)
+	{
+		fclose(fp);
+		done = 1;
+	}	
+}

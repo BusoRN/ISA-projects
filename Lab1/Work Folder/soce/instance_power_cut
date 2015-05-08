@@ -1,0 +1,14 @@
+
+################################################
+# The Instance Average Power Report for VDD net  #
+##################################################
+# Power calculation mode: vcd simulation
+# Operating bias voltage: 1.1 Volt
+# Units for power: Watts
+# Format: Instance Total-Power Internal-Power Switching-Power Leakage-Power
+###########################################################################
+
+###########################################################################
+# Sum:	1.810780e-03	1.195496e-03	5.676134e-04	4.767085e-05
+# No. of instances: 1439
+###########################################################################

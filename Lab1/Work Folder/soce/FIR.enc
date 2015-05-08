@@ -1,0 +1,8 @@
+################################################
+#                                              #
+# Silicon Perspective, A Cadence Company       #
+# FirstEncounter Design Restore script         #
+#    for design session: /home/isa4/Desktop/Lab1/soce/FIR.enc                     
+#                                              #
+################################################
+restoreDesign /home/isa4/Desktop/Lab1/soce/FIR.enc.dat FIR

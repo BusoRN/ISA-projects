@@ -1,0 +1,154 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.math_real.all;
+use ieee.std_logic_textio.all;
+
+library std;
+use std.textio.all;
+
+entity data_maker is  
+  port (
+    CLK     : in  std_logic;
+    RST_n   : in  std_logic;
+    VOUT    : out std_logic;
+    DOUT    : buffer std_logic_vector(7 downto 0);
+    H0      : out std_logic_vector(7 downto 0);
+    H1      : out std_logic_vector(7 downto 0);
+    H2      : out std_logic_vector(7 downto 0);
+    H3      : out std_logic_vector(7 downto 0);
+    H4      : out std_logic_vector(7 downto 0);
+    H5      : out std_logic_vector(7 downto 0);
+    H6      : out std_logic_vector(7 downto 0);
+--    H7      : out std_logic_vector(15 downto 0);    
+    END_SIM : out std_logic);
+end data_maker;
+
+architecture beh of data_maker is
+
+  constant tco : time := 1 ns;
+  constant tpd : time := 1 ns;
+
+  constant NDATA : integer := 100;
+  signal cnt : std_logic_vector(11 downto 0);
+
+  signal END_SIM_i : std_logic_vector(0 to 11);
+
+  constant sd_init : std_logic_vector(31 downto 0) := X"11223344";
+
+  procedure my_unif (
+    variable vc_un : inout integer;
+    variable val   : out   real) is
+    variable s : integer;
+    constant m : positive := 2147483647;
+    constant a : positive := 16807;
+    constant q : positive := 127773;
+    constant r : positive := 2836;    
+  begin  -- my_unif
+    s := vc_un/q;
+    vc_un := a*(vc_un-q*s)-r*s;
+    if (vc_un <= 0) then
+      vc_un := vc_un + m;
+    end if;
+    val := real(vc_un)/real(m);
+  end my_unif;
+  
+  procedure box_muller (
+    variable x       : out real;
+    variable x1      : inout real;
+    variable x2      : inout real;    
+    variable sd      : inout integer;
+    variable isready : inout integer) is
+    variable y1 : real;
+    variable y2 : real;    
+    variable f3 : real;
+    variable f1 : real;
+    variable f2 : real;
+    variable a  : real;
+  begin  -- box_muller
+    if (isready = 1) then
+      isready := 0;
+      x := x2;
+    else
+      f3 := 100.0;
+      while (f3 > 1.0) loop        
+        my_unif(sd,y1);
+        my_unif(sd,y2);
+        f1 := 2.0*y1 - 1.0;
+        f2 := 2.0*y2 - 1.0;
+        f3 := f1*f1 + f2*f2;
+      end loop;
+      a := sqrt((-2.0*log(f3))/f3);
+      x2 := f2*a;
+      isready := 1;
+      x1 := f1*a;
+      x := x1;
+    end if;
+  end box_muller;
+  
+begin  -- beh
+
+  -- change as you like
+  H0 <= sxt(conv_std_logic_vector(121,8),8);
+  H1 <= sxt(conv_std_logic_vector(128,8),8);
+  H2 <= sxt(conv_std_logic_vector(77,8),8);
+  H3 <= sxt(conv_std_logic_vector(177,8),8);
+  H4 <= sxt(conv_std_logic_vector(51,8),8);
+  H5 <= sxt(conv_std_logic_vector(199,8),8);
+  H6 <= sxt(conv_std_logic_vector(31,8),8);
+ -- H7 <= sxt(conv_std_logic_vector(213,8),16);
+
+  process (CLK, RST_n)
+  begin  -- process
+    if RST_n = '0' then                 -- asynchronous reset (active low)
+      cnt <= (others => '0') after tco;
+    elsif CLK'event and CLK = '1' then  -- rising clock edge
+      if (conv_integer(cnt) < NDATA) then
+        cnt <= cnt + '1' after tco;
+      end if;
+    end if;
+  end process;
+
+  process (CLK, RST_n)
+  begin  -- process
+    if RST_n = '0' then                 -- asynchronous reset (active low)
+      END_SIM_i <= (others => '0') after tco;
+    elsif CLK'event and CLK = '1' then  -- rising clock edge
+      if (conv_integer(cnt) = NDATA) then
+        END_SIM_i(0) <= '1' after tco;
+      end if;
+      END_SIM_i(1 to 11) <= END_SIM_i(0 to 10) after tco;
+    end if;
+  end process;
+
+  END_SIM <= END_SIM_i(11);
+
+  process (CLK, RST_n)
+      file res_fp: text open WRITE_MODE is "./data_in.txt";
+      variable line_out: line;
+      
+    variable sd_v : integer;
+    variable v1 : real;
+    variable v2 : real;    
+    variable v : real;
+    variable is_ready : integer := 0;    
+  begin  -- process
+    if RST_n = '0' then                 -- asynchronous reset (active low)
+      DOUT <= (others => '0') after tco;
+      VOUT <= '0' after tco;
+      sd_v := conv_integer(sd_init);
+    elsif CLK'event and CLK = '1' then  -- rising clock edge
+      if (conv_integer(cnt) < NDATA) then
+        box_muller(v, v1, v2, sd_v, is_ready);        
+        DOUT <= conv_std_logic_vector(integer(v*real(2**7)),8) after tco;
+        VOUT <= '1' after tco;
+      else
+        VOUT <= '0' after tco;
+      end if;
+    write(line_out, conv_integer(signed(DOUT)));
+    writeline(res_fp, line_out);
+    end if;
+  end process;
+
+end beh;

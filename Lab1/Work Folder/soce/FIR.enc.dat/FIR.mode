@@ -1,0 +1,19 @@
+setFeReport
+setAnalysisMode  -allClockDomain -setup -skew -noUsefulSkew -log -warn -caseAnalysis -noSequentialConstProp -moduleIOCstr -clockTree -clkSrcPath -async -useOutputPinCap -latch -latchDelayCalIteration 2 -timeBorrowing -latchFastDelayCal -clockGatingCheck -bcWc
+setOptMode -mediumEffort -addPortAsNeeded -setupTargetSlack 0.000  -holdTargetSlack 0.000  -drcMargin 0.00  -maxDensity 0.95  -fixDrc -noFixFanoutLoad -incrTrialRoute -addInst -deleteInst -downsizeInst -optimizeFF -footPrintChange -optimizeAssignNet -optimizeConstantNet -updateClockSkew
+setCTSMode  -handlePreroute -noAddClockRootProp -noUseLibMaxFanout -setDPinAsSync -noFence -noUseSingleDelim -noUseCTSRouteGuide
+setNanoRouteMode -quiet drouteAutoStop true
+setNanoRouteMode -quiet drouteFixAntenna true
+setNanoRouteMode -quiet envNumberProcessor 1
+setNanoRouteMode -quiet routeInsertAntennaDiode false
+setNanoRouteMode -quiet routeSelectedNetOnly false
+setNanoRouteMode -quiet routeSiEffort "normal"
+setNanoRouteMode -quiet routeTdrEffort 0
+setNanoRouteMode -quiet routeWithEco false
+setNanoRouteMode -quiet routeWithSiDriven false
+setNanoRouteMode -quiet routeWithSiPostRouteFix false
+setNanoRouteMode -quiet routeWithTimingDriven false
+setNanoRouteMode -quiet siNoiseCTotalThreshold 0.050000
+setNanoRouteMode -quiet siNoiseCouplingCapThreshold 0.005000
+setNanoRouteMode -quiet timingEngine "CTE"
+

@@ -1,0 +1,294 @@
+#include<systemc.h>
+#include"constants.h"
+
+#ifndef __ACS4_H
+#define __ACS4_H
+
+SC_MODULE (ACS4)
+{
+	//entity
+	public:
+	sc_in<bool> CLK;
+	sc_in<bool> RST_n;
+	sc_in<bool> CLEAR;
+	sc_in< sc_int<Cbit> > C0;
+	sc_in< sc_int<Cbit> > C1;
+	sc_out< sc_int<Abit> > A0;
+	sc_out< sc_int<Abit> > A1;
+	sc_out< sc_int<Abit> > A2;
+	sc_out< sc_int<Abit> > A3;
+
+	//internal signals
+	private:
+	sc_signal< sc_int<Abit> > a0_reg;
+	sc_signal< sc_int<Abit> > a1_reg;
+	sc_signal< sc_int<Abit> > a2_reg;
+	sc_signal< sc_int<Abit> > a3_reg;
+	
+	sc_signal< sc_int<Gbit> > g1;
+	sc_signal< sc_int<Gbit> > g2;
+	sc_signal< sc_int<Gbit> > g3;
+	
+	sc_signal< sc_int<Abit> > a0_a0_g0;
+	sc_signal< sc_int<Abit> > a0_a2_g3;
+	sc_signal< sc_int<Abit> > a1_a2_g0;
+	sc_signal< sc_int<Abit> > a1_a0_g3;
+	sc_signal< sc_int<Abit> > a2_a3_g2;
+	sc_signal< sc_int<Abit> > a2_a1_g1;
+	sc_signal< sc_int<Abit> > a3_a1_g2;
+	sc_signal< sc_int<Abit> > a3_a3_g1;
+	
+	#ifndef __CTOS__
+		sc_signal< sc_int<Abit> > a0_reg_i;
+		sc_signal< sc_int<Abit> > a1_reg_i;
+		sc_signal< sc_int<Abit> > a2_reg_i;
+		sc_signal< sc_int<Abit> > a3_reg_i;
+		
+		sc_signal< sc_int<Gbit> > g1_i;
+		sc_signal< sc_int<Gbit> > g2_i;
+		sc_signal< sc_int<Gbit> > g3_i;
+		
+		sc_signal< sc_int<Abit> > a0_a0_g0_i;
+		sc_signal< sc_int<Abit> > a0_a2_g3_i;
+		sc_signal< sc_int<Abit> > a1_a2_g0_i;
+		sc_signal< sc_int<Abit> > a1_a0_g3_i;
+		sc_signal< sc_int<Abit> > a2_a3_g2_i;
+		sc_signal< sc_int<Abit> > a2_a1_g1_i;
+		sc_signal< sc_int<Abit> > a3_a1_g2_i;
+		sc_signal< sc_int<Abit> > a3_a3_g1_i;
+		
+		sc_signal< sc_int<Abit> > A0_i;
+		sc_signal< sc_int<Abit> > A1_i;
+		sc_signal< sc_int<Abit> > A2_i;
+		sc_signal< sc_int<Abit> > A3_i;
+	
+		sc_time tpd;
+		sc_time tco;
+		sc_event ev_tpd1;
+		sc_event ev_tpd2;
+		sc_event ev_tpd3;
+		sc_event ev_tpd4;
+		sc_event ev_tpd5;
+		sc_event ev_tpd6;
+		sc_event ev_tpd7;
+		sc_event ev_tpd8;
+		sc_event ev_tpd9;
+		sc_event ev_tpd10;
+		sc_event ev_tpd11;
+		sc_event ev_tpd12;
+		sc_event ev_tpd13;
+		sc_event ev_tco;
+		void ACS4_tpd1();
+		void ACS4_tpd2();
+		void ACS4_tpd3();
+		void ACS4_tpd4();
+		void ACS4_tpd5();
+		void ACS4_tpd6();
+		void ACS4_tpd7();
+		void ACS4_tpd8();
+		void ACS4_tpd9();
+		void ACS4_tpd10();
+		void ACS4_tpd11();
+		void ACS4_tpd12();
+		void ACS4_tpd13();
+		void ACS4_tco();
+		void as_beh_main_tpd( void );	
+		void as_beh_a0_tpd ( void );
+		void as_beh_a1_tpd ( void );
+		void as_beh_a2_tpd ( void );
+		void as_beh_a3_tpd ( void );
+		void as_beh_a4_tpd ( void );
+		void as_beh_a5_tpd ( void );
+		void ACS1_tpd (void);
+		void ACS2_tpd (void);
+		void ACS3_tpd (void);
+		void ACS4_tpd (void);
+		void sin_beh_main_tco(void);
+		void as_beh_a0_a0_g0_tpd (void);
+		void as_beh_a1_a2_g0_tpd (void);
+	#else
+	
+		void as_beh_main( void );//asynchronous behavior input function
+	
+		void as_beh_a0 ( void );//asynchronous behavior a0 function
+		void as_beh_a1 ( void );//asynchronous behavior a1 function
+		void as_beh_a2 ( void );//asynchronous behavior a2 function
+		void as_beh_a3 ( void );//asynchronous behavior a3 function
+		void as_beh_a4 ( void );//asynchronous behavior a4 function
+		void as_beh_a5 ( void );//asynchronous behavior a5 function
+	
+		void ACS1 (void);
+		void ACS2 (void);
+		void ACS3 (void);
+		void ACS4 (void);
+	////////////
+		void sin_beh_main(void);
+	#endif
+	
+
+	public:
+	SC_HAS_PROCESS(ACS4);
+	#ifndef __CTOS__
+		ACS4(sc_module_name ACS4_ctor, int ptpd, int ptco) : sc_module(ACS4_ctor), tpd(sc_time(ptco, SC_NS))
+	#else
+		ACS4(sc_module_name ACS4_ctor) : sc_module(ACS4_ctor)
+	#endif
+	{
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_main_tpd);
+		#else
+			SC_METHOD(as_beh_main);
+		#endif
+		sensitive << C1;
+		sensitive << C0;
+		
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a0_tpd); //adder A0
+		#else
+			SC_METHOD(as_beh_a0);
+		#endif
+		sensitive << g1;
+		sensitive << a3_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a1_tpd);
+		#else
+			SC_METHOD(as_beh_a1);
+		#endif
+		sensitive << g2;
+		sensitive << a1_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a2_tpd);
+		#else
+			SC_METHOD(as_beh_a2);
+		#endif
+		sensitive << g1;
+		sensitive << a1_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a3_tpd);
+		#else
+			SC_METHOD(as_beh_a3);
+		#endif
+		sensitive << g2;
+		sensitive << a3_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a4_tpd);
+		#else
+			SC_METHOD(as_beh_a4);
+		#endif
+		sensitive << g3;
+		sensitive << a0_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a5_tpd);
+		#else
+			SC_METHOD(as_beh_a5);
+		#endif
+		sensitive << g3;
+		sensitive << a2_reg;
+
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a0_a0_g0_tpd);
+		#else
+			SC_METHOD(as_beh_a0_a0_g0);
+		#endif
+		sensitive << a0_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(ACS1_tpd);
+		#else
+			SC_METHOD(ACS1);
+		#endif
+		sensitive << a0_a2_g3;
+		sensitive << a0_a0_g0;
+
+		#ifndef __CTOS__
+			SC_METHOD(as_beh_a1_a2_g0_tpd);
+		#else
+			SC_METHOD(as_beh_a1_a2_g0);
+		#endif
+		sensitive << a2_reg;
+		
+		#ifndef __CTOS__
+			SC_METHOD(ACS2_tpd);
+		#else
+			SC_METHOD(ACS2);
+		#endif
+		sensitive << a1_a0_g3;
+		sensitive << a1_a2_g0;
+		
+		#ifndef __CTOS__
+			SC_METHOD(ACS3_tpd);
+		#else
+			SC_METHOD(ACS3);
+		#endif
+		sensitive << a2_a3_g2;
+		sensitive << a2_a1_g1;
+		
+		#ifndef __CTOS__
+			SC_METHOD(ACS4_tpd);
+		#else
+			SC_METHOD(ACS4);
+		#endif
+		sensitive << a3_a1_g2;
+		sensitive << a3_a3_g1;
+		
+		#ifndef __CTOS__
+			SC_METHOD(sin_beh_main_tco);
+		#else
+			SC_METHOD(sin_beh_main);
+		#endif
+		sensitive << CLK.pos();
+		sensitive << RST_n.neg();
+		
+		#ifndef __CTOS__
+			SC_METHOD(ACS4_tpd1);
+			sensitive << ev_tpd1;
+			
+			SC_METHOD(ACS4_tpd2);
+			sensitive << ev_tpd2;
+			
+			SC_METHOD( ACS4_tpd3);
+			sensitive << ev_tpd3;
+			
+			SC_METHOD( ACS4_tpd4);
+			sensitive << ev_tpd4;
+			
+			SC_METHOD(ACS4_tpd5);
+			sensitive << ev_tpd5;
+			
+			SC_METHOD( ACS4_tpd6);
+			sensitive << ev_tpd6;
+			
+			SC_METHOD( ACS4_tpd7);
+			sensitive << ev_tpd7;
+			
+			SC_METHOD( ACS4_tpd8);
+			sensitive << ev_tpd8;
+			
+			SC_METHOD( ACS4_tpd9);
+			sensitive << ev_tpd9;
+			
+			SC_METHOD( ACS4_tpd10);
+			sensitive << ev_tpd10;
+			
+			SC_METHOD( ACS4_tpd11);
+			sensitive << ev_tpd11;
+
+			SC_METHOD( ACS4_tpd12);
+			sensitive << ev_tpd12;
+
+			SC_METHOD( ACS4_tpd13);
+			sensitive << ev_tpd13;
+			
+			SC_METHOD( ACS4_tco);
+			sensitive << ev_tco;
+		
+		#endif
+	}
+};
+
+#endif

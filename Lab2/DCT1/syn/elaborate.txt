@@ -1,0 +1,221 @@
+Loading db file '/software/synopsys/syn_current/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current/libraries/syn/standard.sldb'
+  Loading link library 'fast'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'toplevel'.
+Information: Building the design 'ifetch'. (HDL-193)
+Warning:  ../src/ifetch.vhdl:97: 'pc_init' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Statistics for case statements in always block at line 138 in file
+	'../src/ifetch.vhdl'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           142            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine ifetch line 94 in file
+		'../src/ifetch.vhdl'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   reset_lock_reg    | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+| return_addr_reg_reg | Flip-flop |  15   |  Y  | N  | Y  | N  | N  | N  | N  |
+| instruction_reg_reg | Flip-flop |  42   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   reset_cntr_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pc_reg_reg      | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|   pc_prev_reg_reg   | Flip-flop |  15   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decompressor'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'decoder'. (HDL-193)
+
+Statistics for case statements in always block at line 141 in file
+	'../src/decoder.vhdl'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           145            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine decoder line 162 in file
+		'../src/decoder.vhdl'.
+===============================================================================================
+|            Register Name            |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================================
+|       rf_BOOL_rd_opc_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  socket_bool_o1_bus_cntrl_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   socket_gcu_o1_bus_cntrl_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        simm_cntrl_B1_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     fu_LIFTING_x1_load_reg_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|         fu_LSU_opc_reg_reg          | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|         fu_gcu_opc_reg_reg          | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      fu_ALU_in1t_load_reg_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        rf_RF_wr_opc_reg_reg         | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   socket_lsu_o1_bus_cntrl_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   socket_RF_o1_bus_cntrl_reg_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| socket_LIFTING_o1_bus_cntrl_reg_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|           simm_B1_reg_reg           | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       fu_LSU_in2_load_reg_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       rf_BOOL_rd_load_reg_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       fu_ALU_in2_load_reg_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     fu_LIFTING_x2_load_reg_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       rf_BOOL_wr_opc_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        rf_RF_wr_load_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   socket_ALU_o1_bus_cntrl_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      fu_LSU_in1t_load_reg_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|         fu_ALU_opc_reg_reg          | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       fu_gcu_ra_load_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        rf_RF_rd_opc_reg_reg         | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       fu_LIFTING_opc_reg_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       fu_gcu_pc_load_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       rf_BOOL_wr_load_reg_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|        rf_RF_rd_load_reg_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================================
+Information:  Complex logic will not be considered for set/reset inference. (ELAB-2008)
+Presto compilation completed successfully.
+Information: Building the design 'fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3' instantiated from design 'toplevel' with
+	the parameters "addrw=15,dataw=32". (HDL-193)
+
+Statistics for case statements in always block at line 140 in file
+	'../src/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           168            |    auto/auto     |
+|           243            |    auto/auto     |
+|           259            |    auto/auto     |
+|           304            |    auto/auto     |
+|           326            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3_dataw32_addrw15 line 140 in file
+		'../src/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    addr_reg_reg     | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  data_out_reg_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   wr_en_x_reg_reg   | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|  o1shadow_reg_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+| status_addr_reg_reg | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  mem_en_x_reg_reg   | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|  wr_mask_x_reg_reg  | Flip-flop |  32   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     r1_reg_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1' instantiated from design 'toplevel' with
+	the parameters "dataw=32,shiftw=5". (HDL-193)
+Warning:  ../src/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl:264: 'o1load' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+Warning:  ../src/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl:264: 't1load' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Statistics for case statements in always block at line 261 in file
+	'../src/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           275            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1_dataw32_shiftw5 line 261 in file
+		'../src/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     o1temp_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     opc1reg_reg     | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      o1reg_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      t1reg_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'lifting' instantiated from design 'toplevel' with
+	the parameters "busw=32". (HDL-193)
+
+Statistics for case statements in always block at line 58 in file
+	'../src/lifting.vhdl'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            73            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine lifting_busw32 line 58 in file
+		'../src/lifting.vhdl'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     reg_out_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_x1_reg      | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|   reg_out_tmp_reg   | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|     reg_x2_reg      | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'rf_1wr_1rd_always_1_guarded_0' instantiated from design 'toplevel' with
+	the parameters "dataw=32,rf_size=5". (HDL-193)
+Warning:  ../src/rf_1wr_1rd_always_1_guarded_0.vhd:118: Potential simulation-synthesis mismatch if index exceeds size of array 'reg'. (ELAB-349)
+Warning:  ../src/rf_1wr_1rd_always_1_guarded_0.vhd:128: Potential simulation-synthesis mismatch if index exceeds size of array 'reg'. (ELAB-349)
+
+Inferred memory devices in process
+	in routine rf_1wr_1rd_always_1_guarded_0_dataw32_rf_size5 line 98 in file
+		'../src/rf_1wr_1rd_always_1_guarded_0.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       reg_reg       | Flip-flop |  160  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'rf_1wr_1rd_always_1_guarded_0' instantiated from design 'toplevel' with
+	the parameters "dataw=1,rf_size=2". (HDL-193)
+Warning:  ../src/rf_1wr_1rd_always_1_guarded_0.vhd:118: Potential simulation-synthesis mismatch if index exceeds size of array 'reg'. (ELAB-349)
+Warning:  ../src/rf_1wr_1rd_always_1_guarded_0.vhd:128: Potential simulation-synthesis mismatch if index exceeds size of array 'reg'. (ELAB-349)
+
+Inferred memory devices in process
+	in routine rf_1wr_1rd_always_1_guarded_0_dataw1_rf_size2 line 98 in file
+		'../src/rf_1wr_1rd_always_1_guarded_0.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       reg_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'interconn'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith' instantiated from design 'fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1_dataw32_shiftw5' with
+	the parameters "dataw=32,shiftw=5". (HDL-193)
+
+Statistics for case statements in always block at line 165 in file
+	'../src/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           169            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'input_socket_cons_1' instantiated from design 'interconn' with
+	the parameters "BUSW_0=32,DATAW=15". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'output_socket_cons_1_1' instantiated from design 'interconn' with
+	the parameters "BUSW_0=32,DATAW_0=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'input_socket_cons_1' instantiated from design 'interconn' with
+	the parameters "BUSW_0=32,DATAW=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'input_socket_cons_1' instantiated from design 'interconn' with
+	the parameters "BUSW_0=32,DATAW=1". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'output_socket_cons_1_1' instantiated from design 'interconn' with
+	the parameters "BUSW_0=32,DATAW_0=1". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'output_socket_cons_1_1' instantiated from design 'interconn' with
+	the parameters "BUSW_0=32,DATAW_0=15". (HDL-193)
+Presto compilation completed successfully.
+1

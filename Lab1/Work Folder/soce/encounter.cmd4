@@ -1,0 +1,11 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Thu Nov 28 10:58:10                     #
+#                                                     #
+#######################################################
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign /home/isa4/Desktop/Lab1/soce/FIR.enc.dat FIR
+setDrawMode fplan

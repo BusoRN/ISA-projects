@@ -1,0 +1,103 @@
+######################################################################
+##                                                                  ##
+## SOCE SI Flow Configuration File : Fri Dec 13 14:17:56 CET 2013   ##
+##                                                                  ##
+######################################################################
+global rda_siFlow
+##------------------------------------------------------------------##
+## Parameter for 1.ToolSelect                                       ##
+##------------------------------------------------------------------##
+set rda_siFlow(maxNrCPU)               	{1}
+set rda_siFlow(runStandAloneQX)        	{0}
+set rda_siFlow(runStandAloneCeltIC)    	{1}
+set rda_siFlow(runStandAloneNanoRoute) 	{0}
+set rda_siFlow(runWRoutePostFix)       	{0}
+
+##------------------------------------------------------------------##
+## Parameter for 2.Design                                           ##
+##------------------------------------------------------------------##
+set rda_siFlow(outputPath)             	{./result}
+set rda_siFlow(snapShot)               	{siFix}
+set rda_siFlow(runDefOut)              	{0}
+set rda_siFlow(runPdefOut)             	{0}
+set rda_siFlow(runSpefOut)             	{0}
+set rda_siFlow(runTwfOut)              	{0}
+
+##------------------------------------------------------------------##
+## Parameter for 3.Criteria                                         ##
+##------------------------------------------------------------------##
+set rda_siFlow(maxNrIter)              	{3}
+set rda_siFlow(acceptableNrVios)       	{0}
+set rda_siFlow(acceptableWNS)          	{same}
+
+##------------------------------------------------------------------##
+## Parameter for 4.SIPrevention                                     ##
+##------------------------------------------------------------------##
+set rda_siFlow(runSIPreventRouting)    	{0}
+
+##------------------------------------------------------------------##
+## Parameter for 5.CeltICAnalysis                                   ##
+##------------------------------------------------------------------##
+set rda_siFlow(usePrevSIVioNetFile)    	{}
+set rda_siFlow(usePrevCeltICRunDir)    	{}
+set rda_siFlow(usePrevSpefFile)        	{}
+set rda_siFlow(usePrevTwfFile)         	{}
+set rda_siFlow(usePrevWdbName)         	{}
+set rda_siFlow(extractRCMode)          	{}
+set rda_siFlow(noiseRunMode)           	{high}
+set rda_siFlow(noiseProcess)           	{130nm}
+set rda_siFlow(analyzeNoiseThreshold)  	{20}
+set rda_siFlow(rptPeakNoiseThreshold)  	{no}
+set rda_siFlow(rptDeltaDelayThreshold) 	{no}
+set rda_siFlow(rptDeltaSlewThreshold)  	{no}
+set rda_siFlow(noiseTwfMode)           	{}
+set rda_siFlow(cmdCreateTwf)           	{}
+set rda_siFlow(cmdExtractSpef)         	{}
+
+##------------------------------------------------------------------##
+## Parameter for 6.SIFix                                            ##
+##------------------------------------------------------------------##
+set rda_siFlow(runHighCapacity)        	{0}
+set rda_siFlow(runFixNoiseDelay)       	{1}
+set rda_siFlow(runFixTranViolation)    	{0}
+set rda_siFlow(runFixGlitchViolation)  	{1}
+set rda_siFlow(runDownSizeAggressor)   	{0}
+
+##------------------------------------------------------------------##
+## Parameter for 7.Routing                                          ##
+##------------------------------------------------------------------##
+set rda_siFlow(nanoSIPreventTclFile)   	{}
+set rda_siFlow(nanoSIPostFixTclFile)   	{}
+set rda_siFlow(cmdAddFiller)           	{}
+set rda_siFlow(cmdDeleteFiller)        	{}
+set rda_siFlow(cmdPGConnect)           	{}
+
+######################################################################
+##                                                                  ##
+## SI Flow Run Time Result                                          ##
+##                                                                  ##
+######################################################################
+global rda_siResult
+set rda_siResult(CellName)             	{}
+set rda_siResult(CurrLoop)             	{0}
+set rda_siResult(ReportPath)           	{}
+set rda_siResult(WNSorig)              	{0}
+set rda_siResult(WNSxtalk)             	{0}
+set rda_siResult(cpu_celt)             	{0}
+set rda_siResult(cpu_feipo)            	{0}
+set rda_siResult(cpu_rcxt)             	{0}
+set rda_siResult(cpu_route)            	{0}
+set rda_siResult(cpu_soce)             	{0}
+set rda_siResult(cpu_sta)              	{0}
+set rda_siResult(nrDelayVio)           	{0}
+set rda_siResult(nrGlitchVio)          	{0}
+set rda_siResult(nrPeakVio)            	{0}
+set rda_siResult(nrSlewVio)            	{0}
+set rda_siResult(nrVio)                	{0}
+set rda_siResult(time_celt)            	{0}
+set rda_siResult(time_feipo)           	{0}
+set rda_siResult(time_rcxt)            	{0}
+set rda_siResult(time_route)           	{0}
+set rda_siResult(time_soce)            	{0}
+set rda_siResult(time_sta)             	{0}
+

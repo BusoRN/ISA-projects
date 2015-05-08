@@ -1,0 +1,43 @@
+#include<systemc.h>
+#include"constants.h"
+
+#ifndef __DATA_WRITER_H
+#define __DATA_WRITER_H
+
+SC_MODULE(data_writer)
+{
+  public :
+  sc_in<bool> CLK;
+  sc_in< sc_int<Abit> > A0;
+  sc_in< sc_int<Abit> > A1;
+  sc_in< sc_int<Abit> > A2;
+  sc_in< sc_int<Abit> > A3;
+  
+  private :
+
+  sc_time clk_period;
+  signed int Nval;
+  FILE *fp;
+  unsigned int Ccnt;
+  unsigned char done;
+  
+  void data_writer_beh();
+
+  public :
+  SC_HAS_PROCESS(data_writer);
+  data_writer(sc_module_name data_writer_ctor, 
+	      int pclk_period,
+              int pN) : 
+              sc_module(data_writer_ctor), 
+              clk_period(sc_time(pclk_period,SC_NS)),
+              Nval(pN)
+  {
+    Ccnt = 0;
+    done = 0;
+    fp = fopen("./result.txt", "w");
+    SC_METHOD(data_writer_beh);
+    sensitive << CLK.pos();
+  }
+};	
+
+#endif

@@ -1,0 +1,94 @@
+Loading db file '/software/synopsys/syn_current/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current/libraries/syn/standard.sldb'
+  Loading link library 'fast'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'FIR'.
+Information: Building the design 'Shift'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux'. (HDL-193)
+
+Statistics for case statements in always block at line 14 in file
+	'../src/mux.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            14            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_bit'. (HDL-193)
+Warning:  ../src/ShiftIN_bit.vhd:63: 'rstn' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine reg_bit line 61 in file
+		'../src/ShiftIN_bit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_pipe' instantiated from design 'FIR' with
+	the parameters "n=8". (HDL-193)
+Warning:  ../src/reg_pipe.vhd:15: 'rstn' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine reg_pipe_n8 line 13 in file
+		'../src/reg_pipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mult' instantiated from design 'FIR' with
+	the parameters "n=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'reg_pipe' instantiated from design 'FIR' with
+	the parameters "n=16". (HDL-193)
+Warning:  ../src/reg_pipe.vhd:15: 'rstn' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine reg_pipe_n16 line 13 in file
+		'../src/reg_pipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  16   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'adder' instantiated from design 'FIR' with
+	the parameters "n=18". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'reg_pipe' instantiated from design 'FIR' with
+	the parameters "n=18". (HDL-193)
+Warning:  ../src/reg_pipe.vhd:15: 'rstn' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine reg_pipe_n18 line 13 in file
+		'../src/reg_pipe.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |  18   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'ShiftIN'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'ShiftIN_bit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'reg'. (HDL-193)
+Warning:  ../src/ShiftIN.vhd:67: 'rstn' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine reg line 65 in file
+		'../src/ShiftIN.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+1

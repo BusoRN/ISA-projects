@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<adf-implementation>
+
+  <ic-decoder-plugin>
+    <name>DefaultICDecoder</name>
+    <file>/software/tce/tce-1.4/share/tce/icdecoder_plugins/base/DefaultICDecoderPlugin.so</file>
+    <parameter name="bustrace">
+      <value>yes</value>
+    </parameter>
+    <parameter name="bustracestartingcycle">
+      <value>5</value>
+    </parameter>
+  </ic-decoder-plugin>
+
+  <fu name="LSU">
+    <hdb-file>/software/tce/tce-1.4/share/tce/hdb/asic_130nm_1.5V.hdb</hdb-file>
+    <fu-id>62</fu-id>
+  </fu>
+
+  <fu name="ALU">
+    <hdb-file>/software/tce/tce-1.4/share/tce/hdb/asic_130nm_1.5V.hdb</hdb-file>
+    <fu-id>375</fu-id>
+  </fu>
+
+  <fu name="LIFTING">
+    <hdb-file>/home/isa4/Desktop/Lab2/DCT1/lifting.hdb</hdb-file>
+    <fu-id>1</fu-id>
+  </fu>
+
+  <rf name="RF">
+    <hdb-file>/software/tce/tce-1.4/share/tce/hdb/asic_130nm_1.5V.hdb</hdb-file>
+    <rf-id>96</rf-id>
+  </rf>
+
+  <rf name="BOOL">
+    <hdb-file>/software/tce/tce-1.4/share/tce/hdb/asic_130nm_1.5V.hdb</hdb-file>
+    <rf-id>96</rf-id>
+  </rf>
+
+</adf-implementation>

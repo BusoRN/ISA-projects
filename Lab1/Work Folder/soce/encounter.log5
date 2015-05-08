@@ -1,0 +1,436 @@
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2004.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc.  Any reproduction, use,         *
+* distribution or disclosure of this program, or any attempt to   *
+* obtain a human-readable version of this program, without the    *
+* express, prior written consent of Cadence Design Systems, Inc., *
+* is strictly prohibited.                                         *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+* Debussy nWave is provided under license from NOVAS Software Inc.*
+* nWave - A Universal Waveform Analysis Tool                      *
+* Copyright (C) 1996 - 2002 by Novas Software, Inc.               *
+*                                                                 *
+* nlviewer is provided under license from Concept Engineering GmbH*
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: First Encounter v04.10-p003_1 (32bit) 06/10/2004 16:58 (Linux 2.4)
+@(#)CDS: NanoRoute nanoroute Version v04.10-p554 NR040529-0140/USR20-UB (database version 2.30, 8) {super threading v1.3} [checked out from nru_02_10_usr20 after 05/29/2004 01:40:39, compiled using tools-4.1 on 06/10/2004 15:51:36]
+@(#)CDS: CeltIC BID_CELTIC_V04_40_P031_1 May 25 2004 07:54:49 (lnx86_gcc3_ia32)
+--- Starting "First Encounter v04.10-p003_1" on Tue Dec  3 11:35:26 (mem=50.4M) ---
+--- Running on isa (x86_64 w/Linux 2.6.18-274.3.1.el5) ---
+This version was compiled on Thu Jun 10 16:58:09 PDT 2004.
+Set DBUPerIGU to 1000.
+Set Default Mode Capacitance Scale Factor to 1.00
+Set Detail Mode Capacitance Scale Factor to 1.00
+Set Coupling Capacitance Scale Factor to 1.00
+Set Resistance Scale Factor to 1.00
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00
+<CMD> loadConfig /home/isa4/Desktop/Lab1/soce/design.conf 0
+Reading config file - /home/isa4/Desktop/Lab1/soce/design.conf
+<CMD> commitConfig
+Loading Lef file /home/maurizio.martina/libtsmc/encounter/tsmc090lk_9lm_2thick_tech.lef...
+Loading Lef file /home/maurizio.martina/libtsmc/encounter/tsmc090nvt_macros.lef...
+Set DBUPerIGU to M2 pitch 560.
+Initializing default via types and wire widths ...
+Ext rule 0: 
+via cell VIA1_H
+via cell VIA1_V
+via cell VIA1_X
+via cell VIA1_XR
+via cell VIA2_X
+via cell VIA2_XR
+via cell VIA3_X
+via cell VIA3_XR
+via cell VIA4_X
+via cell VIA4_XR
+via cell VIA5_X
+via cell VIA5_XR
+via cell VIA6_X
+via cell VIA6_XR
+via cell VIA7_X
+via cell VIA7_XR
+via cell VIA8_X
+via cell VIA8_XR
+via cell VIA2_TOS_N
+via cell VIA2_TOS_S
+via cell VIA3_TOS_E
+via cell VIA3_TOS_W
+via cell VIA4_TOS_N
+via cell VIA4_TOS_S
+via cell VIA5_TOS_E
+via cell VIA5_TOS_W
+via cell VIA6_TOS_N
+via cell VIA6_TOS_S
+via cell VIA8_TOS_N
+via cell VIA8_TOS_S
+via cell VIA1_2CUT_E
+via cell VIA1_2CUT_W
+via cell VIA1_2CUT_N
+via cell VIA1_2CUT_S
+via cell VIA2_2CUT_E
+via cell VIA2_2CUT_W
+via cell VIA2_2CUT_N
+via cell VIA2_2CUT_S
+via cell VIA3_2CUT_E
+via cell VIA3_2CUT_W
+via cell VIA3_2CUT_N
+via cell VIA3_2CUT_S
+via cell VIA4_2CUT_E
+via cell VIA4_2CUT_W
+via cell VIA4_2CUT_N
+via cell VIA4_2CUT_S
+via cell VIA5_2CUT_E
+via cell VIA5_2CUT_W
+via cell VIA5_2CUT_N
+via cell VIA5_2CUT_S
+via cell VIA6_2CUT_E
+via cell VIA6_2CUT_W
+via cell VIA6_2CUT_N
+via cell VIA6_2CUT_S
+via cell VIA7_2CUT_E
+via cell VIA7_2CUT_W
+via cell VIA7_2CUT_N
+via cell VIA7_2CUT_S
+via cell VIA8_2CUT_E
+via cell VIA8_2CUT_W
+via cell VIA8_2CUT_N
+via cell VIA8_2CUT_S
+via cell VIA1_4CUT
+via cell VIA2_4CUT
+via cell VIA3_4CUT
+via cell VIA4_4CUT
+via cell VIA5_4CUT
+via cell VIA6_4CUT
+via cell VIA7_4CUT
+via cell VIA8_4CUT
+
+This Encounter version contains Power Planner/ViaGen version 4.1.12 promoted on 05/26/2004
+viaInitial starts at Tue Dec  3 11:35:55 2013
+viaInitial ends at Tue Dec  3 11:35:55 2013
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist "../netlist/FIR.v"
+
+*** Memory Usage v0.85 (Current mem = 59.797M, initial mem = 50.371M) ***
+*** Netlist is unique.
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=59.8M) ***
+Reading timing library "/home/maurizio.martina/libtsmc/synopsys/fast.lib" ...
+*info: Timing library reader read 626 cells in the library 'fast' 
+Starting recursive module instantiation check.
+No recursion found.
+Flattening Cell FIR ...
+** info: there are 641 modules.
+** info: there are 1414 stdCell insts.
+
+*** Memory Usage v0.85 (Current mem = 109.039M, initial mem = 50.371M) ***
+*info: set bottom ioPad orient R0
+Horizontal Layer M1 offset = 280
+Vertical Layer M2 offset = 280
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF.
+**WARN: Input Transition Time will be transferred from 0ps to 0.1ps inside FE.
+Set Input Pin Transition Delay as 0.1 ps.
+<CMD> fit
+<CMD> setDrawMode fplan
+<CMD> floorPlan -r 0.983667180277 0.700677 4.0 4.0 4.0 4.0
+Adjusting Core to Left to: 4.2000. Core to Bottom to: 4.2000.
+Horizontal Layer M1 offset = 280
+Vertical Layer M2 offset = 280
+<CMD> fit
+<CMD> addRing -spacing_bottom 0.5 -width_left 0.8 -width_bottom 0.8 -width_top 0.8 -spacing_top 0.5 -layer_bottom M1 -center 1 -stacked_via_top_layer M9 -width_right 0.8 -around core -jog_distance 0.42 -offset_bottom 0.42 -layer_top M1 -threshold 0.42 -offset_left 0.42 -spacing_right 0.5 -spacing_left 0.5 -offset_right 0.42 -offset_top 0.42 -layer_right M2 -nets {VSS VDD } -stacked_via_bottom_layer M1 -layer_left M2
+
+ 
+ 
+ 
+VIAGEN: There are 8 wires created by createWire
+<CMD> addStripe -block_ring_top_layer_limit M9 -max_same_layer_jog_length 0.84 -padcore_ring_bottom_layer_limit M9 -set_to_set_distance 40 -stacked_via_top_layer M9 -padcore_ring_top_layer_limit M9 -spacing 0.42 -merge_stripes_value 0.42 -layer M9 -block_ring_bottom_layer_limit M9 -width 0.42 -nets {VSS VDD } -stacked_via_bottom_layer M1
+Starting stripe generation ... 
+CORERING AREA  num = 2
+ NET VSS,   4700  4700  307190  292540 
+ NET VDD,   2100  2100  309790  295140 
+Stripe generation complete. 
+
+ 
+ 
+ 
+VIAGEN: There are 8 wires created by createWire
+
+ Create_stripe Done.
+<CMD> addStripe -block_ring_top_layer_limit M9 -max_same_layer_jog_length 0.84 -padcore_ring_bottom_layer_limit M9 -set_to_set_distance 40 -stacked_via_top_layer M9 -padcore_ring_top_layer_limit M9 -spacing 0.42 -merge_stripes_value 0.42 -layer M9 -block_ring_bottom_layer_limit M9 -width 0.42 -nets {VSS VDD } -stacked_via_bottom_layer M1
+Starting stripe generation ... 
+CORERING AREA  num = 2
+ NET VSS,   4700  4700  307190  292540 
+ NET VDD,   2100  2100  309790  295140 
+Stripe generation complete. 
+**WARN: Failed to create wire at (4.41, 2.35) (4.41, 147.07) 
+**WARN: Failed to create wire at (44.41, 2.35) (44.41, 147.07) 
+**WARN: Failed to create wire at (84.41, 2.35) (84.41, 147.07) 
+**WARN: Failed to create wire at (124.41, 2.35) (124.41, 147.07) 
+
+ **WARN: Failed to create wire at (5.25, 1.05) (5.25, 148.37) 
+**WARN: Failed to create wire at (45.25, 1.05) (45.25, 148.37) 
+**WARN: Failed to create wire at (85.25, 1.05) (85.25, 148.37) 
+**WARN: Failed to create wire at (125.25, 1.05) (125.25, 148.37) 
+
+ 
+ 
+
+ Create_stripe Done.
+Calling sroute -jogControl { preferWithChanges differentLayer } ...
+
+<CMD> sroute -jogControl { preferWithChanges differentLayer }
+Writing DEF file ".sroute.def", current time is Tue Dec  3 11:40:17 2013 ...
+unitPerMicron=2000, dbgMicronPerDBU=0.000500, unitPerDBU=1.000000
+DEF file ".sroute.def" is written, current time is Tue Dec  3 11:40:17 2013 ...
+*** Begin SPECIAL ROUTE on Tue Dec  3 11:40:17 2013 ***
+SPECIAL ROUTE /software/cadence/SOC41.FCS/lnx86/tools/fe/bin/32bit/sroute version 4.1.64 db version 1.01
+SPECIAL ROUTE compiled on 05/26/2004 18:10 (icmlin03.Cadence.COM)
+SPECIAL ROUTE ran on directory: /home/isa4/Desktop/Lab1/soce
+SPECIAL ROUTE ran on machine: isa (Linux 2.6.18-274.3.1.el5 Xeon 2.00Ghz)
+
+Begin option processing ...
+(from .sroute.conf) srouteConnectPowerBump set to false
+(from .sroute.conf) inputDefName set to ".sroute.def"
+(from .sroute.conf) inputLefName set to "/home/maurizio.martina/libtsmc/encounter/tsmc090lk_9lm_2thick_tech.lef /home/maurizio.martina/libtsmc/encounter/tsmc090nvt_macros.lef"
+(from .sroute.conf, hidden option) outputRefName set to ".sroute.ref"
+(from .sroute.conf) routeSpecial set to true
+(from .sroute.conf) srouteFollowCorePinEnd set to 3
+(from .sroute.conf) srouteFollowPadPin set to true
+(from .sroute.conf) srouteJogControl set to "preferWithChanges differentLayer"
+(from .sroute.conf) sroutePadPinAllPorts set to true
+(from .sroute.conf) sroutePreserveExistingRoutes set to true
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 9.00 megs.
+
+Begin checkout products ...
+Encounter_C 4.0
+End checkout products.
+
+Begin LEF/DEF in ...
+Reading "/home/maurizio.martina/libtsmc/encounter/tsmc090lk_9lm_2thick_tech.lef" ...
+Reading "/home/maurizio.martina/libtsmc/encounter/tsmc090nvt_macros.lef" ...
+Reading ".sroute.def" ...
+   *WARNING* design has no clock net
+   A total of 1 warning.
+Read in 19 layers, 9 routing layers, 1 overlap layer
+Read in 640 macros, 51 used
+Read in 1414 components
+  1414 core components: 1414 unplaced, 0 placed, 0 fixed
+Read in 76 logical pins
+Read in 76 nets
+Read in 2 special nets, 2 routed
+Read in 2828 terminals
+
+Distribution of nets (excluding special nets):
+       76 ( 0        term),      0 (>=2000    term).
+End LEF/DEF in: cpu: 0:00:01, real: 0:00:01, peak: 16.00 megs.
+
+Begin power routing ...
+*WARNING* Net VDD does not have block pins to be routed. Please check net list.
+*WARNING* Net VDD does not have pad pins to create pad ring. Please check net list or port class. (must NOT be CORE class). 
+*WARNING* Net VDD does not have pad pins to be routed. Please check net list or port class. (must be CORE class).
+*WARNING* Net VSS does not have block pins to be routed. Please check net list.
+*WARNING* Net VSS does not have pad pins to create pad ring. Please check net list or port class. (must NOT be CORE class). 
+*WARNING* Net VSS does not have pad pins to be routed. Please check net list or port class. (must be CORE class).
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 114
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 57
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 20.00 megs.
+
+Begin LEF/DEF/REF out ...
+Writing ".sroute.ref" ...
+End LEF/DEF/REF out: cpu: 0:00:00, real: 0:00:00, peak: 20.00 megs.
+
+Begin checkin products ...
+Encounter_C
+End checkin products.
+
+Begin final report ...
+Total CPU time used                  =    0:00:01
+Total real time used                 =    0:00:01
+Maximum memory used                  =   20.00 megs
+End final report.
+
+*** End SPECIAL ROUTE on Tue Dec  3 11:40:18 2013 ***
+Reading REF file ".sroute.ref" ...
+--- CASESENSITIVE ON
+--- DIVIDERCHAR "/"
+--- BUSBITCHARS "[]"
+--- UnitsPerDBU = 1.0000
+REF file ".sroute.ref" is parsed.
+Extracting standard cell pins and blockage ...... 
+Cleaning up previous internal layer info data structures.
+Pin and blockage extraction finished
+
+sroute post-processing starts at Tue Dec  3 11:40:18 2013
+Rebuilding shadow vias for net: VSS
+sroute post-processing ends at Tue Dec  3 11:40:18 2013
+
+sroute post-processing starts at Tue Dec  3 11:40:18 2013
+Rebuilding shadow vias for net: VDD
+sroute post-processing ends at Tue Dec  3 11:40:18 2013
+
+Calling sroute -jogControl { preferWithChanges differentLayer } ...
+
+<CMD> sroute -jogControl { preferWithChanges differentLayer }
+Writing DEF file ".sroute.def", current time is Tue Dec  3 11:40:18 2013 ...
+unitPerMicron=2000, dbgMicronPerDBU=0.000500, unitPerDBU=1.000000
+DEF file ".sroute.def" is written, current time is Tue Dec  3 11:40:18 2013 ...
+*** Begin SPECIAL ROUTE on Tue Dec  3 11:40:18 2013 ***
+SPECIAL ROUTE /software/cadence/SOC41.FCS/lnx86/tools/fe/bin/32bit/sroute version 4.1.64 db version 1.01
+SPECIAL ROUTE compiled on 05/26/2004 18:10 (icmlin03.Cadence.COM)
+SPECIAL ROUTE ran on directory: /home/isa4/Desktop/Lab1/soce
+SPECIAL ROUTE ran on machine: isa (Linux 2.6.18-274.3.1.el5 Xeon 2.00Ghz)
+
+Begin option processing ...
+(from .sroute.conf) srouteConnectPowerBump set to false
+(from .sroute.conf) inputDefName set to ".sroute.def"
+(from .sroute.conf) inputLefName set to "/home/maurizio.martina/libtsmc/encounter/tsmc090lk_9lm_2thick_tech.lef /home/maurizio.martina/libtsmc/encounter/tsmc090nvt_macros.lef"
+(from .sroute.conf, hidden option) outputRefName set to ".sroute.ref"
+(from .sroute.conf) routeSpecial set to true
+(from .sroute.conf) srouteFollowCorePinEnd set to 3
+(from .sroute.conf) srouteFollowPadPin set to true
+(from .sroute.conf) srouteJogControl set to "preferWithChanges differentLayer"
+(from .sroute.conf) sroutePadPinAllPorts set to true
+(from .sroute.conf) sroutePreserveExistingRoutes set to true
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 9.00 megs.
+
+Begin checkout products ...
+Encounter_C 4.0
+End checkout products.
+
+Begin LEF/DEF in ...
+Reading "/home/maurizio.martina/libtsmc/encounter/tsmc090lk_9lm_2thick_tech.lef" ...
+Reading "/home/maurizio.martina/libtsmc/encounter/tsmc090nvt_macros.lef" ...
+Reading ".sroute.def" ...
+   *WARNING* design has no clock net
+   A total of 1 warning.
+Read in 19 layers, 9 routing layers, 1 overlap layer
+Read in 640 macros, 51 used
+Read in 1414 components
+  1414 core components: 1414 unplaced, 0 placed, 0 fixed
+Read in 76 logical pins
+Read in 76 nets
+Read in 2 special nets, 2 routed
+Read in 2828 terminals
+
+Distribution of nets (excluding special nets):
+       76 ( 0        term),      0 (>=2000    term).
+End LEF/DEF in: cpu: 0:00:01, real: 0:00:01, peak: 16.00 megs.
+
+Begin power routing ...
+*WARNING* Net VDD does not have block pins to be routed. Please check net list.
+*WARNING* Net VDD does not have pad pins to create pad ring. Please check net list or port class. (must NOT be CORE class). 
+*WARNING* Net VDD does not have pad pins to be routed. Please check net list or port class. (must be CORE class).
+*WARNING* Net VSS does not have block pins to be routed. Please check net list.
+*WARNING* Net VSS does not have pad pins to create pad ring. Please check net list or port class. (must NOT be CORE class). 
+*WARNING* Net VSS does not have pad pins to be routed. Please check net list or port class. (must be CORE class).
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 0
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 17.00 megs.
+
+Begin LEF/DEF/REF out ...
+Writing ".sroute.ref" ...
+End LEF/DEF/REF out: cpu: 0:00:00, real: 0:00:00, peak: 17.00 megs.
+
+Begin checkin products ...
+Encounter_C
+End checkin products.
+
+Begin final report ...
+Total CPU time used                  =    0:00:01
+Total real time used                 =    0:00:01
+Maximum memory used                  =   17.00 megs
+End final report.
+
+*** End SPECIAL ROUTE on Tue Dec  3 11:40:19 2013 ***
+Reading REF file ".sroute.ref" ...
+--- CASESENSITIVE ON
+--- DIVIDERCHAR "/"
+--- BUSBITCHARS "[]"
+--- UnitsPerDBU = 1.0000
+REF file ".sroute.ref" is parsed.
+
+sroute post-processing starts at Tue Dec  3 11:40:19 2013
+Rebuilding shadow vias for net: VSS
+ViaGen Info: found no shadow vias to rebuild.
+sroute post-processing ends at Tue Dec  3 11:40:19 2013
+
+sroute post-processing starts at Tue Dec  3 11:40:19 2013
+Rebuilding shadow vias for net: VDD
+ViaGen Info: found no shadow vias to rebuild.
+sroute post-processing ends at Tue Dec  3 11:40:19 2013
+
+<CMD> setPrerouteAsObs {1 2 3 4 5 6 7 8}
+<CMD> amoebaPlace
+*** Starting "Amoeba(TM) placement v0.384 (mem=109.0M)" ...
+options: glbDetour reduceNode obstruct2 obstruct4 spreadOut multiOuterRow moveTermZ spacingTable pinAndObsSpacing multiVoidRow wideBlockageSpacing MSLayer saveMemory
+Options:  gp=mq-medium dp=medium
+Options: congestDrivenI75 congestDrivenQ congestDrivenR1
+#std cell=1414 #block=0 (0 floating + 0 preplaced) #ioInst=0 #net=1869 #term=6220 #term/net=3.33, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=76
+Total standard cell length = 5.8262 (mm), area = 0.0147 (mm^2)
+Identify 1 tech site  => 1 tech site pattern 
+Estimated cell power/ground rail width = 0.473 um
+Average module density = 0.752.
+Density for the design = 0.752.
+       = stdcell_area 20808 (14682 um^2) / alloc_area 27664 (19520 um^2).
+*Fixed term percentage = 1.196%
+*Fixed term center of gravity = (0 0) in coreBox (8400 8400, 305370 290640)
+*info: Nr. of horizontal/vertical cuts = 6H / 4V.
+*info: partition deviation = 0.050
+ 0|: Est. net length = 4.243e+04 (2.30e+04 1.95e+04) cpu=0:00:00.0 real=0:00:00.0 mem=109.0M
+ 1-: Est. net length = 4.452e+04 (2.30e+04 2.15e+04) cpu=0:00:00.1 real=0:00:00.0 mem=109.0M
+ 2|: Est. net length = 4.427e+04 (2.26e+04 2.16e+04) cpu=0:00:00.1 real=0:00:00.0 mem=109.0M
+ 3-: Est. net length = 4.950e+04 (2.26e+04 2.69e+04) cpu=0:00:00.0 real=0:00:00.0 mem=109.0M
+ 4|: Est. net length = 5.137e+04 (2.37e+04 2.76e+04) cpu=0:00:00.0 real=0:00:00.0 mem=109.0M
+ 5-: Est. net length = 5.251e+04 (2.40e+04 2.85e+04) cpu=0:00:00.0 real=0:00:00.0 mem=109.0M
+ 6|: Est. net length = 5.309e+04 (2.44e+04 2.87e+04) cpu=0:00:00.0 real=0:00:00.0 mem=109.0M
+..+: Est.  net length = 5.987e+04 (3.11e+04 2.88e+04) cpu=0:00:00.2 real=0:00:00.0 mem=109.0M
+*** cost = 5.987e+04 (3.11e+04 2.88e+04) (cpu for global=0:00:00.5) real=0:00:00.0***
+Options:  gp=mq-medium dp=medium
+Starting fine tune place ...
+
+  CPU Time for Phases I and II = 0:00:00.0, Real Time = 0:00:00.0
+
+  Phase III ...
+
+Statistics of distance of Instance movement in detailed placement:
+  maximum (X+Y) =        31.36 um
+  inst (REG_OUT_VIN_q_reg) with max move: (146.16, 132.72) -> (117.32, 130.2)
+  mean    (X+Y) =         2.76 um
+Total instances flipped : 733
+Total instances moved : 498
+*** cpu=0:00:00.0   mem=109.0M  mem(used)=0.0M***
+Total net length = 4.729e+04 (2.236e+04 2.493e+04) (ext = 2.135e+03)
+*** End of Placement (cpu=0:00:00.5, real=0:00:01.0, mem=109.0M) ***
+There are 4 T/B layers 4 L/R layers.
+<CMD> checkPlace
+Options:  gp=mq-medium dp=medium
+Begin checking placement ...
+*info: Placed = 1414
+*info: Unplaced = 0
+Placement Density:75.22%(14682/19520)
+<CMD> setDrawMode place

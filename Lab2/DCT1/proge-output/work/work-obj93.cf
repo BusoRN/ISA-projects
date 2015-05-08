@@ -1,0 +1,88 @@
+v 3
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/testbench_cfg.vhdl" "20131212101503.000" "20131212112046.975":
+  configuration testbench_cfg at 42( 2124) + 0 on 4;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/mem_arbiter.vhdl" "20131212101503.000" "20131212112047.962":
+  entity mem_arbiter at 41( 2129) + 0 on 31;
+  architecture comb of mem_arbiter at 77( 3033) + 0 on 32;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/proc_ent.vhdl" "20131212101503.000" "20131212112047.235":
+  entity proc at 46( 2302) + 0 on 19;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/imem_arbiter.vhdl" "20131212101503.000" "20131212112048.023":
+  entity imem_arbiter at 41( 2129) + 0 on 33;
+  architecture comb of imem_arbiter at 74( 2899) + 0 on 34;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/clkgen.vhdl" "20131212101503.000" "20131212112047.211":
+  entity clkgen at 42( 2047) + 0 on 16;
+  architecture simulation of clkgen at 52( 2305) + 0 on 17;
+  configuration clkgen_cfg at 67( 2578) + 0 on 18;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/output_socket_1_1.vhdl" "20131212101503.000" "20131212112049.626":
+  entity output_socket_cons_1_1 at 1( 0) + 0 on 68;
+  architecture output_socket_andor of output_socket_cons_1_1 at 17( 405) + 0 on 69;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/input_socket_1.vhdl" "20131212101503.000" "20131212112049.566":
+  entity input_socket_cons_1 at 1( 0) + 0 on 64;
+  architecture input_socket of input_socket_cons_1 at 16( 316) + 0 on 65;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/ifetch.vhdl" "20131212101503.000" "20131212112048.211":
+  entity ifetch at 23( 1205) + 0 on 39;
+  architecture rtl_andor of ifetch at 62( 2450) + 0 on 40;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/decoder.vhdl" "20131212101503.000" "20131212112048.330":
+  entity decoder at 1( 0) + 0 on 43;
+  architecture rtl_andor of decoder at 49( 1781) + 0 on 44;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/imem_mau_pkg.vhdl" "20131212101809.000" "20131212112047.130":
+  package imem_mau at 1( 0) + 0 on 13;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/toplevel.vhdl" "20131212101503.000" "20131212112047.424":
+  entity toplevel at 1( 0) + 0 on 26;
+  architecture structural of toplevel at 28( 906) + 0 on 27;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/rf_1wr_1rd_always_1_guarded_0.vhd" "20131212101503.000" "20131212112049.336":
+  entity rf_1wr_1rd_always_1_guarded_0 at 39( 1931) + 0 on 60;
+  architecture rtl of rf_1wr_1rd_always_1_guarded_0 at 84( 3489) + 0 on 61;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl" "20131212101503.000" "20131212112049.021":
+  package opcodes_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor at 54( 2607) + 0 on 48;
+  package shl_shr_shru_pkg at 74( 3262) + 0 on 49 body;
+  package body shl_shr_shru_pkg at 87( 3661) + 0 on 50;
+  entity add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith at 137( 5313) + 0 on 51;
+  architecture comb of add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith at 161( 6153) + 0 on 52;
+  entity fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1 at 215( 7814) + 0 on 53;
+  architecture rtl of fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1 at 238( 8462) + 0 on 54;
+  entity fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_2 at 311( 10508) + 0 on 55;
+  architecture rtl of fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_2 at 334( 11157) + 0 on 56;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/toplevel_params_pkg.vhdl" "20131212101503.000" "20131212112047.255":
+  package toplevel_params at 1( 0) + 0 on 20;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/globals_pkg.vhdl" "20131212101503.000" "20131212112047.095":
+  package globals at 1( 0) + 0 on 11;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/lifting.vhdl" "20131212101503.000" "20131212112049.255":
+  package lift_opcodes at 1( 0) + 0 on 57;
+  entity lifting at 17( 466) + 0 on 58;
+  architecture behavior of lifting at 40( 1046) + 0 on 59;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/util_pkg.vhdl" "20131212101503.000" "20131212112047.378":
+  package util at 25( 1207) + 0 on 22 body;
+  package body util at 46( 1629) + 0 on 23;
+  entity util_inverter at 157( 4789) + 0 on 24;
+  architecture rtl of util_inverter at 166( 4949) + 0 on 25;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl" "20131212101503.000" "20131212112048.673":
+  package ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_opcodes at 49( 2314) + 0 on 45;
+  entity fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3 at 63( 2708) + 0 on 46;
+  architecture rtl of fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3 at 97( 3941) + 0 on 47;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/opcodes_pkg.vhdl" "20131212101503.000" "20131212112048.190":
+  package opcodes at 26( 1378) + 0 on 38;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/decompressor.vhdl" "20131212101503.000" "20131212112048.296":
+  entity decompressor at 22( 1204) + 0 on 41;
+  architecture default of decompressor at 42( 1759) + 0 on 42;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/highest_pkg.vhdl" "20131212101503.000" "20131212112049.598":
+  package highest at 22( 1204) + 0 on 66 body;
+  package body highest at 31( 1446) + 0 on 67;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "gcu_ic/ic.vhdl" "20131212101503.000" "20131212112049.437":
+  entity interconn at 1( 0) + 0 on 62;
+  architecture comb_andor of interconn at 37( 1656) + 0 on 63;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/testbench_constants_pkg.vhdl" "20131212101948.000" "20131212112047.114":
+  package testbench_constants at 1( 0) + 0 on 12;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/proc_arch.vhdl" "20131212101503.000" "20131212112047.276":
+  architecture structural_dp_dmem of proc at 43( 2180) + 0 on 21;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/synch_sram.vhdl" "20131212101503.000" "20131212112048.071":
+  entity synch_sram at 50( 2380) + 0 on 35;
+  architecture rtl of synch_sram at 76( 3218) + 0 on 36;
+  architecture simulation of synch_sram at 113( 4219) + 0 on 37;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/testbench.vhdl" "20131212101503.000" "20131212112047.150":
+  entity testbench at 39( 2023) + 0 on 14;
+  architecture testbench of testbench at 49( 2212) + 0 on 15;
+file "/home/isa4/Desktop/Lab2/DCT1/proge-output/" "tb/synch_dualport_sram.vhdl" "20131212101503.000" "20131212112047.755":
+  entity synch_dualport_sram at 49( 2402) + 0 on 28;
+  architecture rtl of synch_dualport_sram at 87( 3489) + 0 on 29;
+  architecture simulation of synch_dualport_sram at 149( 5305) + 0 on 30;

@@ -1,0 +1,17 @@
+*** Found 0  violating paths, 1 non-violating paths ***
+-------------------------------------------------------------------------------------------------------------------------
+Path #: 1
+Startpoint: RST_n
+            (clocked by MYCLK R)
+Endpoint: PIPE2_2_q_reg_3_/RN
+          (Setup time: 0.043, clocked by MYCLK R, latency: 0.185)
+Data required time: 10.115 (minus uncertainty: 0.070 skew: 0.185 adjusted 1 cycle)
+Data arrival time: 4.038 
+Slack: 6.077 
+
+Object name                             Delta r/f (ns)  Sum r/f (ns)        Slew (ns)       Load (pf)  Cell Location (um) 
+--------------------------------------------------------------------------------------------------------------------------
+RST_n "set_input_delay"                 0.500r/0.500f   0.500r/0.500f       
+RST_n                                   3.496r/3.496f   3.996r/3.996f       0.000r/0.000f   
+PIPE2_2_q_reg_3_ CK^^RN (DFFRQX2)       0.043r/-f       4.038r/-f           0.000r/0.000f             (54.04, 19.32)@     
+

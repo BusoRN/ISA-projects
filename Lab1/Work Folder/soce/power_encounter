@@ -1,0 +1,25 @@
+##############################################
+# The Power Analysis Report for VDD net      #
+##############################################
+power supply: 1.1 volt
+average power between 0.0000e+00 S and 1.0951e-06 S
+Total id in vcd file: 1894
+    In module tb_fir/UUT valid id: 1894
+         redundant id: 0
+    In module tb_fir/UUT invalid id: 0
+        redundant id: 0
+Total activity in vcd file: 110240
+    In module tb_fir/UUT valid activity: 110240
+    In module tb_fir/UUT invalid activity: 0
+average power(default): 1.8108e+00 mw
+    average switching power(default): 5.6761e-01 mw
+    average internal power(default): 1.1955e+00 mw
+    average leakage power(default): 4.7671e-02 mw
+    user specified power(default): 0.0000e+00 mw
+average power by cell category:
+    core:  1.8108e+00 mw
+    block: 0.0000e+00 mw
+    io:    0.0000e+00 mw
+biggest toggled net: RST_n
+    no. of terminal: 279
+    total cap: 1.1295e+03 ff

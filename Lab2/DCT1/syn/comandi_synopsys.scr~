@@ -1,0 +1,34 @@
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/toplevel_params_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/globals_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/util_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/imem_mau_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/opcodes_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/highest_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/testbench_constants_pkg.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/lifting.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/rf_1wr_1rd_always_1_guarded_0.vhd
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/toplevel.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/decoder.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/decompressor.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/ifetch.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/input_socket_1.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/ic.vhdl
+analyze -f vhdl -lib WORK ../home/isa4/Desktop/Lab2/DCT1/src/output_socket_1_1.vhdl
+set_ultra_optimization true
+set power_preserve_rtl_hier_names true
+elaborate toplevel -lib WORK > ./elaborate.txt
+uniquify
+link
+create_clock -name MYCLK -period 10.0 clk
+set_dont_touch_network MYCLK
+set_clock_uncertainty 0.07 [get_clocks MYCLK]
+set_input_delay 0.5 -max -clock MYCLK [remove_from_collection [all_inputs] clk]
+set OLOAD [load_of fast/BUFX4/A]
+set_load $OLOAD [all_outputs]
+set_wire_load_model -name tsmc090_wl40
+compile_ultra
+report_timing > rep_timing10ns.txt
+report_area > rep_area1.txt
+

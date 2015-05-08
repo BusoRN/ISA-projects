@@ -1,0 +1,20 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.18-274.3.1.el5
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim work.tb_acs4 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading /home/isa4/Desktop/lab3/sim/work/_sc/linux_x86_64_gcc-4.1.2/systemc.so
+# Loading /home/isa4/Desktop/lab3/sim/work.tb_acs4
+add wave *
+run
+run
+run
+run
+run

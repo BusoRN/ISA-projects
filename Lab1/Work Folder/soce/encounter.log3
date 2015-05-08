@@ -1,0 +1,117 @@
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2004.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc.  Any reproduction, use,         *
+* distribution or disclosure of this program, or any attempt to   *
+* obtain a human-readable version of this program, without the    *
+* express, prior written consent of Cadence Design Systems, Inc., *
+* is strictly prohibited.                                         *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+* Debussy nWave is provided under license from NOVAS Software Inc.*
+* nWave - A Universal Waveform Analysis Tool                      *
+* Copyright (C) 1996 - 2002 by Novas Software, Inc.               *
+*                                                                 *
+* nlviewer is provided under license from Concept Engineering GmbH*
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: First Encounter v04.10-p003_1 (32bit) 06/10/2004 16:58 (Linux 2.4)
+@(#)CDS: NanoRoute nanoroute Version v04.10-p554 NR040529-0140/USR20-UB (database version 2.30, 8) {super threading v1.3} [checked out from nru_02_10_usr20 after 05/29/2004 01:40:39, compiled using tools-4.1 on 06/10/2004 15:51:36]
+@(#)CDS: CeltIC BID_CELTIC_V04_40_P031_1 May 25 2004 07:54:49 (lnx86_gcc3_ia32)
+--- Starting "First Encounter v04.10-p003_1" on Thu Nov 14 09:53:25 (mem=50.4M) ---
+--- Running on isa (x86_64 w/Linux 2.6.18-274.3.1.el5) ---
+This version was compiled on Thu Jun 10 16:58:09 PDT 2004.
+Set DBUPerIGU to 1000.
+Set Default Mode Capacitance Scale Factor to 1.00
+Set Detail Mode Capacitance Scale Factor to 1.00
+Set Coupling Capacitance Scale Factor to 1.00
+Set Resistance Scale Factor to 1.00
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Reading config file - /home/isa4/Desktop/Lab1/soce/FIR.enc.dat/FIR.conf
+Loading preference file /home/isa4/Desktop/Lab1/soce/FIR.enc.dat/enc.pref.tcl ...
+setNanoRouteMode -quiet drouteAutoStop true
+setNanoRouteMode -quiet drouteFixAntenna true
+setNanoRouteMode -quiet envNumberProcessor 1
+setNanoRouteMode -quiet routeInsertAntennaDiode false
+setNanoRouteMode -quiet routeSelectedNetOnly false
+setNanoRouteMode -quiet routeSiEffort normal
+setNanoRouteMode -quiet routeTdrEffort 0
+setNanoRouteMode -quiet routeWithEco false
+setNanoRouteMode -quiet routeWithSiDriven false
+setNanoRouteMode -quiet routeWithSiPostRouteFix false
+setNanoRouteMode -quiet routeWithTimingDriven false
+setNanoRouteMode -quiet siNoiseCTotalThreshold 0.050000
+setNanoRouteMode -quiet siNoiseCouplingCapThreshold 0.005000
+setNanoRouteMode -quiet timingEngine CTE
+<CMD> extractRC -outfile FIR.cap
+RC Extraction for instance FIR
+RCMode: Default
+Capacitance Scaling Factor   : 1.00000
+Coupling Cap. Scaling Factor : 1.00000
+Resistance Scaling Factor    : 1.00000
+Shrink Factor                : 1.00000
+Initializing the RC extractor ...
+RC Extraction Completed (CPU Time= 0:00:00.0  MEM= 108.6M)
+<CMD> rcOut -setload FIR.setload
+rcOut Option :  -setload FIR.setload 
+<CMD> rcOut -setres FIR.setres
+rcOut Option :  -setres FIR.setres 
+<CMD> rcOut -spf FIR.spf
+rcOut Option :  -spf FIR.spf 
+Dumping SPF file.....
+Create SPF File: FIR.spf
+<CMD> rcOut -spef FIR.spef
+rcOut Option :  -spef FIR.spef 
+Dumping Spef file.....
+***** SPEF Out Finished (CPU Time: 0:00:00.1  MEM: 108.637M)
+<CMD> probePower
+<CMD> updatePower -noRailAnalysis -vcd ../vcd/design.vcd -vcdTop tb_fir/UUT -start 0.0 -report power_encounter -reportInstancePower instance.power -timeUnit ns VDD
+Delay calculation ...
+Topological Sorting (CPU = 0:00:00.0)
+Number of Loop : 0
+*** Calculating scaling factor using the default operating condition of each library.
+(0:00:00.1 108.637M 0)
+*** End delay calculation ***
+*** Delay calculation (cpu=0:00:00.1 mem=108.6M) ***
+The net bias voltage for VDD is 1.1V.
+Analyzing vcd vectors:
+Begin user specified module "tb_fir/UUT" at VCD line: 11
+End user specified module at VCD line: 1906
+....
+*** Processing VCD file (cpu=0:00:01.1 mem=113.3M) ***
+power supply: 1.1 volt
+average power between 0.0000e+00 S and 1.0951e-06 S
+Total id in vcd file: 1894
+    In module tb_fir/UUT valid id: 1894
+        redundant id: 0
+    In module tb_fir/UUT invalid id: 0
+        redundant id: 0
+Total activity in vcd file: 110240
+    In module tb_fir/UUT valid activity: 110240
+    In module tb_fir/UUT invalid activity: 0
+average power(default) : 1.8108e+00 mw
+    average switching power(default): 5.6761e-01 mw
+    average internal power(default): 1.1955e+00 mw
+    average leakage power(default): 4.7671e-02 mw
+    user specified power(default): 0.0000e+00 mw
+average power by cell category:
+     core: 1.8108e+00 mw
+    block: 0.0000e+00 mw
+       io: 0.0000e+00 mw
+biggest toggled net: RST_n
+    no. of terminal: 279
+    total cap: 1.1295e+03 ff
+*** Power analysis (cpu=0:00:01.3 mem=113.3M) ***
